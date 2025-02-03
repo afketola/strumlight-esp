@@ -1,0 +1,2 @@
+source /Users/austi/esp/strumlight-esp/build/gdbinit/symbols
+source /Users/austi/esp/strumlight-esp/build/gdbinit/connect
