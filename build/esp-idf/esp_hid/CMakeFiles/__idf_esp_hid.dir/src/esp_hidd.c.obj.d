@@ -107,4 +107,5 @@ esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_event/include/esp_event_base.h \
  /Users/austi/esp/esp-idf/components/esp_hid/include/esp_hid_common.h \
  /Users/austi/esp/esp-idf/components/esp_hid/include/esp_hidd_transport.h \
- /Users/austi/esp/esp-idf/components/esp_hid/include/esp_private/esp_hidd_private.h
+ /Users/austi/esp/esp-idf/components/esp_hid/include/esp_private/esp_hidd_private.h \
+ /Users/austi/esp/esp-idf/components/esp_hid/private/ble_hidd.h

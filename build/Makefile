@@ -1293,6 +1293,19 @@ __idf_esp_wifi/fast:
 .PHONY : __idf_esp_wifi/fast
 
 #=============================================================================
+# Target rules for targets named __idf_bt
+
+# Build rule for target.
+__idf_bt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_bt
+.PHONY : __idf_bt
+
+# fast build rule for target.
+__idf_bt/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/build
+.PHONY : __idf_bt/fast
+
+#=============================================================================
 # Target rules for targets named __idf_unity
 
 # Build rule for target.
@@ -1865,6 +1878,19 @@ __idf_wifi_provisioning/fast:
 .PHONY : __idf_wifi_provisioning/fast
 
 #=============================================================================
+# Target rules for targets named __idf_h2zero__esp-nimble-cpp
+
+# Build rule for target.
+__idf_h2zero__esp-nimble-cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_h2zero__esp-nimble-cpp
+.PHONY : __idf_h2zero__esp-nimble-cpp
+
+# fast build rule for target.
+__idf_h2zero__esp-nimble-cpp/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/h2zero__esp-nimble-cpp/CMakeFiles/__idf_h2zero__esp-nimble-cpp.dir/build.make esp-idf/h2zero__esp-nimble-cpp/CMakeFiles/__idf_h2zero__esp-nimble-cpp.dir/build
+.PHONY : __idf_h2zero__esp-nimble-cpp/fast
+
+#=============================================================================
 # Target rules for targets named __idf_main
 
 # Build rule for target.
@@ -1957,6 +1983,7 @@ help:
 	@echo "... __idf_app_trace"
 	@echo "... __idf_app_update"
 	@echo "... __idf_bootloader_support"
+	@echo "... __idf_bt"
 	@echo "... __idf_cmock"
 	@echo "... __idf_console"
 	@echo "... __idf_cxx"
@@ -2011,6 +2038,7 @@ help:
 	@echo "... __idf_espcoredump"
 	@echo "... __idf_fatfs"
 	@echo "... __idf_freertos"
+	@echo "... __idf_h2zero__esp-nimble-cpp"
 	@echo "... __idf_hal"
 	@echo "... __idf_heap"
 	@echo "... __idf_http_parser"

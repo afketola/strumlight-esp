@@ -1,0 +1,12 @@
+Command: make -j 12 all
+warning: default on the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:22, /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217) will have no effect, as defaults do not affect choice symbols
+warning: the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:22, /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217) is defined with a prompt outside the choice
+info: INFO: Symbol BT_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:210
+    /Users/austi/esp/esp-idf/components/bt/Kconfig:3
+info: INFO: Symbol BT_NIMBLE_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217
+    /Users/austi/esp/esp-idf/components/bt/Kconfig:22
+info: INFO: Symbol BT_NIMBLE_TRANSPORT_UART defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:225
+    /Users/austi/esp/esp-idf/components/bt/host/nimble/Kconfig.in:1086

@@ -233,6 +233,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "flash_args.in"
   "ldgen_libraries.in"
   "/Users/austi/esp/strumlight-esp/main/CMakeLists.txt"
+  "/Users/austi/esp/strumlight-esp/main/idf_component.yml"
+  "/Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/CMakeLists.txt"
+  "/Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/idf_component.yml"
   "/Users/austi/esp/strumlight-esp/sdkconfig"
   "/opt/homebrew/share/cmake/Modules/CMakeASMCompiler.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake"
@@ -522,6 +525,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "esp-idf/ulp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/usb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "esp-idf/h2zero__esp-nimble-cpp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -614,6 +618,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/DependInfo.cmake"
   "esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/DependInfo.cmake"
   "esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/DependInfo.cmake"
+  "esp-idf/bt/CMakeFiles/__idf_bt.dir/DependInfo.cmake"
   "esp-idf/unity/CMakeFiles/__idf_unity.dir/DependInfo.cmake"
   "esp-idf/cmock/CMakeFiles/__idf_cmock.dir/DependInfo.cmake"
   "esp-idf/console/CMakeFiles/__idf_console.dir/DependInfo.cmake"
@@ -658,5 +663,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/rt/CMakeFiles/__idf_rt.dir/DependInfo.cmake"
   "esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
+  "esp-idf/h2zero__esp-nimble-cpp/CMakeFiles/__idf_h2zero__esp-nimble-cpp.dir/DependInfo.cmake"
   "esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake"
   )

@@ -38,6 +38,7 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/wpa_supplicant/libwpa_supplicant.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_coex/libesp_coex.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_wifi/libesp_wifi.a
+/Users/austi/esp/strumlight-esp/build/esp-idf/bt/libbt.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/unity/libunity.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/cmock/libcmock.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/console/libconsole.a
@@ -82,4 +83,5 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/rt/librt.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/spiffs/libspiffs.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/Users/austi/esp/strumlight-esp/build/esp-idf/h2zero__esp-nimble-cpp/libh2zero__esp-nimble-cpp.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/main/libmain.a

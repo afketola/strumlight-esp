@@ -1,0 +1,39 @@
+Command: cmake -G Unix Makefiles -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /Users/austi/esp/strumlight-esp
+CMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+warning: default on the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:22, /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217) will have no effect, as defaults do not affect choice symbols
+warning: the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:22, /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217) is defined with a prompt outside the choice
+info: INFO: Symbol BT_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/esp-idf/components/bt/Kconfig:3
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:210
+info: INFO: Symbol BT_NIMBLE_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:217
+    /Users/austi/esp/esp-idf/components/bt/Kconfig:22
+info: INFO: Symbol BT_NIMBLE_TRANSPORT_UART defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/austi/esp/strumlight-esp/managed_components/h2zero__esp-nimble-cpp/Kconfig:225
+    /Users/austi/esp/esp-idf/components/bt/host/nimble/Kconfig.in:1086
+CMake Deprecation Warning at /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at managed_components/h2zero__esp-nimble-cpp/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+

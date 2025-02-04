@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/esp_hid/src/esp_hid_common.c" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj" "gcc" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_hid/src/esp_hidd.c" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj" "gcc" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_hid/src/esp_hidh.c" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj" "gcc" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/esp_hid/src/nimble_hidd.c" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.obj" "gcc" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/esp_hid/src/nimble_hidh.c" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.obj" "gcc" "esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

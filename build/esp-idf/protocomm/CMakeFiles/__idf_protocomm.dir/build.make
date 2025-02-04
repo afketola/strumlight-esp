@@ -254,6 +254,20 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.s"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c -o CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.s
 
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/flags.make
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj: /Users/austi/esp/esp-idf/components/protocomm/src/transports/protocomm_nimble.c
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj -MF CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj.d -o CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj -c /Users/austi/esp/esp-idf/components/protocomm/src/transports/protocomm_nimble.c
+
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.i"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/protocomm/src/transports/protocomm_nimble.c > CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.i
+
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.s"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/protocomm/src/transports/protocomm_nimble.c -o CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.s
+
 # Object files for target __idf_protocomm
 __idf_protocomm_OBJECTS = \
 "CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj" \
@@ -268,7 +282,8 @@ __idf_protocomm_OBJECTS = \
 "CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj" \
 "CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj" \
 "CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj" \
-"CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj"
+"CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj" \
+"CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj"
 
 # External object files for target __idf_protocomm
 __idf_protocomm_EXTERNAL_OBJECTS =
@@ -286,9 +301,10 @@ esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.d
 esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
 esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
 esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj
 esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make
 esp-idf/protocomm/libprotocomm.a: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C static library libprotocomm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C static library libprotocomm.a"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_protocomm.dir/cmake_clean_target.cmake
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_protocomm.dir/link.txt --verbose=$(VERBOSE)
 

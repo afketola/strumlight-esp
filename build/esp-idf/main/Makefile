@@ -175,29 +175,77 @@ __idf_main/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-main.obj: main.c.obj
+ble_service.obj: ble_service.cpp.obj
+.PHONY : ble_service.obj
+
+# target to build an object file
+ble_service.cpp.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.obj
+.PHONY : ble_service.cpp.obj
+
+ble_service.i: ble_service.cpp.i
+.PHONY : ble_service.i
+
+# target to preprocess a source file
+ble_service.cpp.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.i
+.PHONY : ble_service.cpp.i
+
+ble_service.s: ble_service.cpp.s
+.PHONY : ble_service.s
+
+# target to generate assembly for a file
+ble_service.cpp.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.s
+.PHONY : ble_service.cpp.s
+
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+protocol_parser.obj: protocol_parser.cpp.obj
+.PHONY : protocol_parser.obj
+
+# target to build an object file
+protocol_parser.cpp.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.obj
+.PHONY : protocol_parser.cpp.obj
+
+protocol_parser.i: protocol_parser.cpp.i
+.PHONY : protocol_parser.i
+
+# target to preprocess a source file
+protocol_parser.cpp.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.i
+.PHONY : protocol_parser.cpp.i
+
+protocol_parser.s: protocol_parser.cpp.s
+.PHONY : protocol_parser.s
+
+# target to generate assembly for a file
+protocol_parser.cpp.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.s
+.PHONY : protocol_parser.cpp.s
 
 # Help Target
 help:
@@ -212,9 +260,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
+	@echo "... ble_service.obj"
+	@echo "... ble_service.i"
+	@echo "... ble_service.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... protocol_parser.obj"
+	@echo "... protocol_parser.i"
+	@echo "... protocol_parser.s"
 .PHONY : help
 
 

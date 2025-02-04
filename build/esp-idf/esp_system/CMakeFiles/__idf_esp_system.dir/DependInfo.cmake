@@ -91,6 +91,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/austi/esp/esp-idf/components/esp_gdbstub/include"
   "/Users/austi/esp/esp-idf/components/esp_app_format/include"
   "/Users/austi/esp/esp-idf/components/vfs/include"
+  "/Users/austi/esp/esp-idf/components/esp_coex/include"
   )
 
 # The set of dependency files which are needed:
