@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj"
-  "CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj.d"
+  "CMakeFiles/app-template.elf.dir/project_elf_src_esp32s3.c.obj"
+  "CMakeFiles/app-template.elf.dir/project_elf_src_esp32s3.c.obj.d"
   "app-template.elf"
   "app-template.elf.pdb"
-  "project_elf_src_esp32.c"
+  "project_elf_src_esp32s3.c"
 )
 
 # Per-language clean rules from dependency scanning.

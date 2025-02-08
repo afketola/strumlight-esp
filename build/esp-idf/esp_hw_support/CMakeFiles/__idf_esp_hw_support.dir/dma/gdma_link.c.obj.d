@@ -30,12 +30,12 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/gdma_link.c.obj: 
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -52,19 +52,18 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/gdma_link.c.obj: 
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/dma/include/esp_private/gdma_link.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/cache_hal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/cache_types.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/cache_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
  /Users/austi/esp/esp-idf/components/esp_mm/include/esp_cache.h

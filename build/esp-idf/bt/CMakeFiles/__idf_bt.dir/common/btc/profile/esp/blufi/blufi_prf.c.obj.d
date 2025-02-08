@@ -49,7 +49,7 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -58,17 +58,21 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/log/include/esp_log_timestamp.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_write.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_bt_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_bt_main.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_bt_defs.h \
  /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/thread.h \
  /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -78,16 +82,16 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
@@ -95,9 +99,8 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
@@ -122,6 +125,13 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/semaphore.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_task.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bt_target.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bluedroid_user_config.h \
+ /Users/austi/esp/esp-idf/components/bt/common/include/bt_user_config.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/bt_types.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/dyn_mem.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bluedroid_user_config.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bt_trace.h \
  /Users/austi/esp/esp-idf/components/bt/common/api/include/api/esp_blufi_api.h \
  /Users/austi/esp/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
  /Users/austi/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
@@ -129,52 +139,63 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj:
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_interface.h \
  /Users/austi/esp/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h \
  /Users/austi/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/gatt_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/gattdefs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/btm_ble_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bt_defs.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/include/arpa/inet.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/include/lwipopts.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/unistd.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/select.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/select.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timeval.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/timespec.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timespec.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_pthreadtypes.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/sched.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/types.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/unistd.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/fcntl.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_default_fcntl.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stat.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/time.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/time.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/time.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/time.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/time.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_time.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/ioctl.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/poll.h \
+ /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_random.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/include/sockets_ext.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/freertos/include/arch/sys_arch.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
+ /Users/austi/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/errno.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/errno.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/errno.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/ctype.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/btm_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/hcidefs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/smp_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bt_common_types.h \
  /Users/austi/esp/esp-idf/components/bt/common/btc/include/btc/btc_manage.h \
  /Users/austi/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include/esp_blufi.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/ble.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/syscfg/syscfg.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/port/include/esp_nimble_cfg.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/os.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/nimble_npl.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include/nimble/nimble_npl_os.h \
- /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- /Users/austi/esp/esp-idf/components/esp_timer/include/esp_timer.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_etm.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include/nimble/npl_freertos.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/endian.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/queue.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/os_error.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/os_mbuf.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/os/os_mempool.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_gap.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/hci_common.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/ble.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include/nimble/transport.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include/nimble/transport_impl.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include/nimble/transport/monitor.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_att.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_eddystone.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_gatt.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_uuid.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_gatt.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_adv.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_id.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_hci.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_log.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/modlog/modlog.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/log_common/log_common.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/log_common/ignore.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/log/log.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include/logcfg/logcfg.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_mbuf.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_stop.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_ibeacon.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_l2cap.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/nimble_opt.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include/nimble/nimble_opt_auto.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_sm.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_store.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_hs.h \
- /Users/austi/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_gap.h
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_gap_ble_api.h

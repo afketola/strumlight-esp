@@ -43,4 +43,4 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj: \
  /Users/austi/esp/esp-idf/components/spi_flash/include/spi_flash_chip_driver.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h

@@ -76,91 +76,75 @@ esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj: esp-idf/esp_mm/CMa
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj -MF CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj -MF CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c > CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c > CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.i
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c -o CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/esp_mmu_map.c -o CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.s
 
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/flags.make
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj -MF CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c
+esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/flags.make
+esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c
+esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj -MF CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c
 
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c > CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.i
+esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.i"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c > CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.i
 
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c -o CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.s
+esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.s"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c -o CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.s
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/flags.make
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj -MF CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj -MF CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/esp_cache.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c > CMakeFiles/__idf_esp_mm.dir/esp_cache.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c > CMakeFiles/__idf_esp_mm.dir/esp_cache.c.i
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/esp_cache.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c -o CMakeFiles/__idf_esp_mm.dir/esp_cache.c.s
-
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/flags.make
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/cache_esp32.c
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj -MF CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/cache_esp32.c
-
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/cache_esp32.c > CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.i
-
-esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/cache_esp32.c -o CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/esp_cache.c -o CMakeFiles/__idf_esp_mm.dir/esp_cache.c.s
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/flags.make
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj: /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj -MF CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj -MF CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj.d -o CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj -c /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c > CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c > CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.i
 
 esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c -o CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_mm/heap_align_hw.c -o CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s
 
 # Object files for target __idf_esp_mm
 __idf_esp_mm_OBJECTS = \
 "CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj" \
-"CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj" \
+"CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj" \
 "CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj" \
-"CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj" \
 "CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj"
 
 # External object files for target __idf_esp_mm
 __idf_esp_mm_EXTERNAL_OBJECTS =
 
 esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj
-esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj
+esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32s3/ext_mem_layout.c.obj
 esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj
-esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj
 esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj
 esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make
 esp-idf/esp_mm/libesp_mm.a: esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libesp_mm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_mm.a"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_mm.dir/cmake_clean_target.cmake
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_mm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_mm.dir/link.txt --verbose=$(VERBOSE)
 

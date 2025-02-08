@@ -76,15 +76,15 @@ esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj: /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -MF CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj.d -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -c /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -MF CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj.d -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj -c /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c > CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c > CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.i
 
 esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_sec_provider && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c -o CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.s
 
 # Object files for target __idf_nvs_sec_provider
 __idf_nvs_sec_provider_OBJECTS = \

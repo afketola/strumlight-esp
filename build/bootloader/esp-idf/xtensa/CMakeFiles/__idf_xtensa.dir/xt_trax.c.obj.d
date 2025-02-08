@@ -35,5 +35,5 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa-debug-module.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/eri.h

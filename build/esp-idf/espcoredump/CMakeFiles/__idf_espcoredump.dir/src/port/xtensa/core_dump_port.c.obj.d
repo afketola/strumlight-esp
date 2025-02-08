@@ -34,24 +34,23 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_p
  /Users/austi/esp/esp-idf/components/heap/include/soc/soc_memory_layout.h \
  /Users/austi/esp/esp-idf/components/heap/include/heap_memory_layout.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -61,7 +60,7 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_p
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
@@ -69,7 +68,7 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_p
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
@@ -85,7 +84,7 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_p
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
@@ -122,27 +121,9 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_p
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_private/panic_internal.h \
  /Users/austi/esp/esp-idf/components/espcoredump/include_core_dump/core_dump_checksum.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
- /Users/austi/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_dependencies.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /Users/austi/esp/esp-idf/components/mbedtls/port/include/sha256_alt.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/sha_types.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/sha.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
  /Users/austi/esp/esp-idf/components/espcoredump/include_core_dump/esp_core_dump_port.h \
  /Users/austi/esp/esp-idf/components/espcoredump/include_core_dump/port/xtensa/esp_core_dump_port_impl.h \
  /Users/austi/esp/esp-idf/components/espcoredump/include_core_dump/esp_core_dump_types.h \

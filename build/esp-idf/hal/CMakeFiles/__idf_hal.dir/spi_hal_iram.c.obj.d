@@ -34,32 +34,34 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/spi_types.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/spi_types.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/dma_types.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/spi_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gdma_channel.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/spi_ll.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_types.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/lldesc.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h \
- /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/spi_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/spi_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/include/soc/lldesc.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_lldesc.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h

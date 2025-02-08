@@ -1,7 +1,9 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj: \
  /Users/austi/esp/esp-idf/components/hal/sdm_hal.c \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/sdm_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/sdm_ll.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
@@ -11,7 +13,6 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
@@ -33,13 +34,10 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/gpio_sd_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/gpio_sd_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_sd_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_sd_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/sdm_hal.h

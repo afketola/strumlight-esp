@@ -76,15 +76,15 @@ esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj: /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj -MF CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj.d -o CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj -c /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj -MF CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj.d -o CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj -c /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c > CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c > CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c -o CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_https_server/src/https_server.c -o CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s
 
 # Object files for target __idf_esp_https_server
 __idf_esp_https_server_OBJECTS = \

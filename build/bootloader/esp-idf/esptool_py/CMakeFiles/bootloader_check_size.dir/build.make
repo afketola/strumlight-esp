@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/compiler_depend.
 include esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/bootloader_check_size:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader/esp-idf/esptool_py && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin
+	cd /Users/austi/esp/strumlight-esp/build/bootloader/esp-idf/esptool_py && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin
 
 esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/codegen:
 .PHONY : esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/codegen

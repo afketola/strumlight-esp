@@ -15,9 +15,9 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/aes_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/aes_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/aes_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/aes_ll.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
@@ -38,16 +38,20 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/hwcrypto_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_crypto_dma.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/dma_types.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gdma_channel.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/gdma_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/austi/esp/esp-idf/components/hal/include/hal/gdma_types.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
@@ -72,4 +76,11 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
- /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h
+ /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
+ /Users/austi/esp/esp-idf/components/mbedtls/port/aes/dma/include/esp_aes_dma_priv.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h

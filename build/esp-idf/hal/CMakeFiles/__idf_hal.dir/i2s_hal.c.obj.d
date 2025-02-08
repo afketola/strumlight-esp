@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj: \
  /Users/austi/esp/esp-idf/components/hal/i2s_hal.c \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
@@ -29,24 +29,23 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/i2s_hal.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/i2s_types.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/i2s_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/i2s_ll.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/i2s_periph.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/regdma.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/i2s_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/i2s_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/i2s_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/i2s_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/hal_utils.h

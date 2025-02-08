@@ -5,7 +5,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj: \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
@@ -89,8 +89,13 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj: \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/sha1_alt.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/sha_types.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/sha.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/sha256_alt.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \

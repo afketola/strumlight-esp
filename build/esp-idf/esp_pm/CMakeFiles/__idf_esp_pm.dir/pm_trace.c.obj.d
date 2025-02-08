@@ -38,19 +38,18 @@ esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj: \
  /Users/austi/esp/esp-idf/components/hal/include/hal/touch_sensor_legacy_types.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
  /Users/austi/esp/esp-idf/components/esp_pm/include/esp_private/pm_trace.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_etm.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/gpio_reg.h
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_reg.h

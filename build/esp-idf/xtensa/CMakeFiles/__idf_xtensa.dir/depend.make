@@ -7,13 +7,13 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_context.S.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_asm_utils.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
@@ -30,13 +30,13 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
@@ -54,17 +54,15 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_vectors.S.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie-asm.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie-asm.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/esp_private/panic_reason.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_asm_utils.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/coreasm.h \

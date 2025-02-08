@@ -36,51 +36,42 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_com
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/clk_tree_hal.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clkout_channel.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clkout_channel.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/clk_tree_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/syscon_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/clk_tree_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_defs.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_regi2c.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_defs.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/regi2c_ctrl_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_bbpll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_apll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/regi2c_ctrl_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_bbpll.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/rtc.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/ets_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/port/esp32/include/soc/rtc.h \
- /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_periph.h \
- /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_io_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_channel.h \
- /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/port/include/esp_hw_log.h \
- /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/log.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_color.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_buffer.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_timestamp.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_write.h \
- /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h
+ /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/rtc.h \
+ /Users/austi/esp/esp-idf/components/esp_hw_support/port/esp32s3/include/soc/rtc.h \
+ /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h \
+ /Users/austi/esp/esp-idf/components/esp_hw_support/port/include/esp_hw_log.h

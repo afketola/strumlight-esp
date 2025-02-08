@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/austi/esp/strumlight-esp/main/ble_service.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.obj.d"
+  "/Users/austi/esp/strumlight-esp/main/bt_service.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/bt_service.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/bt_service.cpp.obj.d"
   "/Users/austi/esp/strumlight-esp/main/main.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj.d"
   "/Users/austi/esp/strumlight-esp/main/protocol_parser.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.obj.d"
   )

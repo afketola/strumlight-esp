@@ -76,15 +76,15 @@ esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: esp-idf/
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: /Users/austi/esp/esp-idf/components/http_parser/http_parser.c
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -MF CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d -o CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -c /Users/austi/esp/esp-idf/components/http_parser/http_parser.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -MF CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d -o CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -c /Users/austi/esp/esp-idf/components/http_parser/http_parser.c
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_http_parser.dir/http_parser.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/http_parser/http_parser.c > CMakeFiles/__idf_http_parser.dir/http_parser.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/http_parser/http_parser.c > CMakeFiles/__idf_http_parser.dir/http_parser.c.i
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_http_parser.dir/http_parser.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/http_parser/http_parser.c -o CMakeFiles/__idf_http_parser.dir/http_parser.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/http_parser && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/http_parser/http_parser.c -o CMakeFiles/__idf_http_parser.dir/http_parser.c.s
 
 # Object files for target __idf_http_parser
 __idf_http_parser_OBJECTS = \

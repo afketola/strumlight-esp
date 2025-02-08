@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "UF2_CMD=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;/Users/austi/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32" -D "UF2_ARGS=--json;/Users/austi/esp/strumlight-esp/build/bootloader/flasher_args.json;-o;/Users/austi/esp/strumlight-esp/build/bootloader/uf2-app.bin;--bin;app" -P /Users/austi/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "UF2_CMD=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;/Users/austi/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/Users/austi/esp/strumlight-esp/build/bootloader/flasher_args.json;-o;/Users/austi/esp/strumlight-esp/build/bootloader/uf2-app.bin;--bin;app" -P /Users/austi/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 CMakeFiles/uf2-app.dir/codegen:
 .PHONY : CMakeFiles/uf2-app.dir/codegen

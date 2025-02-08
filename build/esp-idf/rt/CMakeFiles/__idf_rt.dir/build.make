@@ -76,29 +76,29 @@ esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj: esp-idf/rt/CMake
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj: /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj: esp-idf/rt/CMakeFiles/__idf_rt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj -MF CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj.d -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj -c /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj -MF CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj.d -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj -c /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c
 
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c > CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c > CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.i
 
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.s
 
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj: esp-idf/rt/CMakeFiles/__idf_rt.dir/flags.make
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj: /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj: esp-idf/rt/CMakeFiles/__idf_rt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj -MF CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj.d -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj -c /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj -MF CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj.d -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj -c /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c
 
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c > CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c > CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.i
 
 esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/rt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/rt/FreeRTOS_POSIX_utils.c -o CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.s
 
 # Object files for target __idf_rt
 __idf_rt_OBJECTS = \

@@ -36,8 +36,8 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_coex/include/private/esp_coexist_internal.h \
  /Users/austi/esp/esp-idf/components/esp_coex/include/private/esp_coexist_adapter.h

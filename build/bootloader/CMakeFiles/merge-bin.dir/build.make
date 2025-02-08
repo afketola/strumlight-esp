@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin: bootloader
-	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/Users/austi/esp/strumlight-esp/build/bootloader/merged-binary.bin;@/Users/austi/esp/strumlight-esp/build/bootloader/flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build/bootloader -P run_serial_tool.cmake
+	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/Users/austi/esp/strumlight-esp/build/bootloader/merged-binary.bin;@/Users/austi/esp/strumlight-esp/build/bootloader/flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build/bootloader -P run_serial_tool.cmake
 
 CMakeFiles/merge-bin.dir/codegen:
 .PHONY : CMakeFiles/merge-bin.dir/codegen

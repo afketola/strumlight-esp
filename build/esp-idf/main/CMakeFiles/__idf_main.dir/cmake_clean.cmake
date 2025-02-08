@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_main.dir/ble_service.cpp.obj"
-  "CMakeFiles/__idf_main.dir/ble_service.cpp.obj.d"
+  "CMakeFiles/__idf_main.dir/bt_service.cpp.obj"
+  "CMakeFiles/__idf_main.dir/bt_service.cpp.obj.d"
   "CMakeFiles/__idf_main.dir/main.cpp.obj"
   "CMakeFiles/__idf_main.dir/main.cpp.obj.d"
   "CMakeFiles/__idf_main.dir/protocol_parser.cpp.obj"

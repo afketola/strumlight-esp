@@ -35,15 +35,15 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/esp_gdbstub/src/port/xtensa/include/esp_gdbstub_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -55,16 +55,16 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
@@ -78,16 +78,15 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/austi/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
@@ -112,13 +111,14 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/esp_private/freertos_debug.h \
  /Users/austi/esp/esp-idf/components/esp_gdbstub/src/port/xtensa/include/esp_gdbstub_memory_regions.h \
  /Users/austi/esp/esp-idf/components/esp_gdbstub/private_include/esp_gdbstub_memory_regions_common.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/uart_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/uart_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/uart_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/uart_struct.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -129,15 +129,17 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/wdt_hal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/wdt_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/mwdt_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/mwdt_ll.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/wdt_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/timer_group_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/timer_group_struct.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/regdma.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/rwdt_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/rwdt_ll.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h

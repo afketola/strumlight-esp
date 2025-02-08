@@ -37,18 +37,17 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_sleep.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \
@@ -57,7 +56,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/touch_sensor_legacy_types.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_sleep_internal.h \
  /Users/austi/esp/esp-idf/components/esp_timer/include/esp_private/esp_timer_private.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/rtc_clk.h \
@@ -66,11 +65,11 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/io_mux.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_color.h \
@@ -87,12 +86,12 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -101,7 +100,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
@@ -109,7 +108,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
@@ -133,76 +132,84 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/spi_pins.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/chip_revision.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/rtc_io.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/rtc_io_types.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/efuse_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_ll.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/efuse_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/efuse_struct.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/efuse.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/efuse_hal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/rtc_io_hal.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_io_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_channel.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/rtc_io_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/rtc_io_channel.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/rtc_io_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_io_reg.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_periph.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/rtc_cntl_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/usb_serial_jtag_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/usb_serial_jtag_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/sens_struct.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/clk_tree_hal.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clkout_channel.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/rtc_cntl_ll.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/clk_tree_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/syscon_reg.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clkout_channel.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/rtc_cntl_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/syscon_reg.h \
+ /Users/austi/esp/esp-idf/components/hal/include/hal/rtc_hal.h \
+ /Users/austi/esp/esp-idf/components/esp_hw_support/port/esp32s3/include/soc/rtc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_regi2c.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_defs.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/regi2c_ctrl_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_bbpll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/regi2c_apll.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/rtc.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/ets_sys.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/rtc_hal.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/port/esp32/include/soc/rtc.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/cache_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/regi2c_ctrl_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/cache_types.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/cache.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/clk_tree_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_bbpll.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/log.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/rtc.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/wdt_hal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/wdt_types.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/mwdt_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/mwdt_ll.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/wdt_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/timer_group_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/timer_group_struct.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/regdma.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/rwdt_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/rwdt_ll.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/uart_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/uart_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/uart_struct.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/uart_types.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/uart_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/uart_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/touch_sens_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/touch_sensor_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/touch_sensor_ll.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/touch_sensor_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/sens_struct.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/touch_sens_types.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/mspi_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/mspi_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/syscon_struct.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_uart.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/esp_private/cache_utils.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/power_supply/include/esp_private/brownout.h \
@@ -213,8 +220,4 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_private/esp_task_wdt.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/sar_periph_ctrl.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/cache.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/dport_access.h \
- /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/esp_private/gpio.h \
- /Users/austi/esp/esp-idf/components/esp_common/include/esp_types.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/sleep_gpio.h
+ /Users/austi/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/include/esp_private/mspi_timing_tuning.h

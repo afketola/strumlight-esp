@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32-elf-;;--target;esp32;;--revision;0;;/Users/austi/esp/strumlight-esp/build/app-template.elf" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P run_serial_tool.cmake
+	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/Users/austi/esp/strumlight-esp/build/app-template.elf" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P run_serial_tool.cmake
 
 CMakeFiles/monitor.dir/codegen:
 .PHONY : CMakeFiles/monitor.dir/codegen

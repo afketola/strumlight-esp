@@ -33,20 +33,16 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_iram.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/twai_hal.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/twai_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/twai_types_deprecated.h \
- /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/twai_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/twai_ll.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/twai_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/twai_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/twai_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h

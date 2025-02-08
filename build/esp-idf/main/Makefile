@@ -175,29 +175,29 @@ __idf_main/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-ble_service.obj: ble_service.cpp.obj
-.PHONY : ble_service.obj
+bt_service.obj: bt_service.cpp.obj
+.PHONY : bt_service.obj
 
 # target to build an object file
-ble_service.cpp.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.obj
-.PHONY : ble_service.cpp.obj
+bt_service.cpp.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/bt_service.cpp.obj
+.PHONY : bt_service.cpp.obj
 
-ble_service.i: ble_service.cpp.i
-.PHONY : ble_service.i
+bt_service.i: bt_service.cpp.i
+.PHONY : bt_service.i
 
 # target to preprocess a source file
-ble_service.cpp.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.i
-.PHONY : ble_service.cpp.i
+bt_service.cpp.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/bt_service.cpp.i
+.PHONY : bt_service.cpp.i
 
-ble_service.s: ble_service.cpp.s
-.PHONY : ble_service.s
+bt_service.s: bt_service.cpp.s
+.PHONY : bt_service.s
 
 # target to generate assembly for a file
-ble_service.cpp.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_service.cpp.s
-.PHONY : ble_service.cpp.s
+bt_service.cpp.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/bt_service.cpp.s
+.PHONY : bt_service.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -260,9 +260,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
-	@echo "... ble_service.obj"
-	@echo "... ble_service.i"
-	@echo "... ble_service.s"
+	@echo "... bt_service.obj"
+	@echo "... bt_service.i"
+	@echo "... bt_service.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

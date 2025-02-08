@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app-flash.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app-flash.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app-flash:
-	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P /Users/austi/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/austi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P /Users/austi/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/codegen:
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/codegen

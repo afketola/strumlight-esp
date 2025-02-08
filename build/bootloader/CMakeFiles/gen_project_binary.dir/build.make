@@ -70,7 +70,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --min-rev-full 0 --max-rev-full 399 -o /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.elf
+	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --min-rev-full 0 --max-rev-full 99 -o /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.elf
 	/opt/homebrew/bin/cmake -E echo "Generated /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin"
 	/opt/homebrew/bin/cmake -E md5sum /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.bin > /Users/austi/esp/strumlight-esp/build/bootloader/.bin_timestamp
 
