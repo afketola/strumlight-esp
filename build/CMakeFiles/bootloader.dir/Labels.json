@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader"
+			"file" : "C:/strumlight-esp/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader.rule"
+			"file" : "C:/strumlight-esp/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "C:/strumlight-esp/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader
-/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader.rule
-/Users/austi/esp/strumlight-esp/build/CMakeFiles/bootloader-complete.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/Users/austi/esp/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/strumlight-esp/build/CMakeFiles/bootloader
+C:/strumlight-esp/build/CMakeFiles/bootloader.rule
+C:/strumlight-esp/build/CMakeFiles/bootloader-complete.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/strumlight-esp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
