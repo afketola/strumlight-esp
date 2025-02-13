@@ -69,35 +69,35 @@ include CMakeFiles/bootloader.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bootloader.elf.dir/flags.make
 
-project_elf_src_esp32s3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
-	/opt/homebrew/bin/cmake -E touch /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32s3.c
+project_elf_src_esp32.c:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32.c"
+	/opt/homebrew/bin/cmake -E touch /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c
 
 CMakeFiles/bootloader.elf.dir/codegen:
 .PHONY : CMakeFiles/bootloader.elf.dir/codegen
 
-CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
-CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
-CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -c /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32s3.c
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj"
+	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -c /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c
 
-CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32s3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i"
+	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i
 
-CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32s3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
+CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s"
+	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
-"CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
+"CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj"
 
 # External object files for target bootloader.elf
 bootloader_elf_EXTERNAL_OBJECTS =
 
-bootloader.elf: CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj
+bootloader.elf: CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj
 bootloader.elf: CMakeFiles/bootloader.elf.dir/build.make
 bootloader.elf: esp-idf/xtensa/libxtensa.a
 bootloader.elf: esp-idf/soc/libsoc.a
@@ -165,18 +165,14 @@ bootloader.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 bootloader.elf: esp-idf/esp_common/libesp_common.a
 bootloader.elf: esp-idf/esp_rom/libesp_rom.a
 bootloader.elf: esp-idf/log/liblog.a
-bootloader.elf: /Users/austi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
-bootloader.elf: /Users/austi/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/xtensa/esp32/libxt_hal.a
+bootloader.elf: /Users/austi/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bootloader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bootloader.elf.dir/link.txt --verbose=$(VERBOSE)
@@ -189,7 +185,7 @@ CMakeFiles/bootloader.elf.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/bootloader.elf.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/bootloader.elf.dir/clean
 
-CMakeFiles/bootloader.elf.dir/depend: project_elf_src_esp32s3.c
+CMakeFiles/bootloader.elf.dir/depend: project_elf_src_esp32.c
 	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/austi/esp/esp-idf/components/bootloader/subproject /Users/austi/esp/esp-idf/components/bootloader/subproject /Users/austi/esp/strumlight-esp/build/bootloader /Users/austi/esp/strumlight-esp/build/bootloader /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader.elf.dir/depend
 

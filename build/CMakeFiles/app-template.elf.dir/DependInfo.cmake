@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/austi/esp/strumlight-esp/build/project_elf_src_esp32s3.c" "CMakeFiles/app-template.elf.dir/project_elf_src_esp32s3.c.obj" "gcc" "CMakeFiles/app-template.elf.dir/project_elf_src_esp32s3.c.obj.d"
+  "/Users/austi/esp/strumlight-esp/build/project_elf_src_esp32.c" "CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj" "gcc" "CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

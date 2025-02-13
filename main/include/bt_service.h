@@ -1,6 +1,11 @@
-#ifndef BT_SERVICE_H
-#define BT_SERVICE_H
+#pragma once
 
-void initBT();
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-#endif // BT_SERVICE_H
+void initBT(void);
+
+#ifdef __cplusplus
+}
+#endif

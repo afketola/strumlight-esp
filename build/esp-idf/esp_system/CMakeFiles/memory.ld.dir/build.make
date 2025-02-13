@@ -68,10 +68,10 @@ include esp-idf/esp_system/CMakeFiles/memory.ld.dir/progress.make
 
 esp-idf/esp_system/CMakeFiles/memory.ld: esp-idf/esp_system/ld/memory.ld
 
-esp-idf/esp_system/ld/memory.ld: /Users/austi/esp/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in
+esp-idf/esp_system/ld/memory.ld: /Users/austi/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in
 esp-idf/esp_system/ld/memory.ld: config/sdkconfig.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/memory.ld linker script..."
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system && /opt/homebrew/bin/cmake -DCC=/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/Users/austi/esp/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in -DTARGET=/Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/Users/austi/esp/strumlight-esp/build/config -DLD_DIR=/Users/austi/esp/esp-idf/components/esp_system/ld -P /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/linker_script_generator.cmake
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system && /opt/homebrew/bin/cmake -DCC=/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/Users/austi/esp/esp-idf/components/esp_system/ld/esp32/memory.ld.in -DTARGET=/Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/Users/austi/esp/strumlight-esp/build/config -DLD_DIR=/Users/austi/esp/esp-idf/components/esp_system/ld -P /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/linker_script_generator.cmake
 
 esp-idf/esp_system/CMakeFiles/memory.ld.dir/codegen:
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/codegen

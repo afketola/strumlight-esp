@@ -57,10 +57,10 @@ esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32/esp_rom_caps.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_libc_stubs.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/libc_stubs.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/libc_stubs.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \

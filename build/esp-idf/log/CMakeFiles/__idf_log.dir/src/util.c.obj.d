@@ -17,4 +17,4 @@ esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h

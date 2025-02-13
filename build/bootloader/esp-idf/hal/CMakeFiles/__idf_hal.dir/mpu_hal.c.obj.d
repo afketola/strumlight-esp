@@ -35,17 +35,17 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/mpu_hal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/mpu_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/mpu_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/mpu_ll.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h

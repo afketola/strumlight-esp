@@ -41,7 +41,7 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \

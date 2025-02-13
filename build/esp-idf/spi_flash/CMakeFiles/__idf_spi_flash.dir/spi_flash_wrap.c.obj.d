@@ -37,7 +37,7 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -47,10 +47,10 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_write.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_spiflash_defs.h \
- /Users/austi/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/spi_flash.h \
+ /Users/austi/esp/esp-idf/components/esp_rom/esp32/include/esp32/rom/spi_flash.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/spi_flash_override.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/esp_private/spi_flash_os.h \
@@ -60,20 +60,18 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/esp_flash_err.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/spi_flash_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/spi_flash_ll.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/gpspi_flash_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/spi_flash_ll.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/spi_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/spi_pins.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/spi_mem_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/spi_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/spi_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/spi_types.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/spi_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
@@ -83,11 +81,9 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
  /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/spimem_flash_ll.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/spi_flash_mmap.h \
  /Users/austi/esp/esp-idf/components/spi_flash/include/esp_spi_flash_counters.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/ext_mem_defs.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/newlib/src/newlib_init.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.obj.d"
   "/Users/austi/esp/esp-idf/components/newlib/src/poll.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.obj.d"
   "/Users/austi/esp/esp-idf/components/newlib/src/port/esp_time_impl.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/newlib/src/port/xtensa/stdatomic_s32c1i.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.obj.d"
   "/Users/austi/esp/esp-idf/components/newlib/src/pthread.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.obj.d"
   "/Users/austi/esp/esp-idf/components/newlib/src/random.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.obj.d"
   "/Users/austi/esp/esp-idf/components/newlib/src/realpath.c" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.obj" "gcc" "esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.obj.d"

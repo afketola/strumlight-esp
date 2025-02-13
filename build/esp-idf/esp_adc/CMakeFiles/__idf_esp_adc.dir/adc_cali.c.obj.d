@@ -41,7 +41,7 @@ esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -55,9 +55,9 @@ esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj: \
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/adc_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
  /Users/austi/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_adc/interface/adc_cali_interface.h \
- /Users/austi/esp/esp-idf/components/esp_adc/esp32s3/include/adc_cali_schemes.h
+ /Users/austi/esp/esp-idf/components/esp_adc/esp32/include/adc_cali_schemes.h

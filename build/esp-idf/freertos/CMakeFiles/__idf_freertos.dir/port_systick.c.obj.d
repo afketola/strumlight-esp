@@ -32,12 +32,12 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -48,16 +48,16 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
@@ -71,15 +71,16 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/austi/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/esp_system/include/esp_system.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
@@ -103,15 +104,4 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h \
- /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/esp_private/freertos_idf_additions_priv.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/systimer_hal.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/systimer_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/systimer_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/systimer_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/systimer.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/esp_private/freertos_idf_additions_priv.h

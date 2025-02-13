@@ -47,4 +47,4 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_bootloader_format/include/esp_bootloader_desc.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h

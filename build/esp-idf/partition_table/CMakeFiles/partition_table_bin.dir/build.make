@@ -69,13 +69,13 @@ include esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partition-table.bin
 
-partition_table/partition-table.bin: /Users/austi/esp/esp-idf/components/partition_table/partitions_singleapp.csv
+partition_table/partition-table.bin: /Users/austi/esp/esp-idf/components/partition_table/partitions_singleapp_large.csv
 partition_table/partition-table.bin: /Users/austi/esp/esp-idf/components/partition_table/gen_esp32part.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /Users/austi/esp/esp-idf/components/partition_table/partitions_singleapp.csv /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 8MB -- /Users/austi/esp/esp-idf/components/partition_table/partitions_singleapp_large.csv /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "Partition table binary generated. Contents:"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "*******************************************************************************"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x1000 --flash-size 8MB -- /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/partition_table && /opt/homebrew/bin/cmake -E echo "*******************************************************************************"
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/codegen:

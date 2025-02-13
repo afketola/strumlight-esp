@@ -1,6 +1,6 @@
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_port.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
@@ -29,20 +29,16 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core0_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core1_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/sensitive_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \

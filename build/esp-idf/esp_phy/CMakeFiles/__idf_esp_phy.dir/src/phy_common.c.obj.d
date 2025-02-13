@@ -42,7 +42,7 @@ esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -53,16 +53,16 @@ esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/austi/esp/esp-idf/components/esp_phy/include/esp_phy_init.h \
  /Users/austi/esp/esp-idf/components/esp_phy/include/esp_private/phy.h \

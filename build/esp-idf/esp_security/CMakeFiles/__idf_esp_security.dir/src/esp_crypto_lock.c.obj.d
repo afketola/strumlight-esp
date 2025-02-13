@@ -10,4 +10,4 @@ esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.obj
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
  /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_crypto_lock.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h

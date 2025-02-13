@@ -76,57 +76,57 @@ esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj: esp-idf/app_tr
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj: /Users/austi/esp/esp-idf/components/app_trace/app_trace.c
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj -MF CMakeFiles/__idf_app_trace.dir/app_trace.c.obj.d -o CMakeFiles/__idf_app_trace.dir/app_trace.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/app_trace.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj -MF CMakeFiles/__idf_app_trace.dir/app_trace.c.obj.d -o CMakeFiles/__idf_app_trace.dir/app_trace.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/app_trace.c
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_app_trace.dir/app_trace.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/app_trace.c > CMakeFiles/__idf_app_trace.dir/app_trace.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/app_trace.c > CMakeFiles/__idf_app_trace.dir/app_trace.c.i
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_app_trace.dir/app_trace.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/app_trace.c -o CMakeFiles/__idf_app_trace.dir/app_trace.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/app_trace.c -o CMakeFiles/__idf_app_trace.dir/app_trace.c.s
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/flags.make
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj: /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj -MF CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj.d -o CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj -MF CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj.d -o CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c > CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c > CMakeFiles/__idf_app_trace.dir/app_trace_util.c.i
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c -o CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/app_trace_util.c -o CMakeFiles/__idf_app_trace.dir/app_trace_util.c.s
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/flags.make
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj: /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj -MF CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj.d -o CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj -MF CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj.d -o CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_app_trace.dir/host_file_io.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c > CMakeFiles/__idf_app_trace.dir/host_file_io.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c > CMakeFiles/__idf_app_trace.dir/host_file_io.c.i
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_app_trace.dir/host_file_io.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c -o CMakeFiles/__idf_app_trace.dir/host_file_io.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/host_file_io.c -o CMakeFiles/__idf_app_trace.dir/host_file_io.c.s
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/flags.make
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj: /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj -MF CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj.d -o CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj -MF CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj.d -o CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj -c /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_app_trace.dir/port/port_uart.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c > CMakeFiles/__idf_app_trace.dir/port/port_uart.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c > CMakeFiles/__idf_app_trace.dir/port/port_uart.c.i
 
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_app_trace.dir/port/port_uart.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c -o CMakeFiles/__idf_app_trace.dir/port/port_uart.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/app_trace && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/app_trace/port/port_uart.c -o CMakeFiles/__idf_app_trace.dir/port/port_uart.c.s
 
 # Object files for target __idf_app_trace
 __idf_app_trace_OBJECTS = \

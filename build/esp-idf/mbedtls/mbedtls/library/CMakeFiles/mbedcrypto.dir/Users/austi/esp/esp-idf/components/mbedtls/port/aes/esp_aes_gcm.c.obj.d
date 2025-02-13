@@ -40,7 +40,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \
@@ -61,21 +61,17 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/aes/include/esp_aes_internal.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/aes_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/aes_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/hwcrypto_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/aes_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/esp_crypto_dma.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/dma_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gdma_channel.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/gdma_ll.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/gdma_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /Users/austi/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
  /Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
@@ -94,7 +90,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_color.h \
@@ -104,5 +100,4 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-id
  /Users/austi/esp/esp-idf/components/log/include/esp_log_format.h \
  /Users/austi/esp/esp-idf/components/heap/include/soc/soc_memory_layout.h \
  /Users/austi/esp/esp-idf/components/heap/include/heap_memory_layout.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/mbedtls/port/aes/dma/include/esp_aes_dma_priv.h
+ /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h

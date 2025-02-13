@@ -1,1 +1,5 @@
-8c8fabbf09b54fcae9e34e3f887d4a18f4c75c2b
+0000000000000000000000000000000000000000 4f75fe81e2a48da74151842dc38a613575a7d6ab afketola <afketola@gmail.com> 1738607268 -0500	commit (initial): first commit
+4f75fe81e2a48da74151842dc38a613575a7d6ab 4f75fe81e2a48da74151842dc38a613575a7d6ab afketola <afketola@gmail.com> 1738607268 -0500	Branch: renamed refs/heads/main to refs/heads/main
+4f75fe81e2a48da74151842dc38a613575a7d6ab 3c8b65b0954e4ab025464d0bbd1a2de763282c9b afketola <afketola@gmail.com> 1738608599 -0500	commit: Initialize project
+3c8b65b0954e4ab025464d0bbd1a2de763282c9b 8c8fabbf09b54fcae9e34e3f887d4a18f4c75c2b afketola <afketola@gmail.com> 1738678020 -0500	commit: intiial ble server
+8c8fabbf09b54fcae9e34e3f887d4a18f4c75c2b 93387cc9957abb5644c42ad0580fe06b438a7877 afketola <afketola@gmail.com> 1739051400 -0500	commit: bluetooth setup

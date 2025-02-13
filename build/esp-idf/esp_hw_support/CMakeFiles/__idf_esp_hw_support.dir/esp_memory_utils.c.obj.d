@@ -28,10 +28,18 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.ob
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h
+ /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
+ /Users/austi/esp/esp-idf/components/esp_psram/include/esp_private/esp_psram_extram.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /Users/austi/esp/esp-idf/components/newlib/platform_include/stdio.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /Users/austi/esp/esp-idf/components/esp_common/include/esp_compiler.h

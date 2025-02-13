@@ -37,7 +37,7 @@ esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_fil
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -50,16 +50,16 @@ esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_fil
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/esp_private/glitch_filter_priv.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_filter.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/glitch_filter_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /Users/austi/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_etm.h \
  /Users/austi/esp/esp-idf/components/heap/include/esp_heap_caps.h \

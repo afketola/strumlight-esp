@@ -31,7 +31,6 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_event/libesp_event.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/nvs_flash/libnvs_flash.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_phy/libesp_phy.a
-/Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console/libesp_vfs_console.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/vfs/libvfs.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/lwip/liblwip.a
@@ -50,8 +49,9 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/sdmmc/libsdmmc.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+/Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a
+/Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_dac/libesp_driver_dac.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-/Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
@@ -69,6 +69,7 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_http_server/libesp_http_server.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_ota/libesp_https_ota.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_https_server/libesp_https_server.a
+/Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram/libesp_psram.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/esp_lcd/libesp_lcd.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/protobuf-c/libprotobuf-c.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/protocomm/libprotocomm.a
@@ -82,7 +83,5 @@
 /Users/austi/esp/strumlight-esp/build/esp-idf/perfmon/libperfmon.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/rt/librt.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/spiffs/libspiffs.a
-/Users/austi/esp/strumlight-esp/build/esp-idf/touch_element/libtouch_element.a
-/Users/austi/esp/strumlight-esp/build/esp-idf/usb/libusb.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/austi/esp/strumlight-esp/build/esp-idf/main/libmain.a

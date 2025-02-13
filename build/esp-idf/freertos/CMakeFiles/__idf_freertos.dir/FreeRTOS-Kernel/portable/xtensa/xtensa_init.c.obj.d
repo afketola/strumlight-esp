@@ -1,7 +1,7 @@
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
@@ -12,11 +12,11 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/x
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
  /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
  /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
@@ -42,4 +42,5 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/x
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_timer.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_clk.h

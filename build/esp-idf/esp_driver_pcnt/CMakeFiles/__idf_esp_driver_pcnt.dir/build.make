@@ -76,15 +76,15 @@ esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj: /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -MF CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj.d -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -c /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -MF CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj.d -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -c /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c > CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c > CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_driver_pcnt && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s
 
 # Object files for target __idf_esp_driver_pcnt
 __idf_esp_driver_pcnt_OBJECTS = \

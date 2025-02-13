@@ -37,7 +37,7 @@ esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj: \
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -50,8 +50,8 @@ esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_lcd/include/esp_lcd_panel_ops.h \
  /Users/austi/esp/esp-idf/components/esp_lcd/include/esp_lcd_types.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/lcd_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/color_types.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/mipi_dsi_types.h \
  /Users/austi/esp/esp-idf/components/esp_lcd/interface/esp_lcd_panel_interface.h

@@ -76,15 +76,15 @@ esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj: 
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj: /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj: esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj -MF CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj.d -o CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj -c /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj -MF CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj.d -o CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj -c /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c
 
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c > CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c > CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i
 
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c -o CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_vfs_console && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_vfs_console/vfs_console.c -o CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s
 
 # Object files for target __idf_esp_vfs_console
 __idf_esp_vfs_console_OBJECTS = \

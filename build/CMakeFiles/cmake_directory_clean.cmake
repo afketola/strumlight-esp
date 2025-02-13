@@ -7,5 +7,5 @@ file(REMOVE_RECURSE
   "app-template.bin"
   "flash_project_args"
   "app-template.map"
-  "project_elf_src_esp32s3.c"
+  "project_elf_src_esp32.c"
 )

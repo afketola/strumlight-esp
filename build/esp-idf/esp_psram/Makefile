@@ -161,6 +161,116 @@ depend:
 	cd /Users/austi/esp/strumlight-esp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+.PHONY : esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+
+# Convenience name for target.
+__idf_esp_psram: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/rule
+.PHONY : __idf_esp_psram
+
+# fast build rule for target.
+__idf_esp_psram/fast:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build
+.PHONY : __idf_esp_psram/fast
+
+esp32/esp_himem.obj: esp32/esp_himem.c.obj
+.PHONY : esp32/esp_himem.obj
+
+# target to build an object file
+esp32/esp_himem.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj
+.PHONY : esp32/esp_himem.c.obj
+
+esp32/esp_himem.i: esp32/esp_himem.c.i
+.PHONY : esp32/esp_himem.i
+
+# target to preprocess a source file
+esp32/esp_himem.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.i
+.PHONY : esp32/esp_himem.c.i
+
+esp32/esp_himem.s: esp32/esp_himem.c.s
+.PHONY : esp32/esp_himem.s
+
+# target to generate assembly for a file
+esp32/esp_himem.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.s
+.PHONY : esp32/esp_himem.c.s
+
+esp32/esp_psram_extram_cache.obj: esp32/esp_psram_extram_cache.c.obj
+.PHONY : esp32/esp_psram_extram_cache.obj
+
+# target to build an object file
+esp32/esp_psram_extram_cache.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj
+.PHONY : esp32/esp_psram_extram_cache.c.obj
+
+esp32/esp_psram_extram_cache.i: esp32/esp_psram_extram_cache.c.i
+.PHONY : esp32/esp_psram_extram_cache.i
+
+# target to preprocess a source file
+esp32/esp_psram_extram_cache.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.i
+.PHONY : esp32/esp_psram_extram_cache.c.i
+
+esp32/esp_psram_extram_cache.s: esp32/esp_psram_extram_cache.c.s
+.PHONY : esp32/esp_psram_extram_cache.s
+
+# target to generate assembly for a file
+esp32/esp_psram_extram_cache.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.s
+.PHONY : esp32/esp_psram_extram_cache.c.s
+
+esp32/esp_psram_impl_quad.obj: esp32/esp_psram_impl_quad.c.obj
+.PHONY : esp32/esp_psram_impl_quad.obj
+
+# target to build an object file
+esp32/esp_psram_impl_quad.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj
+.PHONY : esp32/esp_psram_impl_quad.c.obj
+
+esp32/esp_psram_impl_quad.i: esp32/esp_psram_impl_quad.c.i
+.PHONY : esp32/esp_psram_impl_quad.i
+
+# target to preprocess a source file
+esp32/esp_psram_impl_quad.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.i
+.PHONY : esp32/esp_psram_impl_quad.c.i
+
+esp32/esp_psram_impl_quad.s: esp32/esp_psram_impl_quad.c.s
+.PHONY : esp32/esp_psram_impl_quad.s
+
+# target to generate assembly for a file
+esp32/esp_psram_impl_quad.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.s
+.PHONY : esp32/esp_psram_impl_quad.c.s
+
+esp_psram.obj: esp_psram.c.obj
+.PHONY : esp_psram.obj
+
+# target to build an object file
+esp_psram.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj
+.PHONY : esp_psram.c.obj
+
+esp_psram.i: esp_psram.c.i
+.PHONY : esp_psram.i
+
+# target to preprocess a source file
+esp_psram.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i
+.PHONY : esp_psram.c.i
+
+esp_psram.s: esp_psram.c.s
+.PHONY : esp_psram.s
+
+# target to generate assembly for a file
+esp_psram.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
+.PHONY : esp_psram.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +283,19 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... __idf_esp_psram"
+	@echo "... esp32/esp_himem.obj"
+	@echo "... esp32/esp_himem.i"
+	@echo "... esp32/esp_himem.s"
+	@echo "... esp32/esp_psram_extram_cache.obj"
+	@echo "... esp32/esp_psram_extram_cache.i"
+	@echo "... esp32/esp_psram_extram_cache.s"
+	@echo "... esp32/esp_psram_impl_quad.obj"
+	@echo "... esp32/esp_psram_impl_quad.i"
+	@echo "... esp32/esp_psram_impl_quad.s"
+	@echo "... esp_psram.obj"
+	@echo "... esp_psram.i"
+	@echo "... esp_psram.s"
 .PHONY : help
 
 

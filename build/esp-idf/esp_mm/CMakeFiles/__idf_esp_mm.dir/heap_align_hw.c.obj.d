@@ -42,13 +42,4 @@ esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/esp_mm/include/esp_private/esp_cache_private.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/gdma_ll.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/gdma_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gdma_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h

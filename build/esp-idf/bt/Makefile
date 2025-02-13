@@ -727,29 +727,2725 @@ common/osi/thread.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.s
 .PHONY : common/osi/thread.c.s
 
-controller/esp32c3/bt.obj: controller/esp32c3/bt.c.obj
-.PHONY : controller/esp32c3/bt.obj
+controller/esp32/bt.obj: controller/esp32/bt.c.obj
+.PHONY : controller/esp32/bt.obj
 
 # target to build an object file
-controller/esp32c3/bt.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.obj
-.PHONY : controller/esp32c3/bt.c.obj
+controller/esp32/bt.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/bt.c.obj
+.PHONY : controller/esp32/bt.c.obj
 
-controller/esp32c3/bt.i: controller/esp32c3/bt.c.i
-.PHONY : controller/esp32c3/bt.i
+controller/esp32/bt.i: controller/esp32/bt.c.i
+.PHONY : controller/esp32/bt.i
 
 # target to preprocess a source file
-controller/esp32c3/bt.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.i
-.PHONY : controller/esp32c3/bt.c.i
+controller/esp32/bt.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/bt.c.i
+.PHONY : controller/esp32/bt.c.i
 
-controller/esp32c3/bt.s: controller/esp32c3/bt.c.s
-.PHONY : controller/esp32c3/bt.s
+controller/esp32/bt.s: controller/esp32/bt.c.s
+.PHONY : controller/esp32/bt.s
 
 # target to generate assembly for a file
-controller/esp32c3/bt.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.s
-.PHONY : controller/esp32c3/bt.c.s
+controller/esp32/bt.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/bt.c.s
+.PHONY : controller/esp32/bt.c.s
+
+controller/esp32/hli_api.obj: controller/esp32/hli_api.c.obj
+.PHONY : controller/esp32/hli_api.obj
+
+# target to build an object file
+controller/esp32/hli_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/hli_api.c.obj
+.PHONY : controller/esp32/hli_api.c.obj
+
+controller/esp32/hli_api.i: controller/esp32/hli_api.c.i
+.PHONY : controller/esp32/hli_api.i
+
+# target to preprocess a source file
+controller/esp32/hli_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/hli_api.c.i
+.PHONY : controller/esp32/hli_api.c.i
+
+controller/esp32/hli_api.s: controller/esp32/hli_api.c.s
+.PHONY : controller/esp32/hli_api.s
+
+# target to generate assembly for a file
+controller/esp32/hli_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/hli_api.c.s
+.PHONY : controller/esp32/hli_api.c.s
+
+controller/esp32/hli_vectors.obj: controller/esp32/hli_vectors.S.obj
+.PHONY : controller/esp32/hli_vectors.obj
+
+# target to build an object file
+controller/esp32/hli_vectors.S.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32/hli_vectors.S.obj
+.PHONY : controller/esp32/hli_vectors.S.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.i: esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.s: esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_ble_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.i: esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.s: esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_common_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.i: esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.s: esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.i: esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.s: esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.i: esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.s: esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_networking_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.i: esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.s: esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.c.s
+
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.obj: esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.obj
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.obj
+
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.i: esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.i
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.i
+
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.s: esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.s
+.PHONY : esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.c.s
+
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.obj: esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.obj
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.obj
+
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.i: esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.i
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.i
+
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.s: esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.s
+.PHONY : esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_ble.obj: esp_ble_mesh/btc/btc_ble_mesh_ble.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_ble.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_ble.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_ble.i: esp_ble_mesh/btc/btc_ble_mesh_ble.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_ble.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_ble.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_ble.s: esp_ble_mesh/btc/btc_ble_mesh_ble.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_ble.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_ble.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_ble.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_config_model.obj: esp_ble_mesh/btc/btc_ble_mesh_config_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_config_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_config_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_config_model.i: esp_ble_mesh/btc/btc_ble_mesh_config_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_config_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_config_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_config_model.s: esp_ble_mesh/btc/btc_ble_mesh_config_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_config_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_config_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_config_model.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.obj: esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.i: esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.s: esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_generic_model.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_health_model.obj: esp_ble_mesh/btc/btc_ble_mesh_health_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_health_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_health_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_health_model.i: esp_ble_mesh/btc/btc_ble_mesh_health_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_health_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_health_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_health_model.s: esp_ble_mesh/btc/btc_ble_mesh_health_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_health_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_health_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_health_model.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.obj: esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.i: esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.s: esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_lighting_model.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_prov.obj: esp_ble_mesh/btc/btc_ble_mesh_prov.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_prov.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_prov.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_prov.i: esp_ble_mesh/btc/btc_ble_mesh_prov.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_prov.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_prov.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_prov.s: esp_ble_mesh/btc/btc_ble_mesh_prov.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_prov.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_prov.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_prov.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.obj: esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.i: esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.s: esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_sensor_model.c.s
+
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.obj: esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.obj
+
+# target to build an object file
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.obj
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.obj
+
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.i: esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.i
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.i
+
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.s: esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.s
+.PHONY : esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.c.s
+
+esp_ble_mesh/common/atomic.obj: esp_ble_mesh/common/atomic.c.obj
+.PHONY : esp_ble_mesh/common/atomic.obj
+
+# target to build an object file
+esp_ble_mesh/common/atomic.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/atomic.c.obj
+.PHONY : esp_ble_mesh/common/atomic.c.obj
+
+esp_ble_mesh/common/atomic.i: esp_ble_mesh/common/atomic.c.i
+.PHONY : esp_ble_mesh/common/atomic.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/atomic.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/atomic.c.i
+.PHONY : esp_ble_mesh/common/atomic.c.i
+
+esp_ble_mesh/common/atomic.s: esp_ble_mesh/common/atomic.c.s
+.PHONY : esp_ble_mesh/common/atomic.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/atomic.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/atomic.c.s
+.PHONY : esp_ble_mesh/common/atomic.c.s
+
+esp_ble_mesh/common/buf.obj: esp_ble_mesh/common/buf.c.obj
+.PHONY : esp_ble_mesh/common/buf.obj
+
+# target to build an object file
+esp_ble_mesh/common/buf.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/buf.c.obj
+.PHONY : esp_ble_mesh/common/buf.c.obj
+
+esp_ble_mesh/common/buf.i: esp_ble_mesh/common/buf.c.i
+.PHONY : esp_ble_mesh/common/buf.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/buf.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/buf.c.i
+.PHONY : esp_ble_mesh/common/buf.c.i
+
+esp_ble_mesh/common/buf.s: esp_ble_mesh/common/buf.c.s
+.PHONY : esp_ble_mesh/common/buf.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/buf.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/buf.c.s
+.PHONY : esp_ble_mesh/common/buf.c.s
+
+esp_ble_mesh/common/common.obj: esp_ble_mesh/common/common.c.obj
+.PHONY : esp_ble_mesh/common/common.obj
+
+# target to build an object file
+esp_ble_mesh/common/common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/common.c.obj
+.PHONY : esp_ble_mesh/common/common.c.obj
+
+esp_ble_mesh/common/common.i: esp_ble_mesh/common/common.c.i
+.PHONY : esp_ble_mesh/common/common.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/common.c.i
+.PHONY : esp_ble_mesh/common/common.c.i
+
+esp_ble_mesh/common/common.s: esp_ble_mesh/common/common.c.s
+.PHONY : esp_ble_mesh/common/common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/common.c.s
+.PHONY : esp_ble_mesh/common/common.c.s
+
+esp_ble_mesh/common/kernel.obj: esp_ble_mesh/common/kernel.c.obj
+.PHONY : esp_ble_mesh/common/kernel.obj
+
+# target to build an object file
+esp_ble_mesh/common/kernel.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/kernel.c.obj
+.PHONY : esp_ble_mesh/common/kernel.c.obj
+
+esp_ble_mesh/common/kernel.i: esp_ble_mesh/common/kernel.c.i
+.PHONY : esp_ble_mesh/common/kernel.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/kernel.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/kernel.c.i
+.PHONY : esp_ble_mesh/common/kernel.c.i
+
+esp_ble_mesh/common/kernel.s: esp_ble_mesh/common/kernel.c.s
+.PHONY : esp_ble_mesh/common/kernel.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/kernel.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/kernel.c.s
+.PHONY : esp_ble_mesh/common/kernel.c.s
+
+esp_ble_mesh/common/mutex.obj: esp_ble_mesh/common/mutex.c.obj
+.PHONY : esp_ble_mesh/common/mutex.obj
+
+# target to build an object file
+esp_ble_mesh/common/mutex.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/mutex.c.obj
+.PHONY : esp_ble_mesh/common/mutex.c.obj
+
+esp_ble_mesh/common/mutex.i: esp_ble_mesh/common/mutex.c.i
+.PHONY : esp_ble_mesh/common/mutex.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/mutex.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/mutex.c.i
+.PHONY : esp_ble_mesh/common/mutex.c.i
+
+esp_ble_mesh/common/mutex.s: esp_ble_mesh/common/mutex.c.s
+.PHONY : esp_ble_mesh/common/mutex.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/mutex.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/mutex.c.s
+.PHONY : esp_ble_mesh/common/mutex.c.s
+
+esp_ble_mesh/common/queue.obj: esp_ble_mesh/common/queue.c.obj
+.PHONY : esp_ble_mesh/common/queue.obj
+
+# target to build an object file
+esp_ble_mesh/common/queue.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/queue.c.obj
+.PHONY : esp_ble_mesh/common/queue.c.obj
+
+esp_ble_mesh/common/queue.i: esp_ble_mesh/common/queue.c.i
+.PHONY : esp_ble_mesh/common/queue.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/queue.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/queue.c.i
+.PHONY : esp_ble_mesh/common/queue.c.i
+
+esp_ble_mesh/common/queue.s: esp_ble_mesh/common/queue.c.s
+.PHONY : esp_ble_mesh/common/queue.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/queue.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/queue.c.s
+.PHONY : esp_ble_mesh/common/queue.c.s
+
+esp_ble_mesh/common/timer.obj: esp_ble_mesh/common/timer.c.obj
+.PHONY : esp_ble_mesh/common/timer.obj
+
+# target to build an object file
+esp_ble_mesh/common/timer.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/timer.c.obj
+.PHONY : esp_ble_mesh/common/timer.c.obj
+
+esp_ble_mesh/common/timer.i: esp_ble_mesh/common/timer.c.i
+.PHONY : esp_ble_mesh/common/timer.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/timer.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/timer.c.i
+.PHONY : esp_ble_mesh/common/timer.c.i
+
+esp_ble_mesh/common/timer.s: esp_ble_mesh/common/timer.c.s
+.PHONY : esp_ble_mesh/common/timer.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/timer.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/timer.c.s
+.PHONY : esp_ble_mesh/common/timer.c.s
+
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.obj: esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.i: esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.i
+
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.s: esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_decrypt.c.s
+
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.obj: esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.i: esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.i
+
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.s: esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/aes_encrypt.c.s
+
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.obj: esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.i: esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.i
+
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.s: esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cbc_mode.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.obj: esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.i: esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.s: esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ccm_mode.c.s
+
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.obj: esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.i: esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.i
+
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.s: esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/cmac_mode.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.obj: esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.i: esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.s: esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_mode.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.obj: esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.i: esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.s: esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ctr_prng.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ecc.obj: esp_ble_mesh/common/tinycrypt/src/ecc.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ecc.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ecc.i: esp_ble_mesh/common/tinycrypt/src/ecc.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ecc.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ecc.s: esp_ble_mesh/common/tinycrypt/src/ecc.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ecc.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.obj: esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.i: esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.s: esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dh.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.obj: esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.i: esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.s: esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_dsa.c.s
+
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.obj: esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.i: esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.i
+
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.s: esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.c.s
+
+esp_ble_mesh/common/tinycrypt/src/hmac.obj: esp_ble_mesh/common/tinycrypt/src/hmac.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/hmac.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/hmac.i: esp_ble_mesh/common/tinycrypt/src/hmac.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/hmac.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.c.i
+
+esp_ble_mesh/common/tinycrypt/src/hmac.s: esp_ble_mesh/common/tinycrypt/src/hmac.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/hmac.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac.c.s
+
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.obj: esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.i: esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.i
+
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.s: esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/hmac_prng.c.s
+
+esp_ble_mesh/common/tinycrypt/src/sha256.obj: esp_ble_mesh/common/tinycrypt/src/sha256.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/sha256.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/sha256.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/sha256.i: esp_ble_mesh/common/tinycrypt/src/sha256.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/sha256.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/sha256.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.c.i
+
+esp_ble_mesh/common/tinycrypt/src/sha256.s: esp_ble_mesh/common/tinycrypt/src/sha256.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/sha256.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/sha256.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/sha256.c.s
+
+esp_ble_mesh/common/tinycrypt/src/utils.obj: esp_ble_mesh/common/tinycrypt/src/utils.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.obj
+
+# target to build an object file
+esp_ble_mesh/common/tinycrypt/src/utils.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/utils.c.obj
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.c.obj
+
+esp_ble_mesh/common/tinycrypt/src/utils.i: esp_ble_mesh/common/tinycrypt/src/utils.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/tinycrypt/src/utils.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/utils.c.i
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.c.i
+
+esp_ble_mesh/common/tinycrypt/src/utils.s: esp_ble_mesh/common/tinycrypt/src/utils.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/tinycrypt/src/utils.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/tinycrypt/src/utils.c.s
+.PHONY : esp_ble_mesh/common/tinycrypt/src/utils.c.s
+
+esp_ble_mesh/common/utils.obj: esp_ble_mesh/common/utils.c.obj
+.PHONY : esp_ble_mesh/common/utils.obj
+
+# target to build an object file
+esp_ble_mesh/common/utils.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/utils.c.obj
+.PHONY : esp_ble_mesh/common/utils.c.obj
+
+esp_ble_mesh/common/utils.i: esp_ble_mesh/common/utils.c.i
+.PHONY : esp_ble_mesh/common/utils.i
+
+# target to preprocess a source file
+esp_ble_mesh/common/utils.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/utils.c.i
+.PHONY : esp_ble_mesh/common/utils.c.i
+
+esp_ble_mesh/common/utils.s: esp_ble_mesh/common/utils.c.s
+.PHONY : esp_ble_mesh/common/utils.s
+
+# target to generate assembly for a file
+esp_ble_mesh/common/utils.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/common/utils.c.s
+.PHONY : esp_ble_mesh/common/utils.c.s
+
+esp_ble_mesh/core/access.obj: esp_ble_mesh/core/access.c.obj
+.PHONY : esp_ble_mesh/core/access.obj
+
+# target to build an object file
+esp_ble_mesh/core/access.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/access.c.obj
+.PHONY : esp_ble_mesh/core/access.c.obj
+
+esp_ble_mesh/core/access.i: esp_ble_mesh/core/access.c.i
+.PHONY : esp_ble_mesh/core/access.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/access.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/access.c.i
+.PHONY : esp_ble_mesh/core/access.c.i
+
+esp_ble_mesh/core/access.s: esp_ble_mesh/core/access.c.s
+.PHONY : esp_ble_mesh/core/access.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/access.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/access.c.s
+.PHONY : esp_ble_mesh/core/access.c.s
+
+esp_ble_mesh/core/adv.obj: esp_ble_mesh/core/adv.c.obj
+.PHONY : esp_ble_mesh/core/adv.obj
+
+# target to build an object file
+esp_ble_mesh/core/adv.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv.c.obj
+.PHONY : esp_ble_mesh/core/adv.c.obj
+
+esp_ble_mesh/core/adv.i: esp_ble_mesh/core/adv.c.i
+.PHONY : esp_ble_mesh/core/adv.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/adv.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv.c.i
+.PHONY : esp_ble_mesh/core/adv.c.i
+
+esp_ble_mesh/core/adv.s: esp_ble_mesh/core/adv.c.s
+.PHONY : esp_ble_mesh/core/adv.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/adv.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv.c.s
+.PHONY : esp_ble_mesh/core/adv.c.s
+
+esp_ble_mesh/core/adv_common.obj: esp_ble_mesh/core/adv_common.c.obj
+.PHONY : esp_ble_mesh/core/adv_common.obj
+
+# target to build an object file
+esp_ble_mesh/core/adv_common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv_common.c.obj
+.PHONY : esp_ble_mesh/core/adv_common.c.obj
+
+esp_ble_mesh/core/adv_common.i: esp_ble_mesh/core/adv_common.c.i
+.PHONY : esp_ble_mesh/core/adv_common.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/adv_common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv_common.c.i
+.PHONY : esp_ble_mesh/core/adv_common.c.i
+
+esp_ble_mesh/core/adv_common.s: esp_ble_mesh/core/adv_common.c.s
+.PHONY : esp_ble_mesh/core/adv_common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/adv_common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/adv_common.c.s
+.PHONY : esp_ble_mesh/core/adv_common.c.s
+
+esp_ble_mesh/core/beacon.obj: esp_ble_mesh/core/beacon.c.obj
+.PHONY : esp_ble_mesh/core/beacon.obj
+
+# target to build an object file
+esp_ble_mesh/core/beacon.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/beacon.c.obj
+.PHONY : esp_ble_mesh/core/beacon.c.obj
+
+esp_ble_mesh/core/beacon.i: esp_ble_mesh/core/beacon.c.i
+.PHONY : esp_ble_mesh/core/beacon.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/beacon.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/beacon.c.i
+.PHONY : esp_ble_mesh/core/beacon.c.i
+
+esp_ble_mesh/core/beacon.s: esp_ble_mesh/core/beacon.c.s
+.PHONY : esp_ble_mesh/core/beacon.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/beacon.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/beacon.c.s
+.PHONY : esp_ble_mesh/core/beacon.c.s
+
+esp_ble_mesh/core/ble_adv.obj: esp_ble_mesh/core/ble_adv.c.obj
+.PHONY : esp_ble_mesh/core/ble_adv.obj
+
+# target to build an object file
+esp_ble_mesh/core/ble_adv.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/ble_adv.c.obj
+.PHONY : esp_ble_mesh/core/ble_adv.c.obj
+
+esp_ble_mesh/core/ble_adv.i: esp_ble_mesh/core/ble_adv.c.i
+.PHONY : esp_ble_mesh/core/ble_adv.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/ble_adv.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/ble_adv.c.i
+.PHONY : esp_ble_mesh/core/ble_adv.c.i
+
+esp_ble_mesh/core/ble_adv.s: esp_ble_mesh/core/ble_adv.c.s
+.PHONY : esp_ble_mesh/core/ble_adv.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/ble_adv.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/ble_adv.c.s
+.PHONY : esp_ble_mesh/core/ble_adv.c.s
+
+esp_ble_mesh/core/bluedroid_host/adapter.obj: esp_ble_mesh/core/bluedroid_host/adapter.c.obj
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.obj
+
+# target to build an object file
+esp_ble_mesh/core/bluedroid_host/adapter.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/bluedroid_host/adapter.c.obj
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.c.obj
+
+esp_ble_mesh/core/bluedroid_host/adapter.i: esp_ble_mesh/core/bluedroid_host/adapter.c.i
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/bluedroid_host/adapter.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/bluedroid_host/adapter.c.i
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.c.i
+
+esp_ble_mesh/core/bluedroid_host/adapter.s: esp_ble_mesh/core/bluedroid_host/adapter.c.s
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/bluedroid_host/adapter.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/bluedroid_host/adapter.c.s
+.PHONY : esp_ble_mesh/core/bluedroid_host/adapter.c.s
+
+esp_ble_mesh/core/cfg_cli.obj: esp_ble_mesh/core/cfg_cli.c.obj
+.PHONY : esp_ble_mesh/core/cfg_cli.obj
+
+# target to build an object file
+esp_ble_mesh/core/cfg_cli.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_cli.c.obj
+.PHONY : esp_ble_mesh/core/cfg_cli.c.obj
+
+esp_ble_mesh/core/cfg_cli.i: esp_ble_mesh/core/cfg_cli.c.i
+.PHONY : esp_ble_mesh/core/cfg_cli.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/cfg_cli.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_cli.c.i
+.PHONY : esp_ble_mesh/core/cfg_cli.c.i
+
+esp_ble_mesh/core/cfg_cli.s: esp_ble_mesh/core/cfg_cli.c.s
+.PHONY : esp_ble_mesh/core/cfg_cli.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/cfg_cli.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_cli.c.s
+.PHONY : esp_ble_mesh/core/cfg_cli.c.s
+
+esp_ble_mesh/core/cfg_srv.obj: esp_ble_mesh/core/cfg_srv.c.obj
+.PHONY : esp_ble_mesh/core/cfg_srv.obj
+
+# target to build an object file
+esp_ble_mesh/core/cfg_srv.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_srv.c.obj
+.PHONY : esp_ble_mesh/core/cfg_srv.c.obj
+
+esp_ble_mesh/core/cfg_srv.i: esp_ble_mesh/core/cfg_srv.c.i
+.PHONY : esp_ble_mesh/core/cfg_srv.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/cfg_srv.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_srv.c.i
+.PHONY : esp_ble_mesh/core/cfg_srv.c.i
+
+esp_ble_mesh/core/cfg_srv.s: esp_ble_mesh/core/cfg_srv.c.s
+.PHONY : esp_ble_mesh/core/cfg_srv.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/cfg_srv.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/cfg_srv.c.s
+.PHONY : esp_ble_mesh/core/cfg_srv.c.s
+
+esp_ble_mesh/core/crypto.obj: esp_ble_mesh/core/crypto.c.obj
+.PHONY : esp_ble_mesh/core/crypto.obj
+
+# target to build an object file
+esp_ble_mesh/core/crypto.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/crypto.c.obj
+.PHONY : esp_ble_mesh/core/crypto.c.obj
+
+esp_ble_mesh/core/crypto.i: esp_ble_mesh/core/crypto.c.i
+.PHONY : esp_ble_mesh/core/crypto.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/crypto.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/crypto.c.i
+.PHONY : esp_ble_mesh/core/crypto.c.i
+
+esp_ble_mesh/core/crypto.s: esp_ble_mesh/core/crypto.c.s
+.PHONY : esp_ble_mesh/core/crypto.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/crypto.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/crypto.c.s
+.PHONY : esp_ble_mesh/core/crypto.c.s
+
+esp_ble_mesh/core/fast_prov.obj: esp_ble_mesh/core/fast_prov.c.obj
+.PHONY : esp_ble_mesh/core/fast_prov.obj
+
+# target to build an object file
+esp_ble_mesh/core/fast_prov.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/fast_prov.c.obj
+.PHONY : esp_ble_mesh/core/fast_prov.c.obj
+
+esp_ble_mesh/core/fast_prov.i: esp_ble_mesh/core/fast_prov.c.i
+.PHONY : esp_ble_mesh/core/fast_prov.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/fast_prov.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/fast_prov.c.i
+.PHONY : esp_ble_mesh/core/fast_prov.c.i
+
+esp_ble_mesh/core/fast_prov.s: esp_ble_mesh/core/fast_prov.c.s
+.PHONY : esp_ble_mesh/core/fast_prov.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/fast_prov.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/fast_prov.c.s
+.PHONY : esp_ble_mesh/core/fast_prov.c.s
+
+esp_ble_mesh/core/friend.obj: esp_ble_mesh/core/friend.c.obj
+.PHONY : esp_ble_mesh/core/friend.obj
+
+# target to build an object file
+esp_ble_mesh/core/friend.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/friend.c.obj
+.PHONY : esp_ble_mesh/core/friend.c.obj
+
+esp_ble_mesh/core/friend.i: esp_ble_mesh/core/friend.c.i
+.PHONY : esp_ble_mesh/core/friend.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/friend.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/friend.c.i
+.PHONY : esp_ble_mesh/core/friend.c.i
+
+esp_ble_mesh/core/friend.s: esp_ble_mesh/core/friend.c.s
+.PHONY : esp_ble_mesh/core/friend.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/friend.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/friend.c.s
+.PHONY : esp_ble_mesh/core/friend.c.s
+
+esp_ble_mesh/core/health_cli.obj: esp_ble_mesh/core/health_cli.c.obj
+.PHONY : esp_ble_mesh/core/health_cli.obj
+
+# target to build an object file
+esp_ble_mesh/core/health_cli.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_cli.c.obj
+.PHONY : esp_ble_mesh/core/health_cli.c.obj
+
+esp_ble_mesh/core/health_cli.i: esp_ble_mesh/core/health_cli.c.i
+.PHONY : esp_ble_mesh/core/health_cli.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/health_cli.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_cli.c.i
+.PHONY : esp_ble_mesh/core/health_cli.c.i
+
+esp_ble_mesh/core/health_cli.s: esp_ble_mesh/core/health_cli.c.s
+.PHONY : esp_ble_mesh/core/health_cli.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/health_cli.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_cli.c.s
+.PHONY : esp_ble_mesh/core/health_cli.c.s
+
+esp_ble_mesh/core/health_srv.obj: esp_ble_mesh/core/health_srv.c.obj
+.PHONY : esp_ble_mesh/core/health_srv.obj
+
+# target to build an object file
+esp_ble_mesh/core/health_srv.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_srv.c.obj
+.PHONY : esp_ble_mesh/core/health_srv.c.obj
+
+esp_ble_mesh/core/health_srv.i: esp_ble_mesh/core/health_srv.c.i
+.PHONY : esp_ble_mesh/core/health_srv.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/health_srv.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_srv.c.i
+.PHONY : esp_ble_mesh/core/health_srv.c.i
+
+esp_ble_mesh/core/health_srv.s: esp_ble_mesh/core/health_srv.c.s
+.PHONY : esp_ble_mesh/core/health_srv.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/health_srv.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/health_srv.c.s
+.PHONY : esp_ble_mesh/core/health_srv.c.s
+
+esp_ble_mesh/core/heartbeat.obj: esp_ble_mesh/core/heartbeat.c.obj
+.PHONY : esp_ble_mesh/core/heartbeat.obj
+
+# target to build an object file
+esp_ble_mesh/core/heartbeat.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/heartbeat.c.obj
+.PHONY : esp_ble_mesh/core/heartbeat.c.obj
+
+esp_ble_mesh/core/heartbeat.i: esp_ble_mesh/core/heartbeat.c.i
+.PHONY : esp_ble_mesh/core/heartbeat.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/heartbeat.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/heartbeat.c.i
+.PHONY : esp_ble_mesh/core/heartbeat.c.i
+
+esp_ble_mesh/core/heartbeat.s: esp_ble_mesh/core/heartbeat.c.s
+.PHONY : esp_ble_mesh/core/heartbeat.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/heartbeat.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/heartbeat.c.s
+.PHONY : esp_ble_mesh/core/heartbeat.c.s
+
+esp_ble_mesh/core/local.obj: esp_ble_mesh/core/local.c.obj
+.PHONY : esp_ble_mesh/core/local.obj
+
+# target to build an object file
+esp_ble_mesh/core/local.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/local.c.obj
+.PHONY : esp_ble_mesh/core/local.c.obj
+
+esp_ble_mesh/core/local.i: esp_ble_mesh/core/local.c.i
+.PHONY : esp_ble_mesh/core/local.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/local.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/local.c.i
+.PHONY : esp_ble_mesh/core/local.c.i
+
+esp_ble_mesh/core/local.s: esp_ble_mesh/core/local.c.s
+.PHONY : esp_ble_mesh/core/local.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/local.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/local.c.s
+.PHONY : esp_ble_mesh/core/local.c.s
+
+esp_ble_mesh/core/lpn.obj: esp_ble_mesh/core/lpn.c.obj
+.PHONY : esp_ble_mesh/core/lpn.obj
+
+# target to build an object file
+esp_ble_mesh/core/lpn.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/lpn.c.obj
+.PHONY : esp_ble_mesh/core/lpn.c.obj
+
+esp_ble_mesh/core/lpn.i: esp_ble_mesh/core/lpn.c.i
+.PHONY : esp_ble_mesh/core/lpn.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/lpn.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/lpn.c.i
+.PHONY : esp_ble_mesh/core/lpn.c.i
+
+esp_ble_mesh/core/lpn.s: esp_ble_mesh/core/lpn.c.s
+.PHONY : esp_ble_mesh/core/lpn.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/lpn.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/lpn.c.s
+.PHONY : esp_ble_mesh/core/lpn.c.s
+
+esp_ble_mesh/core/main.obj: esp_ble_mesh/core/main.c.obj
+.PHONY : esp_ble_mesh/core/main.obj
+
+# target to build an object file
+esp_ble_mesh/core/main.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/main.c.obj
+.PHONY : esp_ble_mesh/core/main.c.obj
+
+esp_ble_mesh/core/main.i: esp_ble_mesh/core/main.c.i
+.PHONY : esp_ble_mesh/core/main.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/main.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/main.c.i
+.PHONY : esp_ble_mesh/core/main.c.i
+
+esp_ble_mesh/core/main.s: esp_ble_mesh/core/main.c.s
+.PHONY : esp_ble_mesh/core/main.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/main.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/main.c.s
+.PHONY : esp_ble_mesh/core/main.c.s
+
+esp_ble_mesh/core/net.obj: esp_ble_mesh/core/net.c.obj
+.PHONY : esp_ble_mesh/core/net.obj
+
+# target to build an object file
+esp_ble_mesh/core/net.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/net.c.obj
+.PHONY : esp_ble_mesh/core/net.c.obj
+
+esp_ble_mesh/core/net.i: esp_ble_mesh/core/net.c.i
+.PHONY : esp_ble_mesh/core/net.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/net.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/net.c.i
+.PHONY : esp_ble_mesh/core/net.c.i
+
+esp_ble_mesh/core/net.s: esp_ble_mesh/core/net.c.s
+.PHONY : esp_ble_mesh/core/net.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/net.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/net.c.s
+.PHONY : esp_ble_mesh/core/net.c.s
+
+esp_ble_mesh/core/prov_common.obj: esp_ble_mesh/core/prov_common.c.obj
+.PHONY : esp_ble_mesh/core/prov_common.obj
+
+# target to build an object file
+esp_ble_mesh/core/prov_common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_common.c.obj
+.PHONY : esp_ble_mesh/core/prov_common.c.obj
+
+esp_ble_mesh/core/prov_common.i: esp_ble_mesh/core/prov_common.c.i
+.PHONY : esp_ble_mesh/core/prov_common.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/prov_common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_common.c.i
+.PHONY : esp_ble_mesh/core/prov_common.c.i
+
+esp_ble_mesh/core/prov_common.s: esp_ble_mesh/core/prov_common.c.s
+.PHONY : esp_ble_mesh/core/prov_common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/prov_common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_common.c.s
+.PHONY : esp_ble_mesh/core/prov_common.c.s
+
+esp_ble_mesh/core/prov_node.obj: esp_ble_mesh/core/prov_node.c.obj
+.PHONY : esp_ble_mesh/core/prov_node.obj
+
+# target to build an object file
+esp_ble_mesh/core/prov_node.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_node.c.obj
+.PHONY : esp_ble_mesh/core/prov_node.c.obj
+
+esp_ble_mesh/core/prov_node.i: esp_ble_mesh/core/prov_node.c.i
+.PHONY : esp_ble_mesh/core/prov_node.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/prov_node.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_node.c.i
+.PHONY : esp_ble_mesh/core/prov_node.c.i
+
+esp_ble_mesh/core/prov_node.s: esp_ble_mesh/core/prov_node.c.s
+.PHONY : esp_ble_mesh/core/prov_node.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/prov_node.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_node.c.s
+.PHONY : esp_ble_mesh/core/prov_node.c.s
+
+esp_ble_mesh/core/prov_pvnr.obj: esp_ble_mesh/core/prov_pvnr.c.obj
+.PHONY : esp_ble_mesh/core/prov_pvnr.obj
+
+# target to build an object file
+esp_ble_mesh/core/prov_pvnr.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_pvnr.c.obj
+.PHONY : esp_ble_mesh/core/prov_pvnr.c.obj
+
+esp_ble_mesh/core/prov_pvnr.i: esp_ble_mesh/core/prov_pvnr.c.i
+.PHONY : esp_ble_mesh/core/prov_pvnr.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/prov_pvnr.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_pvnr.c.i
+.PHONY : esp_ble_mesh/core/prov_pvnr.c.i
+
+esp_ble_mesh/core/prov_pvnr.s: esp_ble_mesh/core/prov_pvnr.c.s
+.PHONY : esp_ble_mesh/core/prov_pvnr.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/prov_pvnr.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/prov_pvnr.c.s
+.PHONY : esp_ble_mesh/core/prov_pvnr.c.s
+
+esp_ble_mesh/core/proxy_client.obj: esp_ble_mesh/core/proxy_client.c.obj
+.PHONY : esp_ble_mesh/core/proxy_client.obj
+
+# target to build an object file
+esp_ble_mesh/core/proxy_client.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_client.c.obj
+.PHONY : esp_ble_mesh/core/proxy_client.c.obj
+
+esp_ble_mesh/core/proxy_client.i: esp_ble_mesh/core/proxy_client.c.i
+.PHONY : esp_ble_mesh/core/proxy_client.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/proxy_client.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_client.c.i
+.PHONY : esp_ble_mesh/core/proxy_client.c.i
+
+esp_ble_mesh/core/proxy_client.s: esp_ble_mesh/core/proxy_client.c.s
+.PHONY : esp_ble_mesh/core/proxy_client.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/proxy_client.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_client.c.s
+.PHONY : esp_ble_mesh/core/proxy_client.c.s
+
+esp_ble_mesh/core/proxy_server.obj: esp_ble_mesh/core/proxy_server.c.obj
+.PHONY : esp_ble_mesh/core/proxy_server.obj
+
+# target to build an object file
+esp_ble_mesh/core/proxy_server.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_server.c.obj
+.PHONY : esp_ble_mesh/core/proxy_server.c.obj
+
+esp_ble_mesh/core/proxy_server.i: esp_ble_mesh/core/proxy_server.c.i
+.PHONY : esp_ble_mesh/core/proxy_server.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/proxy_server.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_server.c.i
+.PHONY : esp_ble_mesh/core/proxy_server.c.i
+
+esp_ble_mesh/core/proxy_server.s: esp_ble_mesh/core/proxy_server.c.s
+.PHONY : esp_ble_mesh/core/proxy_server.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/proxy_server.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/proxy_server.c.s
+.PHONY : esp_ble_mesh/core/proxy_server.c.s
+
+esp_ble_mesh/core/pvnr_mgmt.obj: esp_ble_mesh/core/pvnr_mgmt.c.obj
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.obj
+
+# target to build an object file
+esp_ble_mesh/core/pvnr_mgmt.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/pvnr_mgmt.c.obj
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.c.obj
+
+esp_ble_mesh/core/pvnr_mgmt.i: esp_ble_mesh/core/pvnr_mgmt.c.i
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/pvnr_mgmt.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/pvnr_mgmt.c.i
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.c.i
+
+esp_ble_mesh/core/pvnr_mgmt.s: esp_ble_mesh/core/pvnr_mgmt.c.s
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/pvnr_mgmt.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/pvnr_mgmt.c.s
+.PHONY : esp_ble_mesh/core/pvnr_mgmt.c.s
+
+esp_ble_mesh/core/rpl.obj: esp_ble_mesh/core/rpl.c.obj
+.PHONY : esp_ble_mesh/core/rpl.obj
+
+# target to build an object file
+esp_ble_mesh/core/rpl.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/rpl.c.obj
+.PHONY : esp_ble_mesh/core/rpl.c.obj
+
+esp_ble_mesh/core/rpl.i: esp_ble_mesh/core/rpl.c.i
+.PHONY : esp_ble_mesh/core/rpl.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/rpl.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/rpl.c.i
+.PHONY : esp_ble_mesh/core/rpl.c.i
+
+esp_ble_mesh/core/rpl.s: esp_ble_mesh/core/rpl.c.s
+.PHONY : esp_ble_mesh/core/rpl.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/rpl.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/rpl.c.s
+.PHONY : esp_ble_mesh/core/rpl.c.s
+
+esp_ble_mesh/core/scan.obj: esp_ble_mesh/core/scan.c.obj
+.PHONY : esp_ble_mesh/core/scan.obj
+
+# target to build an object file
+esp_ble_mesh/core/scan.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/scan.c.obj
+.PHONY : esp_ble_mesh/core/scan.c.obj
+
+esp_ble_mesh/core/scan.i: esp_ble_mesh/core/scan.c.i
+.PHONY : esp_ble_mesh/core/scan.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/scan.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/scan.c.i
+.PHONY : esp_ble_mesh/core/scan.c.i
+
+esp_ble_mesh/core/scan.s: esp_ble_mesh/core/scan.c.s
+.PHONY : esp_ble_mesh/core/scan.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/scan.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/scan.c.s
+.PHONY : esp_ble_mesh/core/scan.c.s
+
+esp_ble_mesh/core/storage/settings.obj: esp_ble_mesh/core/storage/settings.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings.obj
+
+# target to build an object file
+esp_ble_mesh/core/storage/settings.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings.c.obj
+
+esp_ble_mesh/core/storage/settings.i: esp_ble_mesh/core/storage/settings.c.i
+.PHONY : esp_ble_mesh/core/storage/settings.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/storage/settings.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings.c.i
+.PHONY : esp_ble_mesh/core/storage/settings.c.i
+
+esp_ble_mesh/core/storage/settings.s: esp_ble_mesh/core/storage/settings.c.s
+.PHONY : esp_ble_mesh/core/storage/settings.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/storage/settings.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings.c.s
+.PHONY : esp_ble_mesh/core/storage/settings.c.s
+
+esp_ble_mesh/core/storage/settings_nvs.obj: esp_ble_mesh/core/storage/settings_nvs.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.obj
+
+# target to build an object file
+esp_ble_mesh/core/storage/settings_nvs.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_nvs.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.c.obj
+
+esp_ble_mesh/core/storage/settings_nvs.i: esp_ble_mesh/core/storage/settings_nvs.c.i
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/storage/settings_nvs.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_nvs.c.i
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.c.i
+
+esp_ble_mesh/core/storage/settings_nvs.s: esp_ble_mesh/core/storage/settings_nvs.c.s
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/storage/settings_nvs.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_nvs.c.s
+.PHONY : esp_ble_mesh/core/storage/settings_nvs.c.s
+
+esp_ble_mesh/core/storage/settings_uid.obj: esp_ble_mesh/core/storage/settings_uid.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings_uid.obj
+
+# target to build an object file
+esp_ble_mesh/core/storage/settings_uid.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_uid.c.obj
+.PHONY : esp_ble_mesh/core/storage/settings_uid.c.obj
+
+esp_ble_mesh/core/storage/settings_uid.i: esp_ble_mesh/core/storage/settings_uid.c.i
+.PHONY : esp_ble_mesh/core/storage/settings_uid.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/storage/settings_uid.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_uid.c.i
+.PHONY : esp_ble_mesh/core/storage/settings_uid.c.i
+
+esp_ble_mesh/core/storage/settings_uid.s: esp_ble_mesh/core/storage/settings_uid.c.s
+.PHONY : esp_ble_mesh/core/storage/settings_uid.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/storage/settings_uid.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/storage/settings_uid.c.s
+.PHONY : esp_ble_mesh/core/storage/settings_uid.c.s
+
+esp_ble_mesh/core/test.obj: esp_ble_mesh/core/test.c.obj
+.PHONY : esp_ble_mesh/core/test.obj
+
+# target to build an object file
+esp_ble_mesh/core/test.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/test.c.obj
+.PHONY : esp_ble_mesh/core/test.c.obj
+
+esp_ble_mesh/core/test.i: esp_ble_mesh/core/test.c.i
+.PHONY : esp_ble_mesh/core/test.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/test.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/test.c.i
+.PHONY : esp_ble_mesh/core/test.c.i
+
+esp_ble_mesh/core/test.s: esp_ble_mesh/core/test.c.s
+.PHONY : esp_ble_mesh/core/test.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/test.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/test.c.s
+.PHONY : esp_ble_mesh/core/test.c.s
+
+esp_ble_mesh/core/transport.obj: esp_ble_mesh/core/transport.c.obj
+.PHONY : esp_ble_mesh/core/transport.obj
+
+# target to build an object file
+esp_ble_mesh/core/transport.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/transport.c.obj
+.PHONY : esp_ble_mesh/core/transport.c.obj
+
+esp_ble_mesh/core/transport.i: esp_ble_mesh/core/transport.c.i
+.PHONY : esp_ble_mesh/core/transport.i
+
+# target to preprocess a source file
+esp_ble_mesh/core/transport.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/transport.c.i
+.PHONY : esp_ble_mesh/core/transport.c.i
+
+esp_ble_mesh/core/transport.s: esp_ble_mesh/core/transport.c.s
+.PHONY : esp_ble_mesh/core/transport.s
+
+# target to generate assembly for a file
+esp_ble_mesh/core/transport.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/core/transport.c.s
+.PHONY : esp_ble_mesh/core/transport.c.s
+
+esp_ble_mesh/lib/ext.obj: esp_ble_mesh/lib/ext.c.obj
+.PHONY : esp_ble_mesh/lib/ext.obj
+
+# target to build an object file
+esp_ble_mesh/lib/ext.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/lib/ext.c.obj
+.PHONY : esp_ble_mesh/lib/ext.c.obj
+
+esp_ble_mesh/lib/ext.i: esp_ble_mesh/lib/ext.c.i
+.PHONY : esp_ble_mesh/lib/ext.i
+
+# target to preprocess a source file
+esp_ble_mesh/lib/ext.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/lib/ext.c.i
+.PHONY : esp_ble_mesh/lib/ext.c.i
+
+esp_ble_mesh/lib/ext.s: esp_ble_mesh/lib/ext.c.s
+.PHONY : esp_ble_mesh/lib/ext.s
+
+# target to generate assembly for a file
+esp_ble_mesh/lib/ext.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/lib/ext.c.s
+.PHONY : esp_ble_mesh/lib/ext.c.s
+
+esp_ble_mesh/models/client/client_common.obj: esp_ble_mesh/models/client/client_common.c.obj
+.PHONY : esp_ble_mesh/models/client/client_common.obj
+
+# target to build an object file
+esp_ble_mesh/models/client/client_common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/client_common.c.obj
+.PHONY : esp_ble_mesh/models/client/client_common.c.obj
+
+esp_ble_mesh/models/client/client_common.i: esp_ble_mesh/models/client/client_common.c.i
+.PHONY : esp_ble_mesh/models/client/client_common.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/client/client_common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/client_common.c.i
+.PHONY : esp_ble_mesh/models/client/client_common.c.i
+
+esp_ble_mesh/models/client/client_common.s: esp_ble_mesh/models/client/client_common.c.s
+.PHONY : esp_ble_mesh/models/client/client_common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/client/client_common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/client_common.c.s
+.PHONY : esp_ble_mesh/models/client/client_common.c.s
+
+esp_ble_mesh/models/client/generic_client.obj: esp_ble_mesh/models/client/generic_client.c.obj
+.PHONY : esp_ble_mesh/models/client/generic_client.obj
+
+# target to build an object file
+esp_ble_mesh/models/client/generic_client.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/generic_client.c.obj
+.PHONY : esp_ble_mesh/models/client/generic_client.c.obj
+
+esp_ble_mesh/models/client/generic_client.i: esp_ble_mesh/models/client/generic_client.c.i
+.PHONY : esp_ble_mesh/models/client/generic_client.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/client/generic_client.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/generic_client.c.i
+.PHONY : esp_ble_mesh/models/client/generic_client.c.i
+
+esp_ble_mesh/models/client/generic_client.s: esp_ble_mesh/models/client/generic_client.c.s
+.PHONY : esp_ble_mesh/models/client/generic_client.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/client/generic_client.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/generic_client.c.s
+.PHONY : esp_ble_mesh/models/client/generic_client.c.s
+
+esp_ble_mesh/models/client/lighting_client.obj: esp_ble_mesh/models/client/lighting_client.c.obj
+.PHONY : esp_ble_mesh/models/client/lighting_client.obj
+
+# target to build an object file
+esp_ble_mesh/models/client/lighting_client.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/lighting_client.c.obj
+.PHONY : esp_ble_mesh/models/client/lighting_client.c.obj
+
+esp_ble_mesh/models/client/lighting_client.i: esp_ble_mesh/models/client/lighting_client.c.i
+.PHONY : esp_ble_mesh/models/client/lighting_client.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/client/lighting_client.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/lighting_client.c.i
+.PHONY : esp_ble_mesh/models/client/lighting_client.c.i
+
+esp_ble_mesh/models/client/lighting_client.s: esp_ble_mesh/models/client/lighting_client.c.s
+.PHONY : esp_ble_mesh/models/client/lighting_client.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/client/lighting_client.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/lighting_client.c.s
+.PHONY : esp_ble_mesh/models/client/lighting_client.c.s
+
+esp_ble_mesh/models/client/sensor_client.obj: esp_ble_mesh/models/client/sensor_client.c.obj
+.PHONY : esp_ble_mesh/models/client/sensor_client.obj
+
+# target to build an object file
+esp_ble_mesh/models/client/sensor_client.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/sensor_client.c.obj
+.PHONY : esp_ble_mesh/models/client/sensor_client.c.obj
+
+esp_ble_mesh/models/client/sensor_client.i: esp_ble_mesh/models/client/sensor_client.c.i
+.PHONY : esp_ble_mesh/models/client/sensor_client.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/client/sensor_client.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/sensor_client.c.i
+.PHONY : esp_ble_mesh/models/client/sensor_client.c.i
+
+esp_ble_mesh/models/client/sensor_client.s: esp_ble_mesh/models/client/sensor_client.c.s
+.PHONY : esp_ble_mesh/models/client/sensor_client.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/client/sensor_client.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/sensor_client.c.s
+.PHONY : esp_ble_mesh/models/client/sensor_client.c.s
+
+esp_ble_mesh/models/client/time_scene_client.obj: esp_ble_mesh/models/client/time_scene_client.c.obj
+.PHONY : esp_ble_mesh/models/client/time_scene_client.obj
+
+# target to build an object file
+esp_ble_mesh/models/client/time_scene_client.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/time_scene_client.c.obj
+.PHONY : esp_ble_mesh/models/client/time_scene_client.c.obj
+
+esp_ble_mesh/models/client/time_scene_client.i: esp_ble_mesh/models/client/time_scene_client.c.i
+.PHONY : esp_ble_mesh/models/client/time_scene_client.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/client/time_scene_client.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/time_scene_client.c.i
+.PHONY : esp_ble_mesh/models/client/time_scene_client.c.i
+
+esp_ble_mesh/models/client/time_scene_client.s: esp_ble_mesh/models/client/time_scene_client.c.s
+.PHONY : esp_ble_mesh/models/client/time_scene_client.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/client/time_scene_client.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/client/time_scene_client.c.s
+.PHONY : esp_ble_mesh/models/client/time_scene_client.c.s
+
+esp_ble_mesh/models/common/device_property.obj: esp_ble_mesh/models/common/device_property.c.obj
+.PHONY : esp_ble_mesh/models/common/device_property.obj
+
+# target to build an object file
+esp_ble_mesh/models/common/device_property.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/device_property.c.obj
+.PHONY : esp_ble_mesh/models/common/device_property.c.obj
+
+esp_ble_mesh/models/common/device_property.i: esp_ble_mesh/models/common/device_property.c.i
+.PHONY : esp_ble_mesh/models/common/device_property.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/common/device_property.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/device_property.c.i
+.PHONY : esp_ble_mesh/models/common/device_property.c.i
+
+esp_ble_mesh/models/common/device_property.s: esp_ble_mesh/models/common/device_property.c.s
+.PHONY : esp_ble_mesh/models/common/device_property.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/common/device_property.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/device_property.c.s
+.PHONY : esp_ble_mesh/models/common/device_property.c.s
+
+esp_ble_mesh/models/common/model_common.obj: esp_ble_mesh/models/common/model_common.c.obj
+.PHONY : esp_ble_mesh/models/common/model_common.obj
+
+# target to build an object file
+esp_ble_mesh/models/common/model_common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/model_common.c.obj
+.PHONY : esp_ble_mesh/models/common/model_common.c.obj
+
+esp_ble_mesh/models/common/model_common.i: esp_ble_mesh/models/common/model_common.c.i
+.PHONY : esp_ble_mesh/models/common/model_common.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/common/model_common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/model_common.c.i
+.PHONY : esp_ble_mesh/models/common/model_common.c.i
+
+esp_ble_mesh/models/common/model_common.s: esp_ble_mesh/models/common/model_common.c.s
+.PHONY : esp_ble_mesh/models/common/model_common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/common/model_common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/common/model_common.c.s
+.PHONY : esp_ble_mesh/models/common/model_common.c.s
+
+esp_ble_mesh/models/server/generic_server.obj: esp_ble_mesh/models/server/generic_server.c.obj
+.PHONY : esp_ble_mesh/models/server/generic_server.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/generic_server.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/generic_server.c.obj
+.PHONY : esp_ble_mesh/models/server/generic_server.c.obj
+
+esp_ble_mesh/models/server/generic_server.i: esp_ble_mesh/models/server/generic_server.c.i
+.PHONY : esp_ble_mesh/models/server/generic_server.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/generic_server.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/generic_server.c.i
+.PHONY : esp_ble_mesh/models/server/generic_server.c.i
+
+esp_ble_mesh/models/server/generic_server.s: esp_ble_mesh/models/server/generic_server.c.s
+.PHONY : esp_ble_mesh/models/server/generic_server.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/generic_server.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/generic_server.c.s
+.PHONY : esp_ble_mesh/models/server/generic_server.c.s
+
+esp_ble_mesh/models/server/lighting_server.obj: esp_ble_mesh/models/server/lighting_server.c.obj
+.PHONY : esp_ble_mesh/models/server/lighting_server.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/lighting_server.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/lighting_server.c.obj
+.PHONY : esp_ble_mesh/models/server/lighting_server.c.obj
+
+esp_ble_mesh/models/server/lighting_server.i: esp_ble_mesh/models/server/lighting_server.c.i
+.PHONY : esp_ble_mesh/models/server/lighting_server.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/lighting_server.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/lighting_server.c.i
+.PHONY : esp_ble_mesh/models/server/lighting_server.c.i
+
+esp_ble_mesh/models/server/lighting_server.s: esp_ble_mesh/models/server/lighting_server.c.s
+.PHONY : esp_ble_mesh/models/server/lighting_server.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/lighting_server.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/lighting_server.c.s
+.PHONY : esp_ble_mesh/models/server/lighting_server.c.s
+
+esp_ble_mesh/models/server/sensor_server.obj: esp_ble_mesh/models/server/sensor_server.c.obj
+.PHONY : esp_ble_mesh/models/server/sensor_server.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/sensor_server.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/sensor_server.c.obj
+.PHONY : esp_ble_mesh/models/server/sensor_server.c.obj
+
+esp_ble_mesh/models/server/sensor_server.i: esp_ble_mesh/models/server/sensor_server.c.i
+.PHONY : esp_ble_mesh/models/server/sensor_server.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/sensor_server.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/sensor_server.c.i
+.PHONY : esp_ble_mesh/models/server/sensor_server.c.i
+
+esp_ble_mesh/models/server/sensor_server.s: esp_ble_mesh/models/server/sensor_server.c.s
+.PHONY : esp_ble_mesh/models/server/sensor_server.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/sensor_server.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/sensor_server.c.s
+.PHONY : esp_ble_mesh/models/server/sensor_server.c.s
+
+esp_ble_mesh/models/server/server_common.obj: esp_ble_mesh/models/server/server_common.c.obj
+.PHONY : esp_ble_mesh/models/server/server_common.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/server_common.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/server_common.c.obj
+.PHONY : esp_ble_mesh/models/server/server_common.c.obj
+
+esp_ble_mesh/models/server/server_common.i: esp_ble_mesh/models/server/server_common.c.i
+.PHONY : esp_ble_mesh/models/server/server_common.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/server_common.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/server_common.c.i
+.PHONY : esp_ble_mesh/models/server/server_common.c.i
+
+esp_ble_mesh/models/server/server_common.s: esp_ble_mesh/models/server/server_common.c.s
+.PHONY : esp_ble_mesh/models/server/server_common.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/server_common.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/server_common.c.s
+.PHONY : esp_ble_mesh/models/server/server_common.c.s
+
+esp_ble_mesh/models/server/state_binding.obj: esp_ble_mesh/models/server/state_binding.c.obj
+.PHONY : esp_ble_mesh/models/server/state_binding.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/state_binding.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_binding.c.obj
+.PHONY : esp_ble_mesh/models/server/state_binding.c.obj
+
+esp_ble_mesh/models/server/state_binding.i: esp_ble_mesh/models/server/state_binding.c.i
+.PHONY : esp_ble_mesh/models/server/state_binding.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/state_binding.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_binding.c.i
+.PHONY : esp_ble_mesh/models/server/state_binding.c.i
+
+esp_ble_mesh/models/server/state_binding.s: esp_ble_mesh/models/server/state_binding.c.s
+.PHONY : esp_ble_mesh/models/server/state_binding.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/state_binding.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_binding.c.s
+.PHONY : esp_ble_mesh/models/server/state_binding.c.s
+
+esp_ble_mesh/models/server/state_transition.obj: esp_ble_mesh/models/server/state_transition.c.obj
+.PHONY : esp_ble_mesh/models/server/state_transition.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/state_transition.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_transition.c.obj
+.PHONY : esp_ble_mesh/models/server/state_transition.c.obj
+
+esp_ble_mesh/models/server/state_transition.i: esp_ble_mesh/models/server/state_transition.c.i
+.PHONY : esp_ble_mesh/models/server/state_transition.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/state_transition.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_transition.c.i
+.PHONY : esp_ble_mesh/models/server/state_transition.c.i
+
+esp_ble_mesh/models/server/state_transition.s: esp_ble_mesh/models/server/state_transition.c.s
+.PHONY : esp_ble_mesh/models/server/state_transition.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/state_transition.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/state_transition.c.s
+.PHONY : esp_ble_mesh/models/server/state_transition.c.s
+
+esp_ble_mesh/models/server/time_scene_server.obj: esp_ble_mesh/models/server/time_scene_server.c.obj
+.PHONY : esp_ble_mesh/models/server/time_scene_server.obj
+
+# target to build an object file
+esp_ble_mesh/models/server/time_scene_server.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/time_scene_server.c.obj
+.PHONY : esp_ble_mesh/models/server/time_scene_server.c.obj
+
+esp_ble_mesh/models/server/time_scene_server.i: esp_ble_mesh/models/server/time_scene_server.c.i
+.PHONY : esp_ble_mesh/models/server/time_scene_server.i
+
+# target to preprocess a source file
+esp_ble_mesh/models/server/time_scene_server.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/time_scene_server.c.i
+.PHONY : esp_ble_mesh/models/server/time_scene_server.c.i
+
+esp_ble_mesh/models/server/time_scene_server.s: esp_ble_mesh/models/server/time_scene_server.c.s
+.PHONY : esp_ble_mesh/models/server/time_scene_server.s
+
+# target to generate assembly for a file
+esp_ble_mesh/models/server/time_scene_server.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/models/server/time_scene_server.c.s
+.PHONY : esp_ble_mesh/models/server/time_scene_server.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.c.s
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.obj: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.i: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.i
+
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.s: esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.c.s
+
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.obj: esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.obj
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.obj
+
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.i: esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.i
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.i
+
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.s: esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.s
+.PHONY : esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.c.s
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.obj: esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.obj
+
+# target to build an object file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.obj
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.obj
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.i: esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.i
+
+# target to preprocess a source file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.i
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.i
+
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.s: esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.s
+
+# target to generate assembly for a file
+esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.s
+.PHONY : esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.c.s
 
 host/bluedroid/api/esp_a2dp_api.obj: host/bluedroid/api/esp_a2dp_api.c.obj
 .PHONY : host/bluedroid/api/esp_a2dp_api.obj
@@ -7673,9 +10369,346 @@ help:
 	@echo "... common/osi/thread.obj"
 	@echo "... common/osi/thread.i"
 	@echo "... common/osi/thread.s"
-	@echo "... controller/esp32c3/bt.obj"
-	@echo "... controller/esp32c3/bt.i"
-	@echo "... controller/esp32c3/bt.s"
+	@echo "... controller/esp32/bt.obj"
+	@echo "... controller/esp32/bt.i"
+	@echo "... controller/esp32/bt.s"
+	@echo "... controller/esp32/hli_api.obj"
+	@echo "... controller/esp32/hli_api.i"
+	@echo "... controller/esp32/hli_api.s"
+	@echo "... controller/esp32/hli_vectors.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_ble_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_ble_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_ble_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_common_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_common_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_common_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_local_data_operation_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_low_power_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_networking_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_networking_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_networking_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_provisioning_api.s"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.obj"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.i"
+	@echo "... esp_ble_mesh/api/core/esp_ble_mesh_proxy_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_config_model_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_generic_model_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_health_model_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_lighting_model_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_sensor_model_api.s"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.obj"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.i"
+	@echo "... esp_ble_mesh/api/models/esp_ble_mesh_time_scene_model_api.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_ble.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_ble.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_ble.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_config_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_config_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_config_model.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_generic_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_generic_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_generic_model.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_health_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_health_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_health_model.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_lighting_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_lighting_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_lighting_model.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_prov.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_prov.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_prov.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_sensor_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_sensor_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_sensor_model.s"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.obj"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.i"
+	@echo "... esp_ble_mesh/btc/btc_ble_mesh_time_scene_model.s"
+	@echo "... esp_ble_mesh/common/atomic.obj"
+	@echo "... esp_ble_mesh/common/atomic.i"
+	@echo "... esp_ble_mesh/common/atomic.s"
+	@echo "... esp_ble_mesh/common/buf.obj"
+	@echo "... esp_ble_mesh/common/buf.i"
+	@echo "... esp_ble_mesh/common/buf.s"
+	@echo "... esp_ble_mesh/common/common.obj"
+	@echo "... esp_ble_mesh/common/common.i"
+	@echo "... esp_ble_mesh/common/common.s"
+	@echo "... esp_ble_mesh/common/kernel.obj"
+	@echo "... esp_ble_mesh/common/kernel.i"
+	@echo "... esp_ble_mesh/common/kernel.s"
+	@echo "... esp_ble_mesh/common/mutex.obj"
+	@echo "... esp_ble_mesh/common/mutex.i"
+	@echo "... esp_ble_mesh/common/mutex.s"
+	@echo "... esp_ble_mesh/common/queue.obj"
+	@echo "... esp_ble_mesh/common/queue.i"
+	@echo "... esp_ble_mesh/common/queue.s"
+	@echo "... esp_ble_mesh/common/timer.obj"
+	@echo "... esp_ble_mesh/common/timer.i"
+	@echo "... esp_ble_mesh/common/timer.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_decrypt.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_decrypt.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_decrypt.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_encrypt.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_encrypt.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/aes_encrypt.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cbc_mode.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cbc_mode.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cbc_mode.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ccm_mode.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ccm_mode.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ccm_mode.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cmac_mode.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cmac_mode.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/cmac_mode.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_mode.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_mode.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_mode.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_prng.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_prng.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ctr_prng.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dh.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dh.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dh.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dsa.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dsa.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_dsa.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/ecc_platform_specific.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac_prng.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac_prng.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/hmac_prng.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/sha256.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/sha256.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/sha256.s"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/utils.obj"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/utils.i"
+	@echo "... esp_ble_mesh/common/tinycrypt/src/utils.s"
+	@echo "... esp_ble_mesh/common/utils.obj"
+	@echo "... esp_ble_mesh/common/utils.i"
+	@echo "... esp_ble_mesh/common/utils.s"
+	@echo "... esp_ble_mesh/core/access.obj"
+	@echo "... esp_ble_mesh/core/access.i"
+	@echo "... esp_ble_mesh/core/access.s"
+	@echo "... esp_ble_mesh/core/adv.obj"
+	@echo "... esp_ble_mesh/core/adv.i"
+	@echo "... esp_ble_mesh/core/adv.s"
+	@echo "... esp_ble_mesh/core/adv_common.obj"
+	@echo "... esp_ble_mesh/core/adv_common.i"
+	@echo "... esp_ble_mesh/core/adv_common.s"
+	@echo "... esp_ble_mesh/core/beacon.obj"
+	@echo "... esp_ble_mesh/core/beacon.i"
+	@echo "... esp_ble_mesh/core/beacon.s"
+	@echo "... esp_ble_mesh/core/ble_adv.obj"
+	@echo "... esp_ble_mesh/core/ble_adv.i"
+	@echo "... esp_ble_mesh/core/ble_adv.s"
+	@echo "... esp_ble_mesh/core/bluedroid_host/adapter.obj"
+	@echo "... esp_ble_mesh/core/bluedroid_host/adapter.i"
+	@echo "... esp_ble_mesh/core/bluedroid_host/adapter.s"
+	@echo "... esp_ble_mesh/core/cfg_cli.obj"
+	@echo "... esp_ble_mesh/core/cfg_cli.i"
+	@echo "... esp_ble_mesh/core/cfg_cli.s"
+	@echo "... esp_ble_mesh/core/cfg_srv.obj"
+	@echo "... esp_ble_mesh/core/cfg_srv.i"
+	@echo "... esp_ble_mesh/core/cfg_srv.s"
+	@echo "... esp_ble_mesh/core/crypto.obj"
+	@echo "... esp_ble_mesh/core/crypto.i"
+	@echo "... esp_ble_mesh/core/crypto.s"
+	@echo "... esp_ble_mesh/core/fast_prov.obj"
+	@echo "... esp_ble_mesh/core/fast_prov.i"
+	@echo "... esp_ble_mesh/core/fast_prov.s"
+	@echo "... esp_ble_mesh/core/friend.obj"
+	@echo "... esp_ble_mesh/core/friend.i"
+	@echo "... esp_ble_mesh/core/friend.s"
+	@echo "... esp_ble_mesh/core/health_cli.obj"
+	@echo "... esp_ble_mesh/core/health_cli.i"
+	@echo "... esp_ble_mesh/core/health_cli.s"
+	@echo "... esp_ble_mesh/core/health_srv.obj"
+	@echo "... esp_ble_mesh/core/health_srv.i"
+	@echo "... esp_ble_mesh/core/health_srv.s"
+	@echo "... esp_ble_mesh/core/heartbeat.obj"
+	@echo "... esp_ble_mesh/core/heartbeat.i"
+	@echo "... esp_ble_mesh/core/heartbeat.s"
+	@echo "... esp_ble_mesh/core/local.obj"
+	@echo "... esp_ble_mesh/core/local.i"
+	@echo "... esp_ble_mesh/core/local.s"
+	@echo "... esp_ble_mesh/core/lpn.obj"
+	@echo "... esp_ble_mesh/core/lpn.i"
+	@echo "... esp_ble_mesh/core/lpn.s"
+	@echo "... esp_ble_mesh/core/main.obj"
+	@echo "... esp_ble_mesh/core/main.i"
+	@echo "... esp_ble_mesh/core/main.s"
+	@echo "... esp_ble_mesh/core/net.obj"
+	@echo "... esp_ble_mesh/core/net.i"
+	@echo "... esp_ble_mesh/core/net.s"
+	@echo "... esp_ble_mesh/core/prov_common.obj"
+	@echo "... esp_ble_mesh/core/prov_common.i"
+	@echo "... esp_ble_mesh/core/prov_common.s"
+	@echo "... esp_ble_mesh/core/prov_node.obj"
+	@echo "... esp_ble_mesh/core/prov_node.i"
+	@echo "... esp_ble_mesh/core/prov_node.s"
+	@echo "... esp_ble_mesh/core/prov_pvnr.obj"
+	@echo "... esp_ble_mesh/core/prov_pvnr.i"
+	@echo "... esp_ble_mesh/core/prov_pvnr.s"
+	@echo "... esp_ble_mesh/core/proxy_client.obj"
+	@echo "... esp_ble_mesh/core/proxy_client.i"
+	@echo "... esp_ble_mesh/core/proxy_client.s"
+	@echo "... esp_ble_mesh/core/proxy_server.obj"
+	@echo "... esp_ble_mesh/core/proxy_server.i"
+	@echo "... esp_ble_mesh/core/proxy_server.s"
+	@echo "... esp_ble_mesh/core/pvnr_mgmt.obj"
+	@echo "... esp_ble_mesh/core/pvnr_mgmt.i"
+	@echo "... esp_ble_mesh/core/pvnr_mgmt.s"
+	@echo "... esp_ble_mesh/core/rpl.obj"
+	@echo "... esp_ble_mesh/core/rpl.i"
+	@echo "... esp_ble_mesh/core/rpl.s"
+	@echo "... esp_ble_mesh/core/scan.obj"
+	@echo "... esp_ble_mesh/core/scan.i"
+	@echo "... esp_ble_mesh/core/scan.s"
+	@echo "... esp_ble_mesh/core/storage/settings.obj"
+	@echo "... esp_ble_mesh/core/storage/settings.i"
+	@echo "... esp_ble_mesh/core/storage/settings.s"
+	@echo "... esp_ble_mesh/core/storage/settings_nvs.obj"
+	@echo "... esp_ble_mesh/core/storage/settings_nvs.i"
+	@echo "... esp_ble_mesh/core/storage/settings_nvs.s"
+	@echo "... esp_ble_mesh/core/storage/settings_uid.obj"
+	@echo "... esp_ble_mesh/core/storage/settings_uid.i"
+	@echo "... esp_ble_mesh/core/storage/settings_uid.s"
+	@echo "... esp_ble_mesh/core/test.obj"
+	@echo "... esp_ble_mesh/core/test.i"
+	@echo "... esp_ble_mesh/core/test.s"
+	@echo "... esp_ble_mesh/core/transport.obj"
+	@echo "... esp_ble_mesh/core/transport.i"
+	@echo "... esp_ble_mesh/core/transport.s"
+	@echo "... esp_ble_mesh/lib/ext.obj"
+	@echo "... esp_ble_mesh/lib/ext.i"
+	@echo "... esp_ble_mesh/lib/ext.s"
+	@echo "... esp_ble_mesh/models/client/client_common.obj"
+	@echo "... esp_ble_mesh/models/client/client_common.i"
+	@echo "... esp_ble_mesh/models/client/client_common.s"
+	@echo "... esp_ble_mesh/models/client/generic_client.obj"
+	@echo "... esp_ble_mesh/models/client/generic_client.i"
+	@echo "... esp_ble_mesh/models/client/generic_client.s"
+	@echo "... esp_ble_mesh/models/client/lighting_client.obj"
+	@echo "... esp_ble_mesh/models/client/lighting_client.i"
+	@echo "... esp_ble_mesh/models/client/lighting_client.s"
+	@echo "... esp_ble_mesh/models/client/sensor_client.obj"
+	@echo "... esp_ble_mesh/models/client/sensor_client.i"
+	@echo "... esp_ble_mesh/models/client/sensor_client.s"
+	@echo "... esp_ble_mesh/models/client/time_scene_client.obj"
+	@echo "... esp_ble_mesh/models/client/time_scene_client.i"
+	@echo "... esp_ble_mesh/models/client/time_scene_client.s"
+	@echo "... esp_ble_mesh/models/common/device_property.obj"
+	@echo "... esp_ble_mesh/models/common/device_property.i"
+	@echo "... esp_ble_mesh/models/common/device_property.s"
+	@echo "... esp_ble_mesh/models/common/model_common.obj"
+	@echo "... esp_ble_mesh/models/common/model_common.i"
+	@echo "... esp_ble_mesh/models/common/model_common.s"
+	@echo "... esp_ble_mesh/models/server/generic_server.obj"
+	@echo "... esp_ble_mesh/models/server/generic_server.i"
+	@echo "... esp_ble_mesh/models/server/generic_server.s"
+	@echo "... esp_ble_mesh/models/server/lighting_server.obj"
+	@echo "... esp_ble_mesh/models/server/lighting_server.i"
+	@echo "... esp_ble_mesh/models/server/lighting_server.s"
+	@echo "... esp_ble_mesh/models/server/sensor_server.obj"
+	@echo "... esp_ble_mesh/models/server/sensor_server.i"
+	@echo "... esp_ble_mesh/models/server/sensor_server.s"
+	@echo "... esp_ble_mesh/models/server/server_common.obj"
+	@echo "... esp_ble_mesh/models/server/server_common.i"
+	@echo "... esp_ble_mesh/models/server/server_common.s"
+	@echo "... esp_ble_mesh/models/server/state_binding.obj"
+	@echo "... esp_ble_mesh/models/server/state_binding.i"
+	@echo "... esp_ble_mesh/models/server/state_binding.s"
+	@echo "... esp_ble_mesh/models/server/state_transition.obj"
+	@echo "... esp_ble_mesh/models/server/state_transition.i"
+	@echo "... esp_ble_mesh/models/server/state_transition.s"
+	@echo "... esp_ble_mesh/models/server/time_scene_server.obj"
+	@echo "... esp_ble_mesh/models/server/time_scene_server.i"
+	@echo "... esp_ble_mesh/models/server/time_scene_server.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_agg_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_brc_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_cm_data_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_df_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_lcd_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_odp_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_prb_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_rpr_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_sar_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/core/esp_ble_mesh_srpl_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.obj"
+	@echo "... esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.i"
+	@echo "... esp_ble_mesh/v1.1/api/models/esp_ble_mesh_mbt_model_api.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_agg_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_brc_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_df_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_lcd_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_mbt_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_odp_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_prb_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_rpr_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_sar_model.s"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.obj"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.i"
+	@echo "... esp_ble_mesh/v1.1/btc/btc_ble_mesh_srpl_model.s"
 	@echo "... host/bluedroid/api/esp_a2dp_api.obj"
 	@echo "... host/bluedroid/api/esp_a2dp_api.i"
 	@echo "... host/bluedroid/api/esp_a2dp_api.s"

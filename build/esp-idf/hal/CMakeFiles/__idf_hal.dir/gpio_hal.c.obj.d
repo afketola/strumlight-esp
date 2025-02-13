@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj: \
  /Users/austi/esp/esp-idf/components/hal/gpio_hal.c \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
@@ -29,19 +29,24 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/io_mux_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_struct.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/gpio_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/io_mux_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/gpio_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/gpio_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_hal.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/gpio_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/gpio_ll.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/usb_serial_jtag_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_io_reg.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/gpio_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
+ /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h

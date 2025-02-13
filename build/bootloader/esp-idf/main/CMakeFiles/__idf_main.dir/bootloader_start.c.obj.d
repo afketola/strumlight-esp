@@ -19,7 +19,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
  /Users/austi/esp/strumlight-esp/build/bootloader/config/sdkconfig.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -53,8 +53,10 @@ esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj: \
  /Users/austi/esp/esp-idf/components/bootloader_support/include/esp_app_format.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/private_include/bootloader_utility.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/private_include/bootloader_config.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
  /Users/austi/esp/esp-idf/components/bootloader/subproject/main/bootloader_hooks.h

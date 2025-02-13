@@ -38,7 +38,7 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
@@ -61,12 +61,12 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
@@ -76,16 +76,16 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/specreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/spinlock.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_api.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_utils.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/extreg.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
@@ -94,8 +94,9 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_macros.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/austi/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/austi/esp/esp-idf/components/heap/include/multi_heap.h \
@@ -199,13 +200,13 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/btm_api.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/hcidefs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/sdp_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/sdpdefs.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/smp_api.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/common/include/common/bt_common_types.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/include/btc/btc_main.h \
  /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/future.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_api.h \
- /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/sdp_api.h \
- /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/sdpdefs.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/include/btc/btc_dev.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_bt_device.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_gatts.h \
@@ -217,4 +218,95 @@ esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj: \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_gap_ble_api.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/include/btc/btc_dm.h \
  /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_gatt_api.h \
- /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/list.h
+ /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/list.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/include/btc/btc_profile_queue.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_gap_bt.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_gap_bt_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/utl.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_spp.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_spp_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_jv_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/l2c_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/l2cdefs.h \
+ /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/fixed_queue.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/stack/include/stack/rfcdefs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_l2cap.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_l2cap_bt_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_sdp.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_sdp_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/bt_sdp.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/bt_sdp.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_hf_ag.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/include/btc/btc_common.h \
+ /Users/austi/esp/esp-idf/components/bt/common/osi/include/osi/osi.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_ag_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_hfp_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_hf_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_hf_ag_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_hf_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/btc/profile/std/include/btc_hf_client.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/api/include/api/esp_hf_client_api.h \
+ /Users/austi/esp/esp-idf/components/bt/host/bluedroid/bta/include/bta/bta_hf_client_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_ble.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/include/mesh/adapter.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/config.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/types.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/utils.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/utils_loops.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/include/mesh/uuid.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/buf.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/slist.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/compiler.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/core/include/esp_ble_mesh_ble_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/common.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/byteorder.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/trace.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/ffs.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/mutex.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/kernel.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/atomic.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/include/mesh/access.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/timer.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/proxy_server.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/net.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/adv.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/adv_common.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/common/include/mesh/queue.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/pvnr_mgmt.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_prov.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/include/mesh/main.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/core/fast_prov.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_health_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_health_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_config_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_config_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_generic_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_generic_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_lighting_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_lighting_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_sensor_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_sensor_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/btc/include/btc_ble_mesh_time_scene_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/api/models/include/esp_ble_mesh_time_scene_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_mbt_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/models/include/esp_ble_mesh_mbt_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_agg_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_agg_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_brc_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_brc_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_df_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_df_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_lcd_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_lcd_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_odp_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_odp_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_prb_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_prb_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_rpr_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_rpr_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_sar_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_sar_model_api.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/btc/include/btc_ble_mesh_srpl_model.h \
+ /Users/austi/esp/esp-idf/components/bt/esp_ble_mesh/v1.1/api/core/include/esp_ble_mesh_srpl_model_api.h

@@ -67,7 +67,7 @@ include esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition-table-flash:
-	cd /Users/austi/esp/esp-idf/components/partition_table && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@partition-table-flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P /Users/austi/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /Users/austi/esp/esp-idf/components/partition_table && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/austi/esp/esp-idf -D "SERIAL_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/Users/austi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@partition-table-flash_args" -D WORKING_DIRECTORY=/Users/austi/esp/strumlight-esp/build -P /Users/austi/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/codegen:
 .PHONY : esp-idf/partition_table/CMakeFiles/partition-table-flash.dir/codegen

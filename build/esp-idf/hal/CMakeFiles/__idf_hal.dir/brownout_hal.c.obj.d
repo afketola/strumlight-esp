@@ -1,9 +1,8 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
  /Users/austi/esp/esp-idf/components/hal/brownout_hal.c \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/brownout_ll.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/brownout_ll.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
- /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/rtc_cntl_struct.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
@@ -11,38 +10,8 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
- /Users/austi/esp/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
- /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h \
- /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_regi2c.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/esp_hw_support/include/esp_private/periph_ctrl.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/regi2c_ctrl_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
- /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
- /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
- /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
- /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/hal/include/hal/psdet_types.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_brownout.h \
- /Users/austi/esp/esp-idf/components/hal/include/hal/brownout_hal.h
+ /Users/austi/esp/esp-idf/components/hal/include/hal/brownout_hal.h \
+ /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/strumlight-esp/build/config/sdkconfig.h

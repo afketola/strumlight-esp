@@ -1,0 +1,99 @@
+Command: /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-140 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/austi/esp/strumlight-esp/build/app-template.elf /Users/austi/esp/strumlight-esp/build/bootloader/bootloader.elf -m '/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python' '/Users/austi/esp/esp-idf/tools/idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6328
+load:0x40078000,len:15828
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (27) boot: ESP-IDF v5.5-dev-1655-gc5865270b5 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Feb 13 2025 08:45:54[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 8MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=35718h (218904) map[0m
+[0;32mI (163) esp_image: segment 1: paddr=00045740 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00045764 vaddr=3ffbdb60 size=0512ch ( 20780) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=0004a898 vaddr=40080000 size=05780h ( 22400) load[0m
+[0;32mI (183) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=c9af8h (826104) map[0m
+[0;32mI (466) esp_image: segment 5: paddr=00119b20 vaddr=40085780 size=19dc0h (105920) load[0m
+[0;32mI (522) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (522) boot: Disabling RNG early entropy source...[0m
+[0;32mI (533) quad_psram: This chip is ESP32-D0WD[0m
+[0;32mI (535) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (535) esp_psram: Speed: 40MHz[0m
+[0;32mI (535) esp_psram: PSRAM initialized, cache is in low/high (2-core) mode.[0m
+[0;33mW (540) esp_psram: Virtual address not enough for PSRAM, map as much as we can. 4MB is mapped[0m
+[0;32mI (548) cpu_start: Multicore app[0m
+[0;32mI (1457) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1465) cpu_start: Pro cpu start user code[0m
+[0;32mI (1465) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (1465) app_init: Application information:[0m
+[0;32mI (1465) app_init: Project name:     app-template[0m
+[0;32mI (1469) app_init: App version:      93387cc-dirty[0m
+[0;32mI (1474) app_init: Compile time:     Feb 13 2025 08:46:17[0m
+[0;32mI (1479) app_init: ELF file SHA256:  539672980...[0m
+[0;32mI (1483) app_init: ESP-IDF:          v5.5-dev-1655-gc5865270b5[0m
+[0;32mI (1489) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (1493) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (1497) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (1501) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1507) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (1512) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (1518) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (1523) heap_init: At 3FFDB0C8 len 00004F38 (19 KiB): DRAM[0m
+[0;32mI (1528) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (1534) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (1539) heap_init: At 4009F540 len 00000AC0 (2 KiB): IRAM[0m
+[0;32mI (1545) esp_psram: Adding pool of 4096K of PSRAM memory to heap allocator[0m
+[0;32mI (1553) spi_flash: detected chip: gd[0m
+[0;32mI (1555) spi_flash: flash io: dio[0m
+[0;32mI (1559) coexist: coex firmware version: 5e934a2[0m
+[0;32mI (1563) main_task: Started on CPU0[0m
+[0;32mI (1573) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1573) main_task: Calling app_main()[0m
+🚀 StrumLight ESP32 Classic Bluetooth Starting...
+🚀 Initializing Classic Bluetooth...
+[0;32mI (1603) BTDM_INIT: BT controller compile version [194dd63][0m
+[0;32mI (1603) BTDM_INIT: Bluetooth MAC: 94:54:c5:78:5d:b6[0m
+[0;32mI (1603) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+✅ Classic Bluetooth initialized as 'StrumLight_WROVER' and is now DISCOVERABLE!
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+[1;31mE (12383) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[0;33mW (12383) BT_HCI: hcif conn complete: hdl 0x80, st 0x0[0m
+[1;31mE (12463) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[1;31mE (12503) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[1;31mE (12533) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[1;31mE (12533) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[1;31mE (12593) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[1;31mE (12693) BT_OSI: osi_mem_dbg_clean full transmit_fragment 358 !![0m
+
+[0;33mW (15803) BT_HCI: hcif disc complete: hdl 0x80, rsn 0x13[0m
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...
+📡 Bluetooth Running...

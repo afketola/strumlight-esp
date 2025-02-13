@@ -36,7 +36,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj: 
  /Users/austi/esp/esp-idf/components/log/include/esp_log.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /Users/austi/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_config.h \
  /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/austi/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -49,19 +49,16 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj: 
  /Users/austi/esp/esp-idf/components/xtensa/include/xt_trax.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/eri.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa-debug-module.h \
- /Users/austi/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/esp_system/port/include/private/esp_private/trax.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/eri.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa-debug-module.h \
- /Users/austi/esp/esp-idf/components/hal/esp32s3/include/hal/trace_ll.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/interrupt_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core0_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/hal/esp32/include/hal/trace_ll.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/interrupt_core1_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/system_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/register/soc/sensitive_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32s3/include/soc/tracemem_config.h
+ /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/tracemem_config.h

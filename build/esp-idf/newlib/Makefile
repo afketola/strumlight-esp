@@ -415,6 +415,30 @@ src/port/esp_time_impl.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.s
 .PHONY : src/port/esp_time_impl.c.s
 
+src/port/xtensa/stdatomic_s32c1i.obj: src/port/xtensa/stdatomic_s32c1i.c.obj
+.PHONY : src/port/xtensa/stdatomic_s32c1i.obj
+
+# target to build an object file
+src/port/xtensa/stdatomic_s32c1i.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.obj
+.PHONY : src/port/xtensa/stdatomic_s32c1i.c.obj
+
+src/port/xtensa/stdatomic_s32c1i.i: src/port/xtensa/stdatomic_s32c1i.c.i
+.PHONY : src/port/xtensa/stdatomic_s32c1i.i
+
+# target to preprocess a source file
+src/port/xtensa/stdatomic_s32c1i.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.i
+.PHONY : src/port/xtensa/stdatomic_s32c1i.c.i
+
+src/port/xtensa/stdatomic_s32c1i.s: src/port/xtensa/stdatomic_s32c1i.c.s
+.PHONY : src/port/xtensa/stdatomic_s32c1i.s
+
+# target to generate assembly for a file
+src/port/xtensa/stdatomic_s32c1i.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.s
+.PHONY : src/port/xtensa/stdatomic_s32c1i.c.s
+
 src/pthread.obj: src/pthread.c.obj
 .PHONY : src/pthread.obj
 
@@ -722,6 +746,9 @@ help:
 	@echo "... src/port/esp_time_impl.obj"
 	@echo "... src/port/esp_time_impl.i"
 	@echo "... src/port/esp_time_impl.s"
+	@echo "... src/port/xtensa/stdatomic_s32c1i.obj"
+	@echo "... src/port/xtensa/stdatomic_s32c1i.i"
+	@echo "... src/port/xtensa/stdatomic_s32c1i.s"
 	@echo "... src/pthread.obj"
 	@echo "... src/pthread.i"
 	@echo "... src/pthread.s"

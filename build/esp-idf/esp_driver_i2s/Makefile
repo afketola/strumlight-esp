@@ -271,30 +271,6 @@ i2s_std.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.s
 .PHONY : i2s_std.c.s
 
-i2s_tdm.obj: i2s_tdm.c.obj
-.PHONY : i2s_tdm.obj
-
-# target to build an object file
-i2s_tdm.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.obj
-.PHONY : i2s_tdm.c.obj
-
-i2s_tdm.i: i2s_tdm.c.i
-.PHONY : i2s_tdm.i
-
-# target to preprocess a source file
-i2s_tdm.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.i
-.PHONY : i2s_tdm.c.i
-
-i2s_tdm.s: i2s_tdm.c.s
-.PHONY : i2s_tdm.s
-
-# target to generate assembly for a file
-i2s_tdm.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_tdm.c.s
-.PHONY : i2s_tdm.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,9 +296,6 @@ help:
 	@echo "... i2s_std.obj"
 	@echo "... i2s_std.i"
 	@echo "... i2s_std.s"
-	@echo "... i2s_tdm.obj"
-	@echo "... i2s_tdm.i"
-	@echo "... i2s_tdm.s"
 .PHONY : help
 
 
