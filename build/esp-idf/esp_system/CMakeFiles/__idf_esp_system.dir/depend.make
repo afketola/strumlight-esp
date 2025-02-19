@@ -18,13 +18,13 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -37,8 +37,8 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
  config/sdkconfig.h
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S \
@@ -55,6 +55,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -66,21 +67,23 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_w
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_config.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
- /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
- /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_timer.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -93,27 +96,27 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handle
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_timer.h \
  config/sdkconfig.h
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/austi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_config.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
- /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
- /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_timer.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reg_base.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
- /Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h \
+ /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -126,8 +129,6 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_timer.h \
  config/sdkconfig.h

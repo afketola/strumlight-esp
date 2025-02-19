@@ -535,53 +535,29 @@ commands.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.s
 .PHONY : commands.c.s
 
-esp_console_common.obj: esp_console_common.c.obj
-.PHONY : esp_console_common.obj
+esp_console_repl.obj: esp_console_repl.c.obj
+.PHONY : esp_console_repl.obj
 
 # target to build an object file
-esp_console_common.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.obj
-.PHONY : esp_console_common.c.obj
+esp_console_repl.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj
+.PHONY : esp_console_repl.c.obj
 
-esp_console_common.i: esp_console_common.c.i
-.PHONY : esp_console_common.i
-
-# target to preprocess a source file
-esp_console_common.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.i
-.PHONY : esp_console_common.c.i
-
-esp_console_common.s: esp_console_common.c.s
-.PHONY : esp_console_common.s
-
-# target to generate assembly for a file
-esp_console_common.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.s
-.PHONY : esp_console_common.c.s
-
-esp_console_repl_chip.obj: esp_console_repl_chip.c.obj
-.PHONY : esp_console_repl_chip.obj
-
-# target to build an object file
-esp_console_repl_chip.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj
-.PHONY : esp_console_repl_chip.c.obj
-
-esp_console_repl_chip.i: esp_console_repl_chip.c.i
-.PHONY : esp_console_repl_chip.i
+esp_console_repl.i: esp_console_repl.c.i
+.PHONY : esp_console_repl.i
 
 # target to preprocess a source file
-esp_console_repl_chip.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.i
-.PHONY : esp_console_repl_chip.c.i
+esp_console_repl.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.i
+.PHONY : esp_console_repl.c.i
 
-esp_console_repl_chip.s: esp_console_repl_chip.c.s
-.PHONY : esp_console_repl_chip.s
+esp_console_repl.s: esp_console_repl.c.s
+.PHONY : esp_console_repl.s
 
 # target to generate assembly for a file
-esp_console_repl_chip.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.s
-.PHONY : esp_console_repl_chip.c.s
+esp_console_repl.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/console/CMakeFiles/__idf_console.dir/build.make esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.s
+.PHONY : esp_console_repl.c.s
 
 linenoise/linenoise.obj: linenoise/linenoise.c.obj
 .PHONY : linenoise/linenoise.obj
@@ -689,12 +665,9 @@ help:
 	@echo "... commands.obj"
 	@echo "... commands.i"
 	@echo "... commands.s"
-	@echo "... esp_console_common.obj"
-	@echo "... esp_console_common.i"
-	@echo "... esp_console_common.s"
-	@echo "... esp_console_repl_chip.obj"
-	@echo "... esp_console_repl_chip.i"
-	@echo "... esp_console_repl_chip.s"
+	@echo "... esp_console_repl.obj"
+	@echo "... esp_console_repl.i"
+	@echo "... esp_console_repl.s"
 	@echo "... linenoise/linenoise.obj"
 	@echo "... linenoise/linenoise.i"
 	@echo "... linenoise/linenoise.s"

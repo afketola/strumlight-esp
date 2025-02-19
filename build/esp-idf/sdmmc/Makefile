@@ -175,30 +175,6 @@ __idf_sdmmc/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
 .PHONY : __idf_sdmmc/fast
 
-sd_pwr_ctrl/sd_pwr_ctrl.obj: sd_pwr_ctrl/sd_pwr_ctrl.c.obj
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.obj
-
-# target to build an object file
-sd_pwr_ctrl/sd_pwr_ctrl.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.obj
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.c.obj
-
-sd_pwr_ctrl/sd_pwr_ctrl.i: sd_pwr_ctrl/sd_pwr_ctrl.c.i
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.i
-
-# target to preprocess a source file
-sd_pwr_ctrl/sd_pwr_ctrl.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.i
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.c.i
-
-sd_pwr_ctrl/sd_pwr_ctrl.s: sd_pwr_ctrl/sd_pwr_ctrl.c.s
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.s
-
-# target to generate assembly for a file
-sd_pwr_ctrl/sd_pwr_ctrl.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.s
-.PHONY : sd_pwr_ctrl/sd_pwr_ctrl.c.s
-
 sdmmc_cmd.obj: sdmmc_cmd.c.obj
 .PHONY : sdmmc_cmd.obj
 
@@ -356,9 +332,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_sdmmc"
-	@echo "... sd_pwr_ctrl/sd_pwr_ctrl.obj"
-	@echo "... sd_pwr_ctrl/sd_pwr_ctrl.i"
-	@echo "... sd_pwr_ctrl/sd_pwr_ctrl.s"
 	@echo "... sdmmc_cmd.obj"
 	@echo "... sdmmc_cmd.i"
 	@echo "... sdmmc_cmd.s"

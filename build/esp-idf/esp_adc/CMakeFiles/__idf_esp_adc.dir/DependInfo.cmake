@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj" "gcc" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_adc/deprecated/esp_adc_cal_common_legacy.c" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj" "gcc" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_adc/esp32/adc_cali_line_fitting.c" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj" "gcc" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/esp_adc/esp32/adc_dma.c" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj" "gcc" "esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

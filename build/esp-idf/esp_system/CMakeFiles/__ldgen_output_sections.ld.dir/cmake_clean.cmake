@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/__ldgen_output_sections.ld"
   "ld/sections.ld"
-  "ld/sections.ld.in"
 )
 
 # Per-language clean rules from dependency scanning.

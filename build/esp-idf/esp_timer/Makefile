@@ -199,30 +199,6 @@ src/esp_timer.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.s
 .PHONY : src/esp_timer.c.s
 
-src/esp_timer_impl_common.obj: src/esp_timer_impl_common.c.obj
-.PHONY : src/esp_timer_impl_common.obj
-
-# target to build an object file
-src/esp_timer_impl_common.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_common.c.obj
-.PHONY : src/esp_timer_impl_common.c.obj
-
-src/esp_timer_impl_common.i: src/esp_timer_impl_common.c.i
-.PHONY : src/esp_timer_impl_common.i
-
-# target to preprocess a source file
-src/esp_timer_impl_common.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_common.c.i
-.PHONY : src/esp_timer_impl_common.c.i
-
-src/esp_timer_impl_common.s: src/esp_timer_impl_common.c.s
-.PHONY : src/esp_timer_impl_common.s
-
-# target to generate assembly for a file
-src/esp_timer_impl_common.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_common.c.s
-.PHONY : src/esp_timer_impl_common.c.s
-
 src/esp_timer_impl_lac.obj: src/esp_timer_impl_lac.c.obj
 .PHONY : src/esp_timer_impl_lac.obj
 
@@ -246,30 +222,6 @@ src/esp_timer_impl_lac.s: src/esp_timer_impl_lac.c.s
 src/esp_timer_impl_lac.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_lac.c.s
 .PHONY : src/esp_timer_impl_lac.c.s
-
-src/esp_timer_init.obj: src/esp_timer_init.c.obj
-.PHONY : src/esp_timer_init.obj
-
-# target to build an object file
-src/esp_timer_init.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_init.c.obj
-.PHONY : src/esp_timer_init.c.obj
-
-src/esp_timer_init.i: src/esp_timer_init.c.i
-.PHONY : src/esp_timer_init.i
-
-# target to preprocess a source file
-src/esp_timer_init.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_init.c.i
-.PHONY : src/esp_timer_init.c.i
-
-src/esp_timer_init.s: src/esp_timer_init.c.s
-.PHONY : src/esp_timer_init.s
-
-# target to generate assembly for a file
-src/esp_timer_init.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_init.c.s
-.PHONY : src/esp_timer_init.c.s
 
 src/ets_timer_legacy.obj: src/ets_timer_legacy.c.obj
 .PHONY : src/ets_timer_legacy.obj
@@ -335,15 +287,9 @@ help:
 	@echo "... src/esp_timer.obj"
 	@echo "... src/esp_timer.i"
 	@echo "... src/esp_timer.s"
-	@echo "... src/esp_timer_impl_common.obj"
-	@echo "... src/esp_timer_impl_common.i"
-	@echo "... src/esp_timer_impl_common.s"
 	@echo "... src/esp_timer_impl_lac.obj"
 	@echo "... src/esp_timer_impl_lac.i"
 	@echo "... src/esp_timer_impl_lac.s"
-	@echo "... src/esp_timer_init.obj"
-	@echo "... src/esp_timer_init.i"
-	@echo "... src/esp_timer_init.s"
 	@echo "... src/ets_timer_legacy.obj"
 	@echo "... src/ets_timer_legacy.i"
 	@echo "... src/ets_timer_legacy.s"

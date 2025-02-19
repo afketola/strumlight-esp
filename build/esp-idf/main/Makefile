@@ -223,30 +223,6 @@ main.cpp.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-protocol_parser.obj: protocol_parser.cpp.obj
-.PHONY : protocol_parser.obj
-
-# target to build an object file
-protocol_parser.cpp.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.obj
-.PHONY : protocol_parser.cpp.obj
-
-protocol_parser.i: protocol_parser.cpp.i
-.PHONY : protocol_parser.i
-
-# target to preprocess a source file
-protocol_parser.cpp.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.i
-.PHONY : protocol_parser.cpp.i
-
-protocol_parser.s: protocol_parser.cpp.s
-.PHONY : protocol_parser.s
-
-# target to generate assembly for a file
-protocol_parser.cpp.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/protocol_parser.cpp.s
-.PHONY : protocol_parser.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,9 +242,6 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... protocol_parser.obj"
-	@echo "... protocol_parser.i"
-	@echo "... protocol_parser.s"
 .PHONY : help
 
 

@@ -176,34 +176,6 @@ __idf_esp_system/fast:
 .PHONY : __idf_esp_system/fast
 
 # Convenience name for target.
-esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
-.PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
-
-# Convenience name for target.
-memory.ld: esp-idf/esp_system/CMakeFiles/memory.ld.dir/rule
-.PHONY : memory.ld
-
-# fast build rule for target.
-memory.ld/fast:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/memory.ld.dir/build.make esp-idf/esp_system/CMakeFiles/memory.ld.dir/build
-.PHONY : memory.ld/fast
-
-# Convenience name for target.
-esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
-.PHONY : esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
-
-# Convenience name for target.
-sections.ld.in: esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/rule
-.PHONY : sections.ld.in
-
-# fast build rule for target.
-sections.ld.in/fast:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build.make esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/build
-.PHONY : sections.ld.in/fast
-
-# Convenience name for target.
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule
 .PHONY : esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/rule
@@ -216,6 +188,20 @@ __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_section
 __ldgen_output_sections.ld/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build
 .PHONY : __ldgen_output_sections.ld/fast
+
+# Convenience name for target.
+esp-idf/esp_system/CMakeFiles/memory_ld.dir/rule:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/memory_ld.dir/rule
+.PHONY : esp-idf/esp_system/CMakeFiles/memory_ld.dir/rule
+
+# Convenience name for target.
+memory_ld: esp-idf/esp_system/CMakeFiles/memory_ld.dir/rule
+.PHONY : memory_ld
+
+# fast build rule for target.
+memory_ld/fast:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/memory_ld.dir/build.make esp-idf/esp_system/CMakeFiles/memory_ld.dir/build
+.PHONY : memory_ld/fast
 
 crosscore_int.obj: crosscore_int.c.obj
 .PHONY : crosscore_int.obj
@@ -240,6 +226,30 @@ crosscore_int.s: crosscore_int.c.s
 crosscore_int.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.s
 .PHONY : crosscore_int.c.s
+
+debug_stubs.obj: debug_stubs.c.obj
+.PHONY : debug_stubs.obj
+
+# target to build an object file
+debug_stubs.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.obj
+.PHONY : debug_stubs.c.obj
+
+debug_stubs.i: debug_stubs.c.i
+.PHONY : debug_stubs.i
+
+# target to preprocess a source file
+debug_stubs.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.i
+.PHONY : debug_stubs.c.i
+
+debug_stubs.s: debug_stubs.c.s
+.PHONY : debug_stubs.s
+
+# target to generate assembly for a file
+debug_stubs.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.s
+.PHONY : debug_stubs.c.s
 
 esp_err.obj: esp_err.c.obj
 .PHONY : esp_err.obj
@@ -441,6 +451,30 @@ port/arch/xtensa/debug_stubs.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.s
 .PHONY : port/arch/xtensa/debug_stubs.c.s
 
+port/arch/xtensa/esp_ipc_isr.obj: port/arch/xtensa/esp_ipc_isr.c.obj
+.PHONY : port/arch/xtensa/esp_ipc_isr.obj
+
+# target to build an object file
+port/arch/xtensa/esp_ipc_isr.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.obj
+.PHONY : port/arch/xtensa/esp_ipc_isr.c.obj
+
+port/arch/xtensa/esp_ipc_isr.i: port/arch/xtensa/esp_ipc_isr.c.i
+.PHONY : port/arch/xtensa/esp_ipc_isr.i
+
+# target to preprocess a source file
+port/arch/xtensa/esp_ipc_isr.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.i
+.PHONY : port/arch/xtensa/esp_ipc_isr.c.i
+
+port/arch/xtensa/esp_ipc_isr.s: port/arch/xtensa/esp_ipc_isr.c.s
+.PHONY : port/arch/xtensa/esp_ipc_isr.s
+
+# target to generate assembly for a file
+port/arch/xtensa/esp_ipc_isr.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr.c.s
+.PHONY : port/arch/xtensa/esp_ipc_isr.c.s
+
 port/arch/xtensa/esp_ipc_isr_handler.obj: port/arch/xtensa/esp_ipc_isr_handler.S.obj
 .PHONY : port/arch/xtensa/esp_ipc_isr_handler.obj
 
@@ -448,30 +482,6 @@ port/arch/xtensa/esp_ipc_isr_handler.obj: port/arch/xtensa/esp_ipc_isr_handler.S
 port/arch/xtensa/esp_ipc_isr_handler.S.obj:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj
 .PHONY : port/arch/xtensa/esp_ipc_isr_handler.S.obj
-
-port/arch/xtensa/esp_ipc_isr_port.obj: port/arch/xtensa/esp_ipc_isr_port.c.obj
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.obj
-
-# target to build an object file
-port/arch/xtensa/esp_ipc_isr_port.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_port.c.obj
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.c.obj
-
-port/arch/xtensa/esp_ipc_isr_port.i: port/arch/xtensa/esp_ipc_isr_port.c.i
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.i
-
-# target to preprocess a source file
-port/arch/xtensa/esp_ipc_isr_port.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_port.c.i
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.c.i
-
-port/arch/xtensa/esp_ipc_isr_port.s: port/arch/xtensa/esp_ipc_isr_port.c.s
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.s
-
-# target to generate assembly for a file
-port/arch/xtensa/esp_ipc_isr_port.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_port.c.s
-.PHONY : port/arch/xtensa/esp_ipc_isr_port.c.s
 
 port/arch/xtensa/esp_ipc_isr_routines.obj: port/arch/xtensa/esp_ipc_isr_routines.S.obj
 .PHONY : port/arch/xtensa/esp_ipc_isr_routines.obj
@@ -569,6 +579,30 @@ port/arch/xtensa/trax.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.s
 .PHONY : port/arch/xtensa/trax.c.s
 
+port/brownout.obj: port/brownout.c.obj
+.PHONY : port/brownout.obj
+
+# target to build an object file
+port/brownout.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.obj
+.PHONY : port/brownout.c.obj
+
+port/brownout.i: port/brownout.c.i
+.PHONY : port/brownout.i
+
+# target to preprocess a source file
+port/brownout.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.i
+.PHONY : port/brownout.c.i
+
+port/brownout.s: port/brownout.c.s
+.PHONY : port/brownout.s
+
+# target to generate assembly for a file
+port/brownout.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/brownout.c.s
+.PHONY : port/brownout.c.s
+
 port/cpu_start.obj: port/cpu_start.c.obj
 .PHONY : port/cpu_start.obj
 
@@ -593,30 +627,6 @@ port/cpu_start.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.s
 .PHONY : port/cpu_start.c.s
 
-port/esp_ipc_isr.obj: port/esp_ipc_isr.c.obj
-.PHONY : port/esp_ipc_isr.obj
-
-# target to build an object file
-port/esp_ipc_isr.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.obj
-.PHONY : port/esp_ipc_isr.c.obj
-
-port/esp_ipc_isr.i: port/esp_ipc_isr.c.i
-.PHONY : port/esp_ipc_isr.i
-
-# target to preprocess a source file
-port/esp_ipc_isr.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.i
-.PHONY : port/esp_ipc_isr.c.i
-
-port/esp_ipc_isr.s: port/esp_ipc_isr.c.s
-.PHONY : port/esp_ipc_isr.s
-
-# target to generate assembly for a file
-port/esp_ipc_isr.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.s
-.PHONY : port/esp_ipc_isr.c.s
-
 port/esp_system_chip.obj: port/esp_system_chip.c.obj
 .PHONY : port/esp_system_chip.obj
 
@@ -640,30 +650,6 @@ port/esp_system_chip.s: port/esp_system_chip.c.s
 port/esp_system_chip.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_system_chip.c.s
 .PHONY : port/esp_system_chip.c.s
-
-port/image_process.obj: port/image_process.c.obj
-.PHONY : port/image_process.obj
-
-# target to build an object file
-port/image_process.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/image_process.c.obj
-.PHONY : port/image_process.c.obj
-
-port/image_process.i: port/image_process.c.i
-.PHONY : port/image_process.i
-
-# target to preprocess a source file
-port/image_process.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/image_process.c.i
-.PHONY : port/image_process.c.i
-
-port/image_process.s: port/image_process.c.s
-.PHONY : port/image_process.s
-
-# target to generate assembly for a file
-port/image_process.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/image_process.c.s
-.PHONY : port/image_process.c.s
 
 port/panic_handler.obj: port/panic_handler.c.obj
 .PHONY : port/panic_handler.obj
@@ -841,30 +827,6 @@ startup.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.s
 .PHONY : startup.c.s
 
-startup_funcs.obj: startup_funcs.c.obj
-.PHONY : startup_funcs.obj
-
-# target to build an object file
-startup_funcs.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup_funcs.c.obj
-.PHONY : startup_funcs.c.obj
-
-startup_funcs.i: startup_funcs.c.i
-.PHONY : startup_funcs.i
-
-# target to preprocess a source file
-startup_funcs.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup_funcs.c.i
-.PHONY : startup_funcs.c.i
-
-startup_funcs.s: startup_funcs.c.s
-.PHONY : startup_funcs.s
-
-# target to generate assembly for a file
-startup_funcs.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup_funcs.c.s
-.PHONY : startup_funcs.c.s
-
 system_time.obj: system_time.c.obj
 .PHONY : system_time.obj
 
@@ -998,12 +960,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __ldgen_output_sections.ld"
-	@echo "... memory.ld"
-	@echo "... sections.ld.in"
+	@echo "... memory_ld"
 	@echo "... __idf_esp_system"
 	@echo "... crosscore_int.obj"
 	@echo "... crosscore_int.i"
 	@echo "... crosscore_int.s"
+	@echo "... debug_stubs.obj"
+	@echo "... debug_stubs.i"
+	@echo "... debug_stubs.s"
 	@echo "... esp_err.obj"
 	@echo "... esp_err.i"
 	@echo "... esp_err.s"
@@ -1029,10 +993,10 @@ help:
 	@echo "... port/arch/xtensa/debug_stubs.obj"
 	@echo "... port/arch/xtensa/debug_stubs.i"
 	@echo "... port/arch/xtensa/debug_stubs.s"
+	@echo "... port/arch/xtensa/esp_ipc_isr.obj"
+	@echo "... port/arch/xtensa/esp_ipc_isr.i"
+	@echo "... port/arch/xtensa/esp_ipc_isr.s"
 	@echo "... port/arch/xtensa/esp_ipc_isr_handler.obj"
-	@echo "... port/arch/xtensa/esp_ipc_isr_port.obj"
-	@echo "... port/arch/xtensa/esp_ipc_isr_port.i"
-	@echo "... port/arch/xtensa/esp_ipc_isr_port.s"
 	@echo "... port/arch/xtensa/esp_ipc_isr_routines.obj"
 	@echo "... port/arch/xtensa/expression_with_stack.obj"
 	@echo "... port/arch/xtensa/expression_with_stack.i"
@@ -1045,18 +1009,15 @@ help:
 	@echo "... port/arch/xtensa/trax.obj"
 	@echo "... port/arch/xtensa/trax.i"
 	@echo "... port/arch/xtensa/trax.s"
+	@echo "... port/brownout.obj"
+	@echo "... port/brownout.i"
+	@echo "... port/brownout.s"
 	@echo "... port/cpu_start.obj"
 	@echo "... port/cpu_start.i"
 	@echo "... port/cpu_start.s"
-	@echo "... port/esp_ipc_isr.obj"
-	@echo "... port/esp_ipc_isr.i"
-	@echo "... port/esp_ipc_isr.s"
 	@echo "... port/esp_system_chip.obj"
 	@echo "... port/esp_system_chip.i"
 	@echo "... port/esp_system_chip.s"
-	@echo "... port/image_process.obj"
-	@echo "... port/image_process.i"
-	@echo "... port/image_process.s"
 	@echo "... port/panic_handler.obj"
 	@echo "... port/panic_handler.i"
 	@echo "... port/panic_handler.s"
@@ -1079,9 +1040,6 @@ help:
 	@echo "... startup.obj"
 	@echo "... startup.i"
 	@echo "... startup.s"
-	@echo "... startup_funcs.obj"
-	@echo "... startup_funcs.i"
-	@echo "... startup_funcs.s"
 	@echo "... system_time.obj"
 	@echo "... system_time.i"
 	@echo "... system_time.s"

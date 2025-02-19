@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj.d"
   "CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj"
   "CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj.d"
-  "CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.obj"
-  "CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.obj.d"
   "libesp-tls.a"
   "libesp-tls.pdb"
 )

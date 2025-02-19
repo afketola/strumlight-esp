@@ -271,6 +271,30 @@ esp_psram.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
 .PHONY : esp_psram.c.s
 
+mmu_psram_flash.obj: mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.obj
+
+# target to build an object file
+mmu_psram_flash.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj
+.PHONY : mmu_psram_flash.c.obj
+
+mmu_psram_flash.i: mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.i
+
+# target to preprocess a source file
+mmu_psram_flash.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i
+.PHONY : mmu_psram_flash.c.i
+
+mmu_psram_flash.s: mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.s
+
+# target to generate assembly for a file
+mmu_psram_flash.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s
+.PHONY : mmu_psram_flash.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +320,9 @@ help:
 	@echo "... esp_psram.obj"
 	@echo "... esp_psram.i"
 	@echo "... esp_psram.s"
+	@echo "... mmu_psram_flash.obj"
+	@echo "... mmu_psram_flash.i"
+	@echo "... mmu_psram_flash.s"
 .PHONY : help
 
 

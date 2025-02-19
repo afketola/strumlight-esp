@@ -223,78 +223,6 @@ src/coexist.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist.c.s
 .PHONY : src/coexist.c.s
 
-src/coexist_debug.obj: src/coexist_debug.c.obj
-.PHONY : src/coexist_debug.obj
-
-# target to build an object file
-src/coexist_debug.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj
-.PHONY : src/coexist_debug.c.obj
-
-src/coexist_debug.i: src/coexist_debug.c.i
-.PHONY : src/coexist_debug.i
-
-# target to preprocess a source file
-src/coexist_debug.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.i
-.PHONY : src/coexist_debug.c.i
-
-src/coexist_debug.s: src/coexist_debug.c.s
-.PHONY : src/coexist_debug.s
-
-# target to generate assembly for a file
-src/coexist_debug.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.s
-.PHONY : src/coexist_debug.c.s
-
-src/coexist_debug_diagram.obj: src/coexist_debug_diagram.c.obj
-.PHONY : src/coexist_debug_diagram.obj
-
-# target to build an object file
-src/coexist_debug_diagram.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj
-.PHONY : src/coexist_debug_diagram.c.obj
-
-src/coexist_debug_diagram.i: src/coexist_debug_diagram.c.i
-.PHONY : src/coexist_debug_diagram.i
-
-# target to preprocess a source file
-src/coexist_debug_diagram.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.i
-.PHONY : src/coexist_debug_diagram.c.i
-
-src/coexist_debug_diagram.s: src/coexist_debug_diagram.c.s
-.PHONY : src/coexist_debug_diagram.s
-
-# target to generate assembly for a file
-src/coexist_debug_diagram.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.s
-.PHONY : src/coexist_debug_diagram.c.s
-
-src/lib_printf.obj: src/lib_printf.c.obj
-.PHONY : src/lib_printf.obj
-
-# target to build an object file
-src/lib_printf.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/lib_printf.c.obj
-.PHONY : src/lib_printf.c.obj
-
-src/lib_printf.i: src/lib_printf.c.i
-.PHONY : src/lib_printf.i
-
-# target to preprocess a source file
-src/lib_printf.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/lib_printf.c.i
-.PHONY : src/lib_printf.c.i
-
-src/lib_printf.s: src/lib_printf.c.s
-.PHONY : src/lib_printf.s
-
-# target to generate assembly for a file
-src/lib_printf.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/lib_printf.c.s
-.PHONY : src/lib_printf.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,15 +242,6 @@ help:
 	@echo "... src/coexist.obj"
 	@echo "... src/coexist.i"
 	@echo "... src/coexist.s"
-	@echo "... src/coexist_debug.obj"
-	@echo "... src/coexist_debug.i"
-	@echo "... src/coexist_debug.s"
-	@echo "... src/coexist_debug_diagram.obj"
-	@echo "... src/coexist_debug_diagram.i"
-	@echo "... src/coexist_debug_diagram.s"
-	@echo "... src/lib_printf.obj"
-	@echo "... src/lib_printf.i"
-	@echo "... src/lib_printf.s"
 .PHONY : help
 
 

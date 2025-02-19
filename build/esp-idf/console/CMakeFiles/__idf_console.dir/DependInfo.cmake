@@ -23,8 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/console/argtable3/arg_utils.c" "esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj.d"
   "/Users/austi/esp/esp-idf/components/console/argtable3/argtable3.c" "esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj.d"
   "/Users/austi/esp/esp-idf/components/console/commands.c" "esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/console/esp_console_common.c" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_common.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/console/esp_console_repl_chip.c" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl_chip.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/console/esp_console_repl.c" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj.d"
   "/Users/austi/esp/esp-idf/components/console/linenoise/linenoise.c" "esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj.d"
   "/Users/austi/esp/esp-idf/components/console/split_argv.c" "esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj" "gcc" "esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj.d"
   )

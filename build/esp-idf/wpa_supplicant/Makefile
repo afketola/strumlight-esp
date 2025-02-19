@@ -271,30 +271,6 @@ esp_supplicant/src/crypto/crypto_mbedtls.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.s
 .PHONY : esp_supplicant/src/crypto/crypto_mbedtls.c.s
 
-esp_supplicant/src/crypto/fastpbkdf2.obj: esp_supplicant/src/crypto/fastpbkdf2.c.obj
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.obj
-
-# target to build an object file
-esp_supplicant/src/crypto/fastpbkdf2.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.obj
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.c.obj
-
-esp_supplicant/src/crypto/fastpbkdf2.i: esp_supplicant/src/crypto/fastpbkdf2.c.i
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.i
-
-# target to preprocess a source file
-esp_supplicant/src/crypto/fastpbkdf2.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.i
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.c.i
-
-esp_supplicant/src/crypto/fastpbkdf2.s: esp_supplicant/src/crypto/fastpbkdf2.c.s
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.s
-
-# target to generate assembly for a file
-esp_supplicant/src/crypto/fastpbkdf2.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.s
-.PHONY : esp_supplicant/src/crypto/fastpbkdf2.c.s
-
 esp_supplicant/src/crypto/tls_mbedtls.obj: esp_supplicant/src/crypto/tls_mbedtls.c.obj
 .PHONY : esp_supplicant/src/crypto/tls_mbedtls.obj
 
@@ -342,30 +318,6 @@ esp_supplicant/src/esp_common.s: esp_supplicant/src/esp_common.c.s
 esp_supplicant/src/esp_common.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.s
 .PHONY : esp_supplicant/src/esp_common.c.s
-
-esp_supplicant/src/esp_eap_client.obj: esp_supplicant/src/esp_eap_client.c.obj
-.PHONY : esp_supplicant/src/esp_eap_client.obj
-
-# target to build an object file
-esp_supplicant/src/esp_eap_client.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.obj
-.PHONY : esp_supplicant/src/esp_eap_client.c.obj
-
-esp_supplicant/src/esp_eap_client.i: esp_supplicant/src/esp_eap_client.c.i
-.PHONY : esp_supplicant/src/esp_eap_client.i
-
-# target to preprocess a source file
-esp_supplicant/src/esp_eap_client.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.i
-.PHONY : esp_supplicant/src/esp_eap_client.c.i
-
-esp_supplicant/src/esp_eap_client.s: esp_supplicant/src/esp_eap_client.c.s
-.PHONY : esp_supplicant/src/esp_eap_client.s
-
-# target to generate assembly for a file
-esp_supplicant/src/esp_eap_client.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.s
-.PHONY : esp_supplicant/src/esp_eap_client.c.s
 
 esp_supplicant/src/esp_hostap.obj: esp_supplicant/src/esp_hostap.c.obj
 .PHONY : esp_supplicant/src/esp_hostap.obj
@@ -415,29 +367,53 @@ esp_supplicant/src/esp_owe.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.s
 .PHONY : esp_supplicant/src/esp_owe.c.s
 
-esp_supplicant/src/esp_wpa2_api_port.obj: esp_supplicant/src/esp_wpa2_api_port.c.obj
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.obj
+esp_supplicant/src/esp_scan.obj: esp_supplicant/src/esp_scan.c.obj
+.PHONY : esp_supplicant/src/esp_scan.obj
 
 # target to build an object file
-esp_supplicant/src/esp_wpa2_api_port.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.obj
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.c.obj
+esp_supplicant/src/esp_scan.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_scan.c.obj
+.PHONY : esp_supplicant/src/esp_scan.c.obj
 
-esp_supplicant/src/esp_wpa2_api_port.i: esp_supplicant/src/esp_wpa2_api_port.c.i
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.i
+esp_supplicant/src/esp_scan.i: esp_supplicant/src/esp_scan.c.i
+.PHONY : esp_supplicant/src/esp_scan.i
 
 # target to preprocess a source file
-esp_supplicant/src/esp_wpa2_api_port.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.i
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.c.i
+esp_supplicant/src/esp_scan.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_scan.c.i
+.PHONY : esp_supplicant/src/esp_scan.c.i
 
-esp_supplicant/src/esp_wpa2_api_port.s: esp_supplicant/src/esp_wpa2_api_port.c.s
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.s
+esp_supplicant/src/esp_scan.s: esp_supplicant/src/esp_scan.c.s
+.PHONY : esp_supplicant/src/esp_scan.s
 
 # target to generate assembly for a file
-esp_supplicant/src/esp_wpa2_api_port.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.s
-.PHONY : esp_supplicant/src/esp_wpa2_api_port.c.s
+esp_supplicant/src/esp_scan.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_scan.c.s
+.PHONY : esp_supplicant/src/esp_scan.c.s
+
+esp_supplicant/src/esp_wpa2.obj: esp_supplicant/src/esp_wpa2.c.obj
+.PHONY : esp_supplicant/src/esp_wpa2.obj
+
+# target to build an object file
+esp_supplicant/src/esp_wpa2.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.obj
+.PHONY : esp_supplicant/src/esp_wpa2.c.obj
+
+esp_supplicant/src/esp_wpa2.i: esp_supplicant/src/esp_wpa2.c.i
+.PHONY : esp_supplicant/src/esp_wpa2.i
+
+# target to preprocess a source file
+esp_supplicant/src/esp_wpa2.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.i
+.PHONY : esp_supplicant/src/esp_wpa2.c.i
+
+esp_supplicant/src/esp_wpa2.s: esp_supplicant/src/esp_wpa2.c.s
+.PHONY : esp_supplicant/src/esp_wpa2.s
+
+# target to generate assembly for a file
+esp_supplicant/src/esp_wpa2.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.s
+.PHONY : esp_supplicant/src/esp_wpa2.c.s
 
 esp_supplicant/src/esp_wpa3.obj: esp_supplicant/src/esp_wpa3.c.obj
 .PHONY : esp_supplicant/src/esp_wpa3.obj
@@ -775,6 +751,30 @@ src/ap/wpa_auth_ie.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.s
 .PHONY : src/ap/wpa_auth_ie.c.s
 
+src/common/bss.obj: src/common/bss.c.obj
+.PHONY : src/common/bss.obj
+
+# target to build an object file
+src/common/bss.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/bss.c.obj
+.PHONY : src/common/bss.c.obj
+
+src/common/bss.i: src/common/bss.c.i
+.PHONY : src/common/bss.i
+
+# target to preprocess a source file
+src/common/bss.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/bss.c.i
+.PHONY : src/common/bss.c.i
+
+src/common/bss.s: src/common/bss.c.s
+.PHONY : src/common/bss.s
+
+# target to generate assembly for a file
+src/common/bss.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/bss.c.s
+.PHONY : src/common/bss.c.s
+
 src/common/dragonfly.obj: src/common/dragonfly.c.obj
 .PHONY : src/common/dragonfly.obj
 
@@ -870,6 +870,30 @@ src/common/sae_pk.s: src/common/sae_pk.c.s
 src/common/sae_pk.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.s
 .PHONY : src/common/sae_pk.c.s
+
+src/common/scan.obj: src/common/scan.c.obj
+.PHONY : src/common/scan.obj
+
+# target to build an object file
+src/common/scan.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/scan.c.obj
+.PHONY : src/common/scan.c.obj
+
+src/common/scan.i: src/common/scan.c.i
+.PHONY : src/common/scan.i
+
+# target to preprocess a source file
+src/common/scan.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/scan.c.i
+.PHONY : src/common/scan.c.i
+
+src/common/scan.s: src/common/scan.c.s
+.PHONY : src/common/scan.s
+
+# target to generate assembly for a file
+src/common/scan.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/scan.c.s
+.PHONY : src/common/scan.c.s
 
 src/common/wpa_common.obj: src/common/wpa_common.c.obj
 .PHONY : src/common/wpa_common.obj
@@ -2192,27 +2216,24 @@ help:
 	@echo "... esp_supplicant/src/crypto/crypto_mbedtls.obj"
 	@echo "... esp_supplicant/src/crypto/crypto_mbedtls.i"
 	@echo "... esp_supplicant/src/crypto/crypto_mbedtls.s"
-	@echo "... esp_supplicant/src/crypto/fastpbkdf2.obj"
-	@echo "... esp_supplicant/src/crypto/fastpbkdf2.i"
-	@echo "... esp_supplicant/src/crypto/fastpbkdf2.s"
 	@echo "... esp_supplicant/src/crypto/tls_mbedtls.obj"
 	@echo "... esp_supplicant/src/crypto/tls_mbedtls.i"
 	@echo "... esp_supplicant/src/crypto/tls_mbedtls.s"
 	@echo "... esp_supplicant/src/esp_common.obj"
 	@echo "... esp_supplicant/src/esp_common.i"
 	@echo "... esp_supplicant/src/esp_common.s"
-	@echo "... esp_supplicant/src/esp_eap_client.obj"
-	@echo "... esp_supplicant/src/esp_eap_client.i"
-	@echo "... esp_supplicant/src/esp_eap_client.s"
 	@echo "... esp_supplicant/src/esp_hostap.obj"
 	@echo "... esp_supplicant/src/esp_hostap.i"
 	@echo "... esp_supplicant/src/esp_hostap.s"
 	@echo "... esp_supplicant/src/esp_owe.obj"
 	@echo "... esp_supplicant/src/esp_owe.i"
 	@echo "... esp_supplicant/src/esp_owe.s"
-	@echo "... esp_supplicant/src/esp_wpa2_api_port.obj"
-	@echo "... esp_supplicant/src/esp_wpa2_api_port.i"
-	@echo "... esp_supplicant/src/esp_wpa2_api_port.s"
+	@echo "... esp_supplicant/src/esp_scan.obj"
+	@echo "... esp_supplicant/src/esp_scan.i"
+	@echo "... esp_supplicant/src/esp_scan.s"
+	@echo "... esp_supplicant/src/esp_wpa2.obj"
+	@echo "... esp_supplicant/src/esp_wpa2.i"
+	@echo "... esp_supplicant/src/esp_wpa2.s"
 	@echo "... esp_supplicant/src/esp_wpa3.obj"
 	@echo "... esp_supplicant/src/esp_wpa3.i"
 	@echo "... esp_supplicant/src/esp_wpa3.s"
@@ -2255,6 +2276,9 @@ help:
 	@echo "... src/ap/wpa_auth_ie.obj"
 	@echo "... src/ap/wpa_auth_ie.i"
 	@echo "... src/ap/wpa_auth_ie.s"
+	@echo "... src/common/bss.obj"
+	@echo "... src/common/bss.i"
+	@echo "... src/common/bss.s"
 	@echo "... src/common/dragonfly.obj"
 	@echo "... src/common/dragonfly.i"
 	@echo "... src/common/dragonfly.s"
@@ -2267,6 +2291,9 @@ help:
 	@echo "... src/common/sae_pk.obj"
 	@echo "... src/common/sae_pk.i"
 	@echo "... src/common/sae_pk.s"
+	@echo "... src/common/scan.obj"
+	@echo "... src/common/scan.i"
+	@echo "... src/common/scan.s"
 	@echo "... src/common/wpa_common.obj"
 	@echo "... src/common/wpa_common.i"
 	@echo "... src/common/wpa_common.s"

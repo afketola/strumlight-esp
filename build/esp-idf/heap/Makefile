@@ -199,30 +199,6 @@ heap_caps.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.s
 .PHONY : heap_caps.c.s
 
-heap_caps_base.obj: heap_caps_base.c.obj
-.PHONY : heap_caps_base.obj
-
-# target to build an object file
-heap_caps_base.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_base.c.obj
-.PHONY : heap_caps_base.c.obj
-
-heap_caps_base.i: heap_caps_base.c.i
-.PHONY : heap_caps_base.i
-
-# target to preprocess a source file
-heap_caps_base.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_base.c.i
-.PHONY : heap_caps_base.c.i
-
-heap_caps_base.s: heap_caps_base.c.s
-.PHONY : heap_caps_base.s
-
-# target to generate assembly for a file
-heap_caps_base.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/heap/CMakeFiles/__idf_heap.dir/build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_base.c.s
-.PHONY : heap_caps_base.c.s
-
 heap_caps_init.obj: heap_caps_init.c.obj
 .PHONY : heap_caps_init.obj
 
@@ -359,9 +335,6 @@ help:
 	@echo "... heap_caps.obj"
 	@echo "... heap_caps.i"
 	@echo "... heap_caps.s"
-	@echo "... heap_caps_base.obj"
-	@echo "... heap_caps_base.i"
-	@echo "... heap_caps_base.s"
 	@echo "... heap_caps_init.obj"
 	@echo "... heap_caps_init.i"
 	@echo "... heap_caps_init.s"

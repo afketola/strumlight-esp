@@ -223,30 +223,6 @@ cxx_guards.cpp.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.s
 .PHONY : cxx_guards.cpp.s
 
-cxx_init.obj: cxx_init.cpp.obj
-.PHONY : cxx_init.obj
-
-# target to build an object file
-cxx_init.cpp.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
-.PHONY : cxx_init.cpp.obj
-
-cxx_init.i: cxx_init.cpp.i
-.PHONY : cxx_init.i
-
-# target to preprocess a source file
-cxx_init.cpp.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.i
-.PHONY : cxx_init.cpp.i
-
-cxx_init.s: cxx_init.cpp.s
-.PHONY : cxx_init.s
-
-# target to generate assembly for a file
-cxx_init.cpp.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.s
-.PHONY : cxx_init.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,9 +242,6 @@ help:
 	@echo "... cxx_guards.obj"
 	@echo "... cxx_guards.i"
 	@echo "... cxx_guards.s"
-	@echo "... cxx_init.obj"
-	@echo "... cxx_init.i"
-	@echo "... cxx_init.s"
 .PHONY : help
 
 

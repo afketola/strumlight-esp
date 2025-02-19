@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
+  set(CMAKE_OBJDUMP "/Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -45,7 +45,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1write.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/block_cipher.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/camellia.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ccm.h"
@@ -55,12 +54,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cmac.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/compat-2.x.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_from_psa.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/constant_time.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h"
@@ -76,6 +69,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/gcm.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/hkdf.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h"
+    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/legacy_or_psa.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/lms.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h"
@@ -99,7 +93,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha3.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h"
@@ -118,23 +111,15 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/psa" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/build_info.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_dependencies.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_builtin_key_derivation.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_builtin_primitives.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_compat.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_config.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_common.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_contexts_key_derivation.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_contexts_primitives.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_extra.h"
-    "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_platform.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_se_driver.h"
     "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_sizes.h"

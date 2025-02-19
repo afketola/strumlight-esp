@@ -195,19 +195,6 @@ erase_flash/fast:
 .PHONY : erase_flash/fast
 
 #=============================================================================
-# Target rules for targets named merge-bin
-
-# Build rule for target.
-merge-bin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 merge-bin
-.PHONY : merge-bin
-
-# fast build rule for target.
-merge-bin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/build
-.PHONY : merge-bin/fast
-
-#=============================================================================
 # Target rules for targets named monitor
 
 # Build rule for target.
@@ -286,19 +273,6 @@ size-components/fast:
 .PHONY : size-components/fast
 
 #=============================================================================
-# Target rules for targets named uf2
-
-# Build rule for target.
-uf2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uf2
-.PHONY : uf2
-
-# fast build rule for target.
-uf2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/build
-.PHONY : uf2/fast
-
-#=============================================================================
 # Target rules for targets named uf2-app
 
 # Build rule for target.
@@ -310,6 +284,19 @@ uf2-app: cmake_check_build_system
 uf2-app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2-app.dir/build.make CMakeFiles/uf2-app.dir/build
 .PHONY : uf2-app/fast
+
+#=============================================================================
+# Target rules for targets named uf2
+
+# Build rule for target.
+uf2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uf2
+.PHONY : uf2
+
+# fast build rule for target.
+uf2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/build
+.PHONY : uf2/fast
 
 #=============================================================================
 # Target rules for targets named __idf_xtensa
@@ -377,17 +364,17 @@ __idf_spi_flash/fast:
 .PHONY : __idf_spi_flash/fast
 
 #=============================================================================
-# Target rules for targets named __idf_esp_bootloader_format
+# Target rules for targets named __idf_esp_app_format
 
 # Build rule for target.
-__idf_esp_bootloader_format: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_bootloader_format
-.PHONY : __idf_esp_bootloader_format
+__idf_esp_app_format: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_app_format
+.PHONY : __idf_esp_app_format
 
 # fast build rule for target.
-__idf_esp_bootloader_format/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build.make esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build
-.PHONY : __idf_esp_bootloader_format/fast
+__idf_esp_app_format/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build
+.PHONY : __idf_esp_app_format/fast
 
 #=============================================================================
 # Target rules for targets named __idf_bootloader_support
@@ -641,7 +628,6 @@ help:
 	@echo "... erase_flash"
 	@echo "... gen_project_binary"
 	@echo "... menuconfig"
-	@echo "... merge-bin"
 	@echo "... monitor"
 	@echo "... save-defconfig"
 	@echo "... show-efuse-table"
@@ -653,7 +639,7 @@ help:
 	@echo "... uf2-app"
 	@echo "... __idf_bootloader_support"
 	@echo "... __idf_efuse"
-	@echo "... __idf_esp_bootloader_format"
+	@echo "... __idf_esp_app_format"
 	@echo "... __idf_esp_common"
 	@echo "... __idf_esp_hw_support"
 	@echo "... __idf_esp_rom"

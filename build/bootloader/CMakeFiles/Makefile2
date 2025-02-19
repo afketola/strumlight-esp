@@ -85,15 +85,14 @@ clean: CMakeFiles/save-defconfig.dir/clean
 clean: CMakeFiles/gen_project_binary.dir/clean
 clean: CMakeFiles/app.dir/clean
 clean: CMakeFiles/erase_flash.dir/clean
-clean: CMakeFiles/merge-bin.dir/clean
 clean: CMakeFiles/monitor.dir/clean
 clean: CMakeFiles/_project_elf_src.dir/clean
 clean: CMakeFiles/bootloader.elf.dir/clean
 clean: CMakeFiles/size.dir/clean
 clean: CMakeFiles/size-files.dir/clean
 clean: CMakeFiles/size-components.dir/clean
-clean: CMakeFiles/uf2.dir/clean
 clean: CMakeFiles/uf2-app.dir/clean
+clean: CMakeFiles/uf2.dir/clean
 clean: esp-idf/clean
 	$(CMAKE_COMMAND) -P CMakeFiles/cmake_directory_clean.cmake
 .PHONY : clean
@@ -108,11 +107,9 @@ esp-idf/all: esp-idf/soc/all
 esp-idf/all: esp-idf/micro-ecc/all
 esp-idf/all: esp-idf/hal/all
 esp-idf/all: esp-idf/spi_flash/all
-esp-idf/all: esp-idf/esp_bootloader_format/all
 esp-idf/all: esp-idf/esp_app_format/all
 esp-idf/all: esp-idf/bootloader_support/all
 esp-idf/all: esp-idf/efuse/all
-esp-idf/all: esp-idf/esp_security/all
 esp-idf/all: esp-idf/esp_system/all
 esp-idf/all: esp-idf/esp_hw_support/all
 esp-idf/all: esp-idf/esp_common/all
@@ -132,11 +129,9 @@ esp-idf/codegen: esp-idf/soc/codegen
 esp-idf/codegen: esp-idf/micro-ecc/codegen
 esp-idf/codegen: esp-idf/hal/codegen
 esp-idf/codegen: esp-idf/spi_flash/codegen
-esp-idf/codegen: esp-idf/esp_bootloader_format/codegen
 esp-idf/codegen: esp-idf/esp_app_format/codegen
 esp-idf/codegen: esp-idf/bootloader_support/codegen
 esp-idf/codegen: esp-idf/efuse/codegen
-esp-idf/codegen: esp-idf/esp_security/codegen
 esp-idf/codegen: esp-idf/esp_system/codegen
 esp-idf/codegen: esp-idf/esp_hw_support/codegen
 esp-idf/codegen: esp-idf/esp_common/codegen
@@ -156,11 +151,9 @@ esp-idf/preinstall: esp-idf/soc/preinstall
 esp-idf/preinstall: esp-idf/micro-ecc/preinstall
 esp-idf/preinstall: esp-idf/hal/preinstall
 esp-idf/preinstall: esp-idf/spi_flash/preinstall
-esp-idf/preinstall: esp-idf/esp_bootloader_format/preinstall
 esp-idf/preinstall: esp-idf/esp_app_format/preinstall
 esp-idf/preinstall: esp-idf/bootloader_support/preinstall
 esp-idf/preinstall: esp-idf/efuse/preinstall
-esp-idf/preinstall: esp-idf/esp_security/preinstall
 esp-idf/preinstall: esp-idf/esp_system/preinstall
 esp-idf/preinstall: esp-idf/esp_hw_support/preinstall
 esp-idf/preinstall: esp-idf/esp_common/preinstall
@@ -180,11 +173,9 @@ esp-idf/clean: esp-idf/soc/clean
 esp-idf/clean: esp-idf/micro-ecc/clean
 esp-idf/clean: esp-idf/hal/clean
 esp-idf/clean: esp-idf/spi_flash/clean
-esp-idf/clean: esp-idf/esp_bootloader_format/clean
 esp-idf/clean: esp-idf/esp_app_format/clean
 esp-idf/clean: esp-idf/bootloader_support/clean
 esp-idf/clean: esp-idf/efuse/clean
-esp-idf/clean: esp-idf/esp_security/clean
 esp-idf/clean: esp-idf/esp_system/clean
 esp-idf/clean: esp-idf/esp_hw_support/clean
 esp-idf/clean: esp-idf/esp_common/clean
@@ -265,11 +256,11 @@ esp-idf/efuse/clean: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 # Directory level rules for directory esp-idf/esp_app_format
 
 # Recursive "all" directory target.
-esp-idf/esp_app_format/all:
+esp-idf/esp_app_format/all: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/all
 .PHONY : esp-idf/esp_app_format/all
 
 # Recursive "codegen" directory target.
-esp-idf/esp_app_format/codegen:
+esp-idf/esp_app_format/codegen: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/codegen
 .PHONY : esp-idf/esp_app_format/codegen
 
 # Recursive "preinstall" directory target.
@@ -277,27 +268,8 @@ esp-idf/esp_app_format/preinstall:
 .PHONY : esp-idf/esp_app_format/preinstall
 
 # Recursive "clean" directory target.
-esp-idf/esp_app_format/clean:
+esp-idf/esp_app_format/clean: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/clean
 .PHONY : esp-idf/esp_app_format/clean
-
-#=============================================================================
-# Directory level rules for directory esp-idf/esp_bootloader_format
-
-# Recursive "all" directory target.
-esp-idf/esp_bootloader_format/all: esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/all
-.PHONY : esp-idf/esp_bootloader_format/all
-
-# Recursive "codegen" directory target.
-esp-idf/esp_bootloader_format/codegen: esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/codegen
-.PHONY : esp-idf/esp_bootloader_format/codegen
-
-# Recursive "preinstall" directory target.
-esp-idf/esp_bootloader_format/preinstall:
-.PHONY : esp-idf/esp_bootloader_format/preinstall
-
-# Recursive "clean" directory target.
-esp-idf/esp_bootloader_format/clean: esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/clean
-.PHONY : esp-idf/esp_bootloader_format/clean
 
 #=============================================================================
 # Directory level rules for directory esp-idf/esp_common
@@ -324,44 +296,21 @@ esp-idf/esp_common/clean: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/cle
 # Recursive "all" directory target.
 esp-idf/esp_hw_support/all: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 esp-idf/esp_hw_support/all: esp-idf/esp_hw_support/port/esp32/all
-esp-idf/esp_hw_support/all: esp-idf/esp_hw_support/lowpower/all
 .PHONY : esp-idf/esp_hw_support/all
 
 # Recursive "codegen" directory target.
 esp-idf/esp_hw_support/codegen: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/codegen
 esp-idf/esp_hw_support/codegen: esp-idf/esp_hw_support/port/esp32/codegen
-esp-idf/esp_hw_support/codegen: esp-idf/esp_hw_support/lowpower/codegen
 .PHONY : esp-idf/esp_hw_support/codegen
 
 # Recursive "preinstall" directory target.
 esp-idf/esp_hw_support/preinstall: esp-idf/esp_hw_support/port/esp32/preinstall
-esp-idf/esp_hw_support/preinstall: esp-idf/esp_hw_support/lowpower/preinstall
 .PHONY : esp-idf/esp_hw_support/preinstall
 
 # Recursive "clean" directory target.
 esp-idf/esp_hw_support/clean: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clean
 esp-idf/esp_hw_support/clean: esp-idf/esp_hw_support/port/esp32/clean
-esp-idf/esp_hw_support/clean: esp-idf/esp_hw_support/lowpower/clean
 .PHONY : esp-idf/esp_hw_support/clean
-
-#=============================================================================
-# Directory level rules for directory esp-idf/esp_hw_support/lowpower
-
-# Recursive "all" directory target.
-esp-idf/esp_hw_support/lowpower/all:
-.PHONY : esp-idf/esp_hw_support/lowpower/all
-
-# Recursive "codegen" directory target.
-esp-idf/esp_hw_support/lowpower/codegen:
-.PHONY : esp-idf/esp_hw_support/lowpower/codegen
-
-# Recursive "preinstall" directory target.
-esp-idf/esp_hw_support/lowpower/preinstall:
-.PHONY : esp-idf/esp_hw_support/lowpower/preinstall
-
-# Recursive "clean" directory target.
-esp-idf/esp_hw_support/lowpower/clean:
-.PHONY : esp-idf/esp_hw_support/lowpower/clean
 
 #=============================================================================
 # Directory level rules for directory esp-idf/esp_hw_support/port/esp32
@@ -400,25 +349,6 @@ esp-idf/esp_rom/preinstall:
 # Recursive "clean" directory target.
 esp-idf/esp_rom/clean: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/clean
 .PHONY : esp-idf/esp_rom/clean
-
-#=============================================================================
-# Directory level rules for directory esp-idf/esp_security
-
-# Recursive "all" directory target.
-esp-idf/esp_security/all:
-.PHONY : esp-idf/esp_security/all
-
-# Recursive "codegen" directory target.
-esp-idf/esp_security/codegen:
-.PHONY : esp-idf/esp_security/codegen
-
-# Recursive "preinstall" directory target.
-esp-idf/esp_security/preinstall:
-.PHONY : esp-idf/esp_security/preinstall
-
-# Recursive "clean" directory target.
-esp-idf/esp_security/clean:
-.PHONY : esp-idf/esp_security/clean
 
 #=============================================================================
 # Directory level rules for directory esp-idf/esp_system
@@ -766,7 +696,7 @@ gen_project_binary: CMakeFiles/gen_project_binary.dir/rule
 .PHONY : gen_project_binary
 
 # codegen rule for target.
-CMakeFiles/gen_project_binary.dir/codegen:
+CMakeFiles/gen_project_binary.dir/codegen: CMakeFiles/bootloader.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen_project_binary.dir/build.make CMakeFiles/gen_project_binary.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=99 "Finished codegen for target gen_project_binary"
 .PHONY : CMakeFiles/gen_project_binary.dir/codegen
@@ -843,42 +773,10 @@ CMakeFiles/erase_flash.dir/clean:
 .PHONY : CMakeFiles/erase_flash.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/merge-bin.dir
-
-# All Build rule for target.
-CMakeFiles/merge-bin.dir/all: CMakeFiles/gen_project_binary.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Built target merge-bin"
-.PHONY : CMakeFiles/merge-bin.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/merge-bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 97
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/merge-bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
-.PHONY : CMakeFiles/merge-bin.dir/rule
-
-# Convenience name for target.
-merge-bin: CMakeFiles/merge-bin.dir/rule
-.PHONY : merge-bin
-
-# codegen rule for target.
-CMakeFiles/merge-bin.dir/codegen: CMakeFiles/gen_project_binary.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Finished codegen for target merge-bin"
-.PHONY : CMakeFiles/merge-bin.dir/codegen
-
-# clean rule for target.
-CMakeFiles/merge-bin.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge-bin.dir/build.make CMakeFiles/merge-bin.dir/clean
-.PHONY : CMakeFiles/merge-bin.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/monitor.dir
 
 # All Build rule for target.
-CMakeFiles/monitor.dir/all: CMakeFiles/bootloader.elf.dir/all
+CMakeFiles/monitor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Built target monitor"
@@ -886,7 +784,7 @@ CMakeFiles/monitor.dir/all: CMakeFiles/bootloader.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/monitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/monitor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : CMakeFiles/monitor.dir/rule
@@ -913,7 +811,7 @@ CMakeFiles/monitor.dir/clean:
 CMakeFiles/_project_elf_src.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_project_elf_src.dir/build.make CMakeFiles/_project_elf_src.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_project_elf_src.dir/build.make CMakeFiles/_project_elf_src.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=94 "Built target _project_elf_src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=93 "Built target _project_elf_src"
 .PHONY : CMakeFiles/_project_elf_src.dir/all
 
 # Build rule for subdir invocation for target.
@@ -930,7 +828,7 @@ _project_elf_src: CMakeFiles/_project_elf_src.dir/rule
 # codegen rule for target.
 CMakeFiles/_project_elf_src.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_project_elf_src.dir/build.make CMakeFiles/_project_elf_src.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=94 "Finished codegen for target _project_elf_src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=93 "Finished codegen for target _project_elf_src"
 .PHONY : CMakeFiles/_project_elf_src.dir/codegen
 
 # clean rule for target.
@@ -947,7 +845,7 @@ CMakeFiles/bootloader.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/al
 CMakeFiles/bootloader.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=95,96 "Built target bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=94,95,96 "Built target bootloader.elf"
 .PHONY : CMakeFiles/bootloader.elf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -964,7 +862,7 @@ bootloader.elf: CMakeFiles/bootloader.elf.dir/rule
 # codegen rule for target.
 CMakeFiles/bootloader.elf.dir/codegen: CMakeFiles/_project_elf_src.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader.elf.dir/build.make CMakeFiles/bootloader.elf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=95,96 "Finished codegen for target bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=94,95,96 "Finished codegen for target bootloader.elf"
 .PHONY : CMakeFiles/bootloader.elf.dir/codegen
 
 # clean rule for target.
@@ -1069,42 +967,10 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/uf2.dir
-
-# All Build rule for target.
-CMakeFiles/uf2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Built target uf2"
-.PHONY : CMakeFiles/uf2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/uf2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uf2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
-.PHONY : CMakeFiles/uf2.dir/rule
-
-# Convenience name for target.
-uf2: CMakeFiles/uf2.dir/rule
-.PHONY : uf2
-
-# codegen rule for target.
-CMakeFiles/uf2.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Finished codegen for target uf2"
-.PHONY : CMakeFiles/uf2.dir/codegen
-
-# clean rule for target.
-CMakeFiles/uf2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/clean
-.PHONY : CMakeFiles/uf2.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/uf2-app.dir
 
 # All Build rule for target.
-CMakeFiles/uf2-app.dir/all:
+CMakeFiles/uf2-app.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2-app.dir/build.make CMakeFiles/uf2-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2-app.dir/build.make CMakeFiles/uf2-app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Built target uf2-app"
@@ -1112,7 +978,7 @@ CMakeFiles/uf2-app.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uf2-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 97
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uf2-app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : CMakeFiles/uf2-app.dir/rule
@@ -1122,7 +988,7 @@ uf2-app: CMakeFiles/uf2-app.dir/rule
 .PHONY : uf2-app
 
 # codegen rule for target.
-CMakeFiles/uf2-app.dir/codegen:
+CMakeFiles/uf2-app.dir/codegen: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2-app.dir/build.make CMakeFiles/uf2-app.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Finished codegen for target uf2-app"
 .PHONY : CMakeFiles/uf2-app.dir/codegen
@@ -1133,18 +999,50 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/uf2.dir
+
+# All Build rule for target.
+CMakeFiles/uf2.dir/all: CMakeFiles/gen_project_binary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Built target uf2"
+.PHONY : CMakeFiles/uf2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uf2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 97
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uf2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
+.PHONY : CMakeFiles/uf2.dir/rule
+
+# Convenience name for target.
+uf2: CMakeFiles/uf2.dir/rule
+.PHONY : uf2
+
+# codegen rule for target.
+CMakeFiles/uf2.dir/codegen: CMakeFiles/gen_project_binary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num= "Finished codegen for target uf2"
+.PHONY : CMakeFiles/uf2.dir/codegen
+
+# clean rule for target.
+CMakeFiles/uf2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uf2.dir/build.make CMakeFiles/uf2.dir/clean
+.PHONY : CMakeFiles/uf2.dir/clean
+
+#=============================================================================
 # Target rules for target esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir
 
 # All Build rule for target.
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all: esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=91,92,93 "Built target __idf_xtensa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=90,91,92 "Built target __idf_xtensa"
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 91
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 90
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule
@@ -1156,7 +1054,7 @@ __idf_xtensa: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule
 # codegen rule for target.
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=91,92,93 "Finished codegen for target __idf_xtensa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=90,91,92 "Finished codegen for target __idf_xtensa"
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/codegen
 
 # clean rule for target.
@@ -1171,12 +1069,12 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/clean:
 esp-idf/soc/CMakeFiles/__idf_soc.dir/all: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target __idf_soc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Built target __idf_soc"
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 88
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 87
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
@@ -1188,7 +1086,7 @@ __idf_soc: esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 # codegen rule for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Finished codegen for target __idf_soc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Finished codegen for target __idf_soc"
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen
 
 # clean rule for target.
@@ -1203,12 +1101,12 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/clean:
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/all: esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build.make esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build.make esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=65 "Built target __idf_micro-ecc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=64,65 "Built target __idf_micro-ecc"
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/rule
@@ -1220,7 +1118,7 @@ __idf_micro-ecc: esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/rule
 # codegen rule for target.
 esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/build.make esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=65 "Finished codegen for target __idf_micro-ecc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=64,65 "Finished codegen for target __idf_micro-ecc"
 .PHONY : esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/codegen
 
 # clean rule for target.
@@ -1235,7 +1133,7 @@ esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/clean:
 esp-idf/hal/CMakeFiles/__idf_hal.dir/all: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=49,50,51,52,53,54,55 "Built target __idf_hal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=52,53,54,55,56,57 "Built target __idf_hal"
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1252,7 +1150,7 @@ __idf_hal: esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 # codegen rule for target.
 esp-idf/hal/CMakeFiles/__idf_hal.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=49,50,51,52,53,54,55 "Finished codegen for target __idf_hal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=52,53,54,55,56,57 "Finished codegen for target __idf_hal"
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/codegen
 
 # clean rule for target.
@@ -1264,15 +1162,15 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/clean:
 # Target rules for target esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
 
 # All Build rule for target.
-esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all: esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/all
+esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=90 "Built target __idf_spi_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=88,89 "Built target __idf_spi_flash"
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
@@ -1284,7 +1182,7 @@ __idf_spi_flash: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 # codegen rule for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=90 "Finished codegen for target __idf_spi_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=88,89 "Finished codegen for target __idf_spi_flash"
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/codegen
 
 # clean rule for target.
@@ -1293,36 +1191,36 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean:
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean
 
 #=============================================================================
-# Target rules for target esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+# Target rules for target esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir
 
 # All Build rule for target.
-esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/all: esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build.make esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/depend
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build.make esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=27,28 "Built target __idf_esp_bootloader_format"
-.PHONY : esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/all
+esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/all: esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/depend
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=31,32 "Built target __idf_esp_app_format"
+.PHONY : esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/all
 
 # Build rule for subdir invocation for target.
-esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/rule: cmake_check_build_system
+esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 55
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
-.PHONY : esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/rule
+.PHONY : esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule
 
 # Convenience name for target.
-__idf_esp_bootloader_format: esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/rule
-.PHONY : __idf_esp_bootloader_format
+__idf_esp_app_format: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule
+.PHONY : __idf_esp_app_format
 
 # codegen rule for target.
-esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build.make esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=27,28 "Finished codegen for target __idf_esp_bootloader_format"
-.PHONY : esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/codegen
+esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=31,32 "Finished codegen for target __idf_esp_app_format"
+.PHONY : esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/codegen
 
 # clean rule for target.
-esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/clean:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/build.make esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/clean
-.PHONY : esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/clean
+esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/clean:
+	$(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/clean
+.PHONY : esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/clean
 
 #=============================================================================
 # Target rules for target esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
@@ -1331,7 +1229,7 @@ esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/clean:
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all: esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target __idf_bootloader_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target __idf_bootloader_support"
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1348,7 +1246,7 @@ __idf_bootloader_support: esp-idf/bootloader_support/CMakeFiles/__idf_bootloader
 # codegen rule for target.
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target __idf_bootloader_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target __idf_bootloader_support"
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/codegen
 
 # clean rule for target.
@@ -1363,12 +1261,12 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/clean:
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target __idf_efuse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=23,24,25,26,27,28,29,30 "Built target __idf_efuse"
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
@@ -1380,7 +1278,7 @@ __idf_efuse: esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
 # codegen rule for target.
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=21,22,23,24,25,26 "Finished codegen for target __idf_efuse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=23,24,25,26,27,28,29,30 "Finished codegen for target __idf_efuse"
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/codegen
 
 # clean rule for target.
@@ -1619,12 +1517,12 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=47,48 "Built target __idf_esp_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=51 "Built target __idf_esp_system"
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
@@ -1636,7 +1534,7 @@ __idf_esp_system: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
 # codegen rule for target.
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=47,48 "Finished codegen for target __idf_esp_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=51 "Finished codegen for target __idf_esp_system"
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/codegen
 
 # clean rule for target.
@@ -1651,12 +1549,12 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/clean:
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39 "Built target __idf_esp_hw_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43 "Built target __idf_esp_hw_support"
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
@@ -1668,7 +1566,7 @@ __idf_esp_hw_support: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
 # codegen rule for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39 "Finished codegen for target __idf_esp_hw_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43 "Finished codegen for target __idf_esp_hw_support"
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/codegen
 
 # clean rule for target.
@@ -1683,12 +1581,12 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clean:
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=29,30 "Built target __idf_esp_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=33 "Built target __idf_esp_common"
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
@@ -1700,7 +1598,7 @@ __idf_esp_common: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 # codegen rule for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=29,30 "Finished codegen for target __idf_esp_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=33 "Finished codegen for target __idf_esp_common"
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/codegen
 
 # clean rule for target.
@@ -1715,12 +1613,12 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/clean:
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all: esp-idf/log/CMakeFiles/__idf_log.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=40,41,42,43,44,45,46 "Built target __idf_esp_rom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=44,45,46,47,48,49,50 "Built target __idf_esp_rom"
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
@@ -1732,7 +1630,7 @@ __idf_esp_rom: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
 # codegen rule for target.
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=40,41,42,43,44,45,46 "Finished codegen for target __idf_esp_rom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=44,45,46,47,48,49,50 "Finished codegen for target __idf_esp_rom"
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/codegen
 
 # clean rule for target.
@@ -1747,12 +1645,12 @@ esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/clean:
 esp-idf/log/CMakeFiles/__idf_log.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=56,57,58,59,60,61,62 "Built target __idf_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=58,59,60,61 "Built target __idf_log"
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/rule
@@ -1764,7 +1662,7 @@ __idf_log: esp-idf/log/CMakeFiles/__idf_log.dir/rule
 # codegen rule for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/log/CMakeFiles/__idf_log.dir/build.make esp-idf/log/CMakeFiles/__idf_log.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=56,57,58,59,60,61,62 "Finished codegen for target __idf_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=58,59,60,61 "Finished codegen for target __idf_log"
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/codegen
 
 # clean rule for target.
@@ -1811,12 +1709,12 @@ esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/clean:
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=63,64 "Built target __idf_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=62,63 "Built target __idf_main"
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/main/CMakeFiles/__idf_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 92
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles 0
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/rule
@@ -1828,7 +1726,7 @@ __idf_main: esp-idf/main/CMakeFiles/__idf_main.dir/rule
 # codegen rule for target.
 esp-idf/main/CMakeFiles/__idf_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=63,64 "Finished codegen for target __idf_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=62,63 "Finished codegen for target __idf_main"
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/codegen
 
 # clean rule for target.

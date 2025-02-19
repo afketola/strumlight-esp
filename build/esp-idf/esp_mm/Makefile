@@ -247,30 +247,6 @@ esp_mmu_map.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.s
 .PHONY : esp_mmu_map.c.s
 
-heap_align_hw.obj: heap_align_hw.c.obj
-.PHONY : heap_align_hw.obj
-
-# target to build an object file
-heap_align_hw.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj
-.PHONY : heap_align_hw.c.obj
-
-heap_align_hw.i: heap_align_hw.c.i
-.PHONY : heap_align_hw.i
-
-# target to preprocess a source file
-heap_align_hw.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.i
-.PHONY : heap_align_hw.c.i
-
-heap_align_hw.s: heap_align_hw.c.s
-.PHONY : heap_align_hw.s
-
-# target to generate assembly for a file
-heap_align_hw.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/build.make esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.s
-.PHONY : heap_align_hw.c.s
-
 port/esp32/ext_mem_layout.obj: port/esp32/ext_mem_layout.c.obj
 .PHONY : port/esp32/ext_mem_layout.obj
 
@@ -317,9 +293,6 @@ help:
 	@echo "... esp_mmu_map.obj"
 	@echo "... esp_mmu_map.i"
 	@echo "... esp_mmu_map.s"
-	@echo "... heap_align_hw.obj"
-	@echo "... heap_align_hw.i"
-	@echo "... heap_align_hw.s"
 	@echo "... port/esp32/ext_mem_layout.obj"
 	@echo "... port/esp32/ext_mem_layout.i"
 	@echo "... port/esp32/ext_mem_layout.s"

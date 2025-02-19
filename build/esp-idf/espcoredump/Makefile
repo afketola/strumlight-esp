@@ -199,6 +199,30 @@ src/core_dump_binary.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.s
 .PHONY : src/core_dump_binary.c.s
 
+src/core_dump_checksum.obj: src/core_dump_checksum.c.obj
+.PHONY : src/core_dump_checksum.obj
+
+# target to build an object file
+src/core_dump_checksum.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj
+.PHONY : src/core_dump_checksum.c.obj
+
+src/core_dump_checksum.i: src/core_dump_checksum.c.i
+.PHONY : src/core_dump_checksum.i
+
+# target to preprocess a source file
+src/core_dump_checksum.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.i
+.PHONY : src/core_dump_checksum.c.i
+
+src/core_dump_checksum.s: src/core_dump_checksum.c.s
+.PHONY : src/core_dump_checksum.s
+
+# target to generate assembly for a file
+src/core_dump_checksum.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.s
+.PHONY : src/core_dump_checksum.c.s
+
 src/core_dump_common.obj: src/core_dump_common.c.obj
 .PHONY : src/core_dump_common.obj
 
@@ -222,30 +246,6 @@ src/core_dump_common.s: src/core_dump_common.c.s
 src/core_dump_common.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.s
 .PHONY : src/core_dump_common.c.s
-
-src/core_dump_crc.obj: src/core_dump_crc.c.obj
-.PHONY : src/core_dump_crc.obj
-
-# target to build an object file
-src/core_dump_crc.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.obj
-.PHONY : src/core_dump_crc.c.obj
-
-src/core_dump_crc.i: src/core_dump_crc.c.i
-.PHONY : src/core_dump_crc.i
-
-# target to preprocess a source file
-src/core_dump_crc.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.i
-.PHONY : src/core_dump_crc.c.i
-
-src/core_dump_crc.s: src/core_dump_crc.c.s
-.PHONY : src/core_dump_crc.s
-
-# target to generate assembly for a file
-src/core_dump_crc.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.s
-.PHONY : src/core_dump_crc.c.s
 
 src/core_dump_elf.obj: src/core_dump_elf.c.obj
 .PHONY : src/core_dump_elf.obj
@@ -294,54 +294,6 @@ src/core_dump_flash.s: src/core_dump_flash.c.s
 src/core_dump_flash.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.s
 .PHONY : src/core_dump_flash.c.s
-
-src/core_dump_init.obj: src/core_dump_init.c.obj
-.PHONY : src/core_dump_init.obj
-
-# target to build an object file
-src/core_dump_init.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.obj
-.PHONY : src/core_dump_init.c.obj
-
-src/core_dump_init.i: src/core_dump_init.c.i
-.PHONY : src/core_dump_init.i
-
-# target to preprocess a source file
-src/core_dump_init.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.i
-.PHONY : src/core_dump_init.c.i
-
-src/core_dump_init.s: src/core_dump_init.c.s
-.PHONY : src/core_dump_init.s
-
-# target to generate assembly for a file
-src/core_dump_init.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.s
-.PHONY : src/core_dump_init.c.s
-
-src/core_dump_sha.obj: src/core_dump_sha.c.obj
-.PHONY : src/core_dump_sha.obj
-
-# target to build an object file
-src/core_dump_sha.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.obj
-.PHONY : src/core_dump_sha.c.obj
-
-src/core_dump_sha.i: src/core_dump_sha.c.i
-.PHONY : src/core_dump_sha.i
-
-# target to preprocess a source file
-src/core_dump_sha.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.i
-.PHONY : src/core_dump_sha.c.i
-
-src/core_dump_sha.s: src/core_dump_sha.c.s
-.PHONY : src/core_dump_sha.s
-
-# target to generate assembly for a file
-src/core_dump_sha.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.s
-.PHONY : src/core_dump_sha.c.s
 
 src/core_dump_uart.obj: src/core_dump_uart.c.obj
 .PHONY : src/core_dump_uart.obj
@@ -407,24 +359,18 @@ help:
 	@echo "... src/core_dump_binary.obj"
 	@echo "... src/core_dump_binary.i"
 	@echo "... src/core_dump_binary.s"
+	@echo "... src/core_dump_checksum.obj"
+	@echo "... src/core_dump_checksum.i"
+	@echo "... src/core_dump_checksum.s"
 	@echo "... src/core_dump_common.obj"
 	@echo "... src/core_dump_common.i"
 	@echo "... src/core_dump_common.s"
-	@echo "... src/core_dump_crc.obj"
-	@echo "... src/core_dump_crc.i"
-	@echo "... src/core_dump_crc.s"
 	@echo "... src/core_dump_elf.obj"
 	@echo "... src/core_dump_elf.i"
 	@echo "... src/core_dump_elf.s"
 	@echo "... src/core_dump_flash.obj"
 	@echo "... src/core_dump_flash.i"
 	@echo "... src/core_dump_flash.s"
-	@echo "... src/core_dump_init.obj"
-	@echo "... src/core_dump_init.i"
-	@echo "... src/core_dump_init.s"
-	@echo "... src/core_dump_sha.obj"
-	@echo "... src/core_dump_sha.i"
-	@echo "... src/core_dump_sha.s"
 	@echo "... src/core_dump_uart.obj"
 	@echo "... src/core_dump_uart.i"
 	@echo "... src/core_dump_uart.s"

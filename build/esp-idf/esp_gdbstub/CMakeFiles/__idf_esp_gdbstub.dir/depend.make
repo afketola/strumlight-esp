@@ -3,9 +3,12 @@
 
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_config.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h \
- /Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
- /Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_timer.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h \
  /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
@@ -19,13 +22,12 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-ent
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_timer.h \
  config/sdkconfig.h
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj: \
  /Users/austi/esp/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S \
+ /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
@@ -37,5 +39,5 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexc
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
  /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h \
+ /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h

@@ -154,30 +154,6 @@ efuse_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s
 .PHONY : efuse_hal.c.s
 
-esp32/cache_hal_esp32.obj: esp32/cache_hal_esp32.c.obj
-.PHONY : esp32/cache_hal_esp32.obj
-
-# target to build an object file
-esp32/cache_hal_esp32.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
-.PHONY : esp32/cache_hal_esp32.c.obj
-
-esp32/cache_hal_esp32.i: esp32/cache_hal_esp32.c.i
-.PHONY : esp32/cache_hal_esp32.i
-
-# target to preprocess a source file
-esp32/cache_hal_esp32.c.i:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i
-.PHONY : esp32/cache_hal_esp32.c.i
-
-esp32/cache_hal_esp32.s: esp32/cache_hal_esp32.c.s
-.PHONY : esp32/cache_hal_esp32.s
-
-# target to generate assembly for a file
-esp32/cache_hal_esp32.c.s:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s
-.PHONY : esp32/cache_hal_esp32.c.s
-
 esp32/efuse_hal.obj: esp32/efuse_hal.c.obj
 .PHONY : esp32/efuse_hal.obj
 
@@ -201,30 +177,6 @@ esp32/efuse_hal.s: esp32/efuse_hal.c.s
 esp32/efuse_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.s
 .PHONY : esp32/efuse_hal.c.s
-
-hal_utils.obj: hal_utils.c.obj
-.PHONY : hal_utils.obj
-
-# target to build an object file
-hal_utils.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
-.PHONY : hal_utils.c.obj
-
-hal_utils.i: hal_utils.c.i
-.PHONY : hal_utils.i
-
-# target to preprocess a source file
-hal_utils.c.i:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
-.PHONY : hal_utils.c.i
-
-hal_utils.s: hal_utils.c.s
-.PHONY : hal_utils.s
-
-# target to generate assembly for a file
-hal_utils.c.s:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
-.PHONY : hal_utils.c.s
 
 mmu_hal.obj: mmu_hal.c.obj
 .PHONY : mmu_hal.obj
@@ -310,15 +262,9 @@ help:
 	@echo "... efuse_hal.obj"
 	@echo "... efuse_hal.i"
 	@echo "... efuse_hal.s"
-	@echo "... esp32/cache_hal_esp32.obj"
-	@echo "... esp32/cache_hal_esp32.i"
-	@echo "... esp32/cache_hal_esp32.s"
 	@echo "... esp32/efuse_hal.obj"
 	@echo "... esp32/efuse_hal.i"
 	@echo "... esp32/efuse_hal.s"
-	@echo "... hal_utils.obj"
-	@echo "... hal_utils.i"
-	@echo "... hal_utils.s"
 	@echo "... mmu_hal.obj"
 	@echo "... mmu_hal.i"
 	@echo "... mmu_hal.s"

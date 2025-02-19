@@ -80,15 +80,15 @@ CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/bootloader
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: project_elf_src_esp32.c
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -c /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c
+	/Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj -c /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i
+	/Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.i
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s"
-	/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s
+	/Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/strumlight-esp/build/bootloader/project_elf_src_esp32.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
@@ -104,7 +104,7 @@ bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/micro-ecc/libmicro-ecc.a
 bootloader.elf: esp-idf/hal/libhal.a
 bootloader.elf: esp-idf/spi_flash/libspi_flash.a
-bootloader.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+bootloader.elf: esp-idf/esp_app_format/libesp_app_format.a
 bootloader.elf: esp-idf/bootloader_support/libbootloader_support.a
 bootloader.elf: esp-idf/efuse/libefuse.a
 bootloader.elf: esp-idf/esp_system/libesp_system.a
@@ -118,7 +118,7 @@ bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/micro-ecc/libmicro-ecc.a
 bootloader.elf: esp-idf/hal/libhal.a
 bootloader.elf: esp-idf/spi_flash/libspi_flash.a
-bootloader.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+bootloader.elf: esp-idf/esp_app_format/libesp_app_format.a
 bootloader.elf: esp-idf/bootloader_support/libbootloader_support.a
 bootloader.elf: esp-idf/efuse/libefuse.a
 bootloader.elf: esp-idf/esp_system/libesp_system.a
@@ -131,7 +131,7 @@ bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/micro-ecc/libmicro-ecc.a
 bootloader.elf: esp-idf/hal/libhal.a
 bootloader.elf: esp-idf/spi_flash/libspi_flash.a
-bootloader.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+bootloader.elf: esp-idf/esp_app_format/libesp_app_format.a
 bootloader.elf: esp-idf/bootloader_support/libbootloader_support.a
 bootloader.elf: esp-idf/efuse/libefuse.a
 bootloader.elf: esp-idf/esp_system/libesp_system.a
@@ -144,7 +144,7 @@ bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/micro-ecc/libmicro-ecc.a
 bootloader.elf: esp-idf/hal/libhal.a
 bootloader.elf: esp-idf/spi_flash/libspi_flash.a
-bootloader.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+bootloader.elf: esp-idf/esp_app_format/libesp_app_format.a
 bootloader.elf: esp-idf/bootloader_support/libbootloader_support.a
 bootloader.elf: esp-idf/efuse/libefuse.a
 bootloader.elf: esp-idf/esp_system/libesp_system.a
@@ -157,7 +157,7 @@ bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/micro-ecc/libmicro-ecc.a
 bootloader.elf: esp-idf/hal/libhal.a
 bootloader.elf: esp-idf/spi_flash/libspi_flash.a
-bootloader.elf: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+bootloader.elf: esp-idf/esp_app_format/libesp_app_format.a
 bootloader.elf: esp-idf/bootloader_support/libbootloader_support.a
 bootloader.elf: esp-idf/efuse/libefuse.a
 bootloader.elf: esp-idf/esp_system/libesp_system.a
@@ -170,7 +170,7 @@ bootloader.elf: /Users/austi/esp/esp-idf/components/soc/esp32/ld/esp32.periphera
 bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
 bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
 bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
-bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+bootloader.elf: /Users/austi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
 bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
 bootloader.elf: /Users/austi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt

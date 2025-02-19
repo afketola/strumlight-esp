@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/austi/esp/strumlight-esp/build/config.env
-	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python -m kconfserver --env-file /Users/austi/esp/strumlight-esp/build/config.env --kconfig /Users/austi/esp/esp-idf/Kconfig --sdkconfig-rename /Users/austi/esp/esp-idf/sdkconfig.rename --config /Users/austi/esp/strumlight-esp/sdkconfig
+	/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/austi/esp/strumlight-esp/build/config.env
+	/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python -m kconfserver --env-file /Users/austi/esp/strumlight-esp/build/config.env --kconfig /Users/austi/esp/esp-idf/Kconfig --sdkconfig-rename /Users/austi/esp/esp-idf/sdkconfig.rename --config /Users/austi/esp/strumlight-esp/sdkconfig
 
 CMakeFiles/confserver.dir/codegen:
 .PHONY : CMakeFiles/confserver.dir/codegen

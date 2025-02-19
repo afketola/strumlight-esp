@@ -67,7 +67,7 @@ include CMakeFiles/size-files.dir/compiler_depend.make
 include CMakeFiles/size-files.dir/progress.make
 
 CMakeFiles/size-files: bootloader.map
-	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--files -D MAP_FILE=/Users/austi/esp/strumlight-esp/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /Users/austi/esp/esp-idf/tools/cmake/run_size_tool.cmake
+	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--files -D MAP_FILE=/Users/austi/esp/strumlight-esp/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /Users/austi/esp/esp-idf/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size-files.dir/codegen:
 .PHONY : CMakeFiles/size-files.dir/codegen

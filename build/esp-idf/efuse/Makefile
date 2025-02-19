@@ -417,30 +417,6 @@ src/esp_efuse_fields.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.s
 .PHONY : src/esp_efuse_fields.c.s
 
-src/esp_efuse_startup.obj: src/esp_efuse_startup.c.obj
-.PHONY : src/esp_efuse_startup.obj
-
-# target to build an object file
-src/esp_efuse_startup.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj
-.PHONY : src/esp_efuse_startup.c.obj
-
-src/esp_efuse_startup.i: src/esp_efuse_startup.c.i
-.PHONY : src/esp_efuse_startup.i
-
-# target to preprocess a source file
-src/esp_efuse_startup.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.i
-.PHONY : src/esp_efuse_startup.c.i
-
-src/esp_efuse_startup.s: src/esp_efuse_startup.c.s
-.PHONY : src/esp_efuse_startup.s
-
-# target to generate assembly for a file
-src/esp_efuse_startup.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.s
-.PHONY : src/esp_efuse_startup.c.s
-
 src/esp_efuse_utility.obj: src/esp_efuse_utility.c.obj
 .PHONY : src/esp_efuse_utility.obj
 
@@ -503,9 +479,6 @@ help:
 	@echo "... src/esp_efuse_fields.obj"
 	@echo "... src/esp_efuse_fields.i"
 	@echo "... src/esp_efuse_fields.s"
-	@echo "... src/esp_efuse_startup.obj"
-	@echo "... src/esp_efuse_startup.i"
-	@echo "... src/esp_efuse_startup.s"
 	@echo "... src/esp_efuse_utility.obj"
 	@echo "... src/esp_efuse_utility.i"
 	@echo "... src/esp_efuse_utility.s"

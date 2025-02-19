@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/unity/port/esp/unity_utils_memory_esp.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj.d"
   "/Users/austi/esp/esp-idf/components/unity/unity/src/unity.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/unity/unity_compat.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj.d"
   "/Users/austi/esp/esp-idf/components/unity/unity_port_esp32.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj.d"
   "/Users/austi/esp/esp-idf/components/unity/unity_runner.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj.d"
   "/Users/austi/esp/esp-idf/components/unity/unity_utils_cache.c" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj" "gcc" "esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj.d"

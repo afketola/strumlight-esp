@@ -223,30 +223,6 @@ unity/src/unity.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.s
 .PHONY : unity/src/unity.c.s
 
-unity_compat.obj: unity_compat.c.obj
-.PHONY : unity_compat.obj
-
-# target to build an object file
-unity_compat.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
-.PHONY : unity_compat.c.obj
-
-unity_compat.i: unity_compat.c.i
-.PHONY : unity_compat.i
-
-# target to preprocess a source file
-unity_compat.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.i
-.PHONY : unity_compat.c.i
-
-unity_compat.s: unity_compat.c.s
-.PHONY : unity_compat.s
-
-# target to generate assembly for a file
-unity_compat.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/unity/CMakeFiles/__idf_unity.dir/build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.s
-.PHONY : unity_compat.c.s
-
 unity_port_esp32.obj: unity_port_esp32.c.obj
 .PHONY : unity_port_esp32.obj
 
@@ -386,9 +362,6 @@ help:
 	@echo "... unity/src/unity.obj"
 	@echo "... unity/src/unity.i"
 	@echo "... unity/src/unity.s"
-	@echo "... unity_compat.obj"
-	@echo "... unity_compat.i"
-	@echo "... unity_compat.s"
 	@echo "... unity_port_esp32.obj"
 	@echo "... unity_port_esp32.i"
 	@echo "... unity_port_esp32.s"

@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app_check_size.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app_check_size:
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esptool_py && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin /Users/austi/esp/strumlight-esp/build/app-template.bin
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esptool_py && /Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/austi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/austi/esp/strumlight-esp/build/partition_table/partition-table.bin /Users/austi/esp/strumlight-esp/build/strumlight-esp.bin
 
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen:
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen

@@ -29,8 +29,8 @@ xtensa/corebits.h
 -
 xtensa/config/system.h
 -
-xtensa_context.h
-/Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/xtensa_context.h
+freertos/xtensa_context.h
+/Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/freertos/xtensa_context.h
 esp_private/panic_reason.h
 /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_private/panic_reason.h
 sdkconfig.h
@@ -51,7 +51,7 @@ xtensa/hal.h
 -
 
 /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S
-xtensa_context.h
+freertos/xtensa_context.h
 -
 
 /Users/austi/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S
@@ -71,8 +71,8 @@ xtensa/corebits.h
 -
 xtensa/config/system.h
 -
-xtensa_context.h
-/Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/xtensa_context.h
+freertos/xtensa_context.h
+/Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_context.h
 freertos/xtensa_rtos.h
 /Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/freertos/xtensa_rtos.h
 esp_private/panic_reason.h
@@ -87,6 +87,24 @@ soc/dport_reg.h
 /Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/soc/dport_reg.h
 soc/timer_group_reg.h
 /Users/austi/esp/esp-idf/components/esp_system/port/soc/esp32/soc/timer_group_reg.h
+
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_config.h
+xtensa/hal.h
+-
+xtensa/config/core.h
+-
+xtensa/config/system.h
+-
+xtensa_context.h
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h
+sys/reent.h
+-
+sys/reent.h
+-
+
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_context.h
+xtensa/xtensa_context.h
+-
 
 /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h
 xtensa/coreasm.h
@@ -106,21 +124,33 @@ xtensa_context.h
 xtensa_timer.h
 /Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_timer.h
 
-/Users/austi/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_timer.h
+xtensa/coreasm.h
+-
+xtensa/corebits.h
+-
+xtensa/config/system.h
+-
+xtensa_rtos.h
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/xtensa_rtos.h
+freertos/FreeRTOSConfig.h
+/Users/austi/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/freertos/FreeRTOSConfig.h
+
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/FreeRTOSConfig_arch.h
 sdkconfig.h
-/Users/austi/esp/esp-idf/components/freertos/config/include/freertos/sdkconfig.h
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/sdkconfig.h
+freertos/xtensa_config.h
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/freertos/xtensa_config.h
+
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h
+sdkconfig.h
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/sdkconfig.h
 assert.h
 -
 freertos/FreeRTOSConfig_arch.h
-/Users/austi/esp/esp-idf/components/freertos/config/include/freertos/freertos/FreeRTOSConfig_arch.h
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/freertos/FreeRTOSConfig_arch.h
 SEGGER_SYSVIEW_FreeRTOS.h
-/Users/austi/esp/esp-idf/components/freertos/config/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
-
-/Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h
-sdkconfig.h
-/Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/sdkconfig.h
-xtensa_config.h
-/Users/austi/esp/esp-idf/components/freertos/config/xtensa/include/freertos/xtensa_config.h
+/Users/austi/esp/esp-idf/components/freertos/esp_additions/include/freertos/SEGGER_SYSVIEW_FreeRTOS.h
 
 /Users/austi/esp/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h
@@ -131,8 +161,6 @@ stdint.h
 -
 
 /Users/austi/esp/esp-idf/components/newlib/platform_include/sys/reent.h
-sdkconfig.h
-/Users/austi/esp/esp-idf/components/newlib/platform_include/sys/sdkconfig.h
 
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
 stdint.h
@@ -142,9 +170,13 @@ soc/soc_caps.h
 sdkconfig.h
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
 
-/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h
-stdint.h
--
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h
+soc.h
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+dport_access.h
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
+
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reg_base.h
 
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h
 stdint.h
@@ -153,28 +185,18 @@ esp_assert.h
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/esp_assert.h
 soc/soc_caps.h
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc/soc_caps.h
-soc/interrupts.h
-/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc/interrupts.h
 esp_bit_defs.h
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/esp_bit_defs.h
-soc/reg_base.h
-/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc/reg_base.h
+reg_base.h
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/reg_base.h
 
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h
 sdkconfig.h
 /Users/austi/esp/esp-idf/components/soc/esp32/include/soc/sdkconfig.h
 
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h
-soc/soc.h
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/soc/soc.h
-soc/dport_access.h
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/soc/dport_access.h
-
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h
-
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/timer_group_reg.h
-soc/soc.h
-/Users/austi/esp/esp-idf/components/soc/esp32/register/soc/soc/soc.h
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
+soc.h
+/Users/austi/esp/esp-idf/components/soc/esp32/include/soc/soc.h
 
 /Users/austi/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h
 
@@ -236,25 +258,7 @@ stddef.h
 
 /Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h
 
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h
-xtensa/config/core.h
--
-
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa_config.h
-xtensa/hal.h
--
-xtensa/config/core.h
--
-xtensa/config/system.h
--
-xtensa_context.h
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h
-sys/reent.h
--
-sys/reent.h
--
-
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa_context.h
+/Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtensa_context.h
 xtensa/coreasm.h
 -
 xtensa/config/tie.h
@@ -266,15 +270,9 @@ xtensa/config/system.h
 xtensa/xtruntime-frames.h
 -
 
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa_timer.h
-xtensa/coreasm.h
+/Users/austi/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h
+xtensa/config/core.h
 -
-xtensa/corebits.h
--
-xtensa/config/system.h
--
-xtensa_rtos.h
-/Users/austi/esp/esp-idf/components/xtensa/include/xtensa_rtos.h
 
 config/sdkconfig.h
 

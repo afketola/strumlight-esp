@@ -223,14 +223,6 @@ xt_trax.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.s
 .PHONY : xt_trax.c.s
 
-xtensa_context.obj: xtensa_context.S.obj
-.PHONY : xtensa_context.obj
-
-# target to build an object file
-xtensa_context.S.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_context.S.obj
-.PHONY : xtensa_context.S.obj
-
 xtensa_intr.obj: xtensa_intr.c.obj
 .PHONY : xtensa_intr.obj
 
@@ -263,14 +255,6 @@ xtensa_intr_asm.S.obj:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj
 .PHONY : xtensa_intr_asm.S.obj
 
-xtensa_vectors.obj: xtensa_vectors.S.obj
-.PHONY : xtensa_vectors.obj
-
-# target to build an object file
-xtensa_vectors.S.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_vectors.S.obj
-.PHONY : xtensa_vectors.S.obj
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -290,12 +274,10 @@ help:
 	@echo "... xt_trax.obj"
 	@echo "... xt_trax.i"
 	@echo "... xt_trax.s"
-	@echo "... xtensa_context.obj"
 	@echo "... xtensa_intr.obj"
 	@echo "... xtensa_intr.i"
 	@echo "... xtensa_intr.s"
 	@echo "... xtensa_intr_asm.obj"
-	@echo "... xtensa_vectors.obj"
 .PHONY : help
 
 

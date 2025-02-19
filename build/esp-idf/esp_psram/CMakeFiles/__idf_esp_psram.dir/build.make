@@ -76,61 +76,76 @@ esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj: esp-idf/esp_ps
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj: /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c > CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c > CMakeFiles/__idf_esp_psram.dir/esp_psram.c.i
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c -o CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp_psram.c -o CMakeFiles/__idf_esp_psram.dir/esp_psram.c.s
+
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj: /Users/austi/esp/esp-idf/components/esp_psram/mmu_psram_flash.c
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj -MF CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/mmu_psram_flash.c
+
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/mmu_psram_flash.c > CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.i
+
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/mmu_psram_flash.c -o CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.s
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj: /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.i
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_extram_cache.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.s
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj: /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.i
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_himem.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.s
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/flags.make
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj: /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj -MF CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj.d -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj -c /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.i"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.i
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c > CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.i
 
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.s"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.s
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/austi/esp/esp-idf/components/esp_psram/esp32/esp_psram_impl_quad.c -o CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.s
 
 # Object files for target __idf_esp_psram
 __idf_esp_psram_OBJECTS = \
 "CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj" \
+"CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj" \
 "CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj" \
 "CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj" \
 "CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj"
@@ -139,12 +154,13 @@ __idf_esp_psram_OBJECTS = \
 __idf_esp_psram_EXTERNAL_OBJECTS =
 
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj
+esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_extram_cache.c.obj
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_himem.c.obj
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make
 esp-idf/esp_psram/libesp_psram.a: esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_psram.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libesp_psram.a"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_psram.dir/cmake_clean_target.cmake
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_psram && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_psram.dir/link.txt --verbose=$(VERBOSE)
 

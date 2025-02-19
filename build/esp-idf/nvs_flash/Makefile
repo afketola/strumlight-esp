@@ -199,30 +199,6 @@ src/nvs_api.cpp.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.s
 .PHONY : src/nvs_api.cpp.s
 
-src/nvs_bootloader.obj: src/nvs_bootloader.c.obj
-.PHONY : src/nvs_bootloader.obj
-
-# target to build an object file
-src/nvs_bootloader.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj
-.PHONY : src/nvs_bootloader.c.obj
-
-src/nvs_bootloader.i: src/nvs_bootloader.c.i
-.PHONY : src/nvs_bootloader.i
-
-# target to preprocess a source file
-src/nvs_bootloader.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.i
-.PHONY : src/nvs_bootloader.c.i
-
-src/nvs_bootloader.s: src/nvs_bootloader.c.s
-.PHONY : src/nvs_bootloader.s
-
-# target to generate assembly for a file
-src/nvs_bootloader.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.s
-.PHONY : src/nvs_bootloader.c.s
-
 src/nvs_cxx_api.obj: src/nvs_cxx_api.cpp.obj
 .PHONY : src/nvs_cxx_api.obj
 
@@ -246,30 +222,6 @@ src/nvs_cxx_api.s: src/nvs_cxx_api.cpp.s
 src/nvs_cxx_api.cpp.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.s
 .PHONY : src/nvs_cxx_api.cpp.s
-
-src/nvs_encrypted_partition.obj: src/nvs_encrypted_partition.cpp.obj
-.PHONY : src/nvs_encrypted_partition.obj
-
-# target to build an object file
-src/nvs_encrypted_partition.cpp.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj
-.PHONY : src/nvs_encrypted_partition.cpp.obj
-
-src/nvs_encrypted_partition.i: src/nvs_encrypted_partition.cpp.i
-.PHONY : src/nvs_encrypted_partition.i
-
-# target to preprocess a source file
-src/nvs_encrypted_partition.cpp.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.i
-.PHONY : src/nvs_encrypted_partition.cpp.i
-
-src/nvs_encrypted_partition.s: src/nvs_encrypted_partition.cpp.s
-.PHONY : src/nvs_encrypted_partition.s
-
-# target to generate assembly for a file
-src/nvs_encrypted_partition.cpp.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.s
-.PHONY : src/nvs_encrypted_partition.cpp.s
 
 src/nvs_handle_locked.obj: src/nvs_handle_locked.cpp.obj
 .PHONY : src/nvs_handle_locked.obj
@@ -463,30 +415,6 @@ src/nvs_partition_manager.cpp.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.s
 .PHONY : src/nvs_partition_manager.cpp.s
 
-src/nvs_platform.obj: src/nvs_platform.cpp.obj
-.PHONY : src/nvs_platform.obj
-
-# target to build an object file
-src/nvs_platform.cpp.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.obj
-.PHONY : src/nvs_platform.cpp.obj
-
-src/nvs_platform.i: src/nvs_platform.cpp.i
-.PHONY : src/nvs_platform.i
-
-# target to preprocess a source file
-src/nvs_platform.cpp.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.i
-.PHONY : src/nvs_platform.cpp.i
-
-src/nvs_platform.s: src/nvs_platform.cpp.s
-.PHONY : src/nvs_platform.s
-
-# target to generate assembly for a file
-src/nvs_platform.cpp.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.s
-.PHONY : src/nvs_platform.cpp.s
-
 src/nvs_storage.obj: src/nvs_storage.cpp.obj
 .PHONY : src/nvs_storage.obj
 
@@ -551,15 +479,9 @@ help:
 	@echo "... src/nvs_api.obj"
 	@echo "... src/nvs_api.i"
 	@echo "... src/nvs_api.s"
-	@echo "... src/nvs_bootloader.obj"
-	@echo "... src/nvs_bootloader.i"
-	@echo "... src/nvs_bootloader.s"
 	@echo "... src/nvs_cxx_api.obj"
 	@echo "... src/nvs_cxx_api.i"
 	@echo "... src/nvs_cxx_api.s"
-	@echo "... src/nvs_encrypted_partition.obj"
-	@echo "... src/nvs_encrypted_partition.i"
-	@echo "... src/nvs_encrypted_partition.s"
 	@echo "... src/nvs_handle_locked.obj"
 	@echo "... src/nvs_handle_locked.i"
 	@echo "... src/nvs_handle_locked.s"
@@ -584,9 +506,6 @@ help:
 	@echo "... src/nvs_partition_manager.obj"
 	@echo "... src/nvs_partition_manager.i"
 	@echo "... src/nvs_partition_manager.s"
-	@echo "... src/nvs_platform.obj"
-	@echo "... src/nvs_platform.i"
-	@echo "... src/nvs_platform.s"
 	@echo "... src/nvs_storage.obj"
 	@echo "... src/nvs_storage.i"
 	@echo "... src/nvs_storage.s"

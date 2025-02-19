@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj.d"
   "CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj"
   "CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj.d"
-  "CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj"
-  "CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj.d"
   "libcxx.a"
   "libcxx.pdb"
 )

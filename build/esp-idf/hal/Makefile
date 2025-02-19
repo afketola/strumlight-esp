@@ -295,30 +295,6 @@ brownout_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.s
 .PHONY : brownout_hal.c.s
 
-color_hal.obj: color_hal.c.obj
-.PHONY : color_hal.obj
-
-# target to build an object file
-color_hal.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj
-.PHONY : color_hal.c.obj
-
-color_hal.i: color_hal.c.i
-.PHONY : color_hal.i
-
-# target to preprocess a source file
-color_hal.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.i
-.PHONY : color_hal.c.i
-
-color_hal.s: color_hal.c.s
-.PHONY : color_hal.s
-
-# target to generate assembly for a file
-color_hal.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.s
-.PHONY : color_hal.c.s
-
 efuse_hal.obj: efuse_hal.c.obj
 .PHONY : efuse_hal.obj
 
@@ -366,30 +342,6 @@ emac_hal.s: emac_hal.c.s
 emac_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/emac_hal.c.s
 .PHONY : emac_hal.c.s
-
-esp32/cache_hal_esp32.obj: esp32/cache_hal_esp32.c.obj
-.PHONY : esp32/cache_hal_esp32.obj
-
-# target to build an object file
-esp32/cache_hal_esp32.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
-.PHONY : esp32/cache_hal_esp32.c.obj
-
-esp32/cache_hal_esp32.i: esp32/cache_hal_esp32.c.i
-.PHONY : esp32/cache_hal_esp32.i
-
-# target to preprocess a source file
-esp32/cache_hal_esp32.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.i
-.PHONY : esp32/cache_hal_esp32.c.i
-
-esp32/cache_hal_esp32.s: esp32/cache_hal_esp32.c.s
-.PHONY : esp32/cache_hal_esp32.s
-
-# target to generate assembly for a file
-esp32/cache_hal_esp32.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.s
-.PHONY : esp32/cache_hal_esp32.c.s
 
 esp32/clk_tree_hal.obj: esp32/clk_tree_hal.c.obj
 .PHONY : esp32/clk_tree_hal.obj
@@ -510,30 +462,6 @@ gpio_hal.s: gpio_hal.c.s
 gpio_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.s
 .PHONY : gpio_hal.c.s
-
-hal_utils.obj: hal_utils.c.obj
-.PHONY : hal_utils.obj
-
-# target to build an object file
-hal_utils.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
-.PHONY : hal_utils.c.obj
-
-hal_utils.i: hal_utils.c.i
-.PHONY : hal_utils.i
-
-# target to preprocess a source file
-hal_utils.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
-.PHONY : hal_utils.c.i
-
-hal_utils.s: hal_utils.c.s
-.PHONY : hal_utils.s
-
-# target to generate assembly for a file
-hal_utils.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
-.PHONY : hal_utils.c.s
 
 i2c_hal.obj: i2c_hal.c.obj
 .PHONY : i2c_hal.obj
@@ -703,30 +631,6 @@ mmu_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s
 .PHONY : mmu_hal.c.s
 
-mpi_hal.obj: mpi_hal.c.obj
-.PHONY : mpi_hal.obj
-
-# target to build an object file
-mpi_hal.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.obj
-.PHONY : mpi_hal.c.obj
-
-mpi_hal.i: mpi_hal.c.i
-.PHONY : mpi_hal.i
-
-# target to preprocess a source file
-mpi_hal.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.i
-.PHONY : mpi_hal.c.i
-
-mpi_hal.s: mpi_hal.c.s
-.PHONY : mpi_hal.s
-
-# target to generate assembly for a file
-mpi_hal.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.s
-.PHONY : mpi_hal.c.s
-
 mpu_hal.obj: mpu_hal.c.obj
 .PHONY : mpu_hal.obj
 
@@ -870,30 +774,6 @@ sdm_hal.s: sdm_hal.c.s
 sdm_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.s
 .PHONY : sdm_hal.c.s
-
-sdmmc_hal.obj: sdmmc_hal.c.obj
-.PHONY : sdmmc_hal.obj
-
-# target to build an object file
-sdmmc_hal.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.obj
-.PHONY : sdmmc_hal.c.obj
-
-sdmmc_hal.i: sdmmc_hal.c.i
-.PHONY : sdmmc_hal.i
-
-# target to preprocess a source file
-sdmmc_hal.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.i
-.PHONY : sdmmc_hal.c.i
-
-sdmmc_hal.s: sdmmc_hal.c.s
-.PHONY : sdmmc_hal.s
-
-# target to generate assembly for a file
-sdmmc_hal.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.s
-.PHONY : sdmmc_hal.c.s
 
 sha_hal.obj: sha_hal.c.obj
 .PHONY : sha_hal.obj
@@ -1111,29 +991,29 @@ timer_hal.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.s
 .PHONY : timer_hal.c.s
 
-touch_sens_hal.obj: touch_sens_hal.c.obj
-.PHONY : touch_sens_hal.obj
+timer_hal_iram.obj: timer_hal_iram.c.obj
+.PHONY : timer_hal_iram.obj
 
 # target to build an object file
-touch_sens_hal.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.obj
-.PHONY : touch_sens_hal.c.obj
+timer_hal_iram.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal_iram.c.obj
+.PHONY : timer_hal_iram.c.obj
 
-touch_sens_hal.i: touch_sens_hal.c.i
-.PHONY : touch_sens_hal.i
+timer_hal_iram.i: timer_hal_iram.c.i
+.PHONY : timer_hal_iram.i
 
 # target to preprocess a source file
-touch_sens_hal.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.i
-.PHONY : touch_sens_hal.c.i
+timer_hal_iram.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal_iram.c.i
+.PHONY : timer_hal_iram.c.i
 
-touch_sens_hal.s: touch_sens_hal.c.s
-.PHONY : touch_sens_hal.s
+timer_hal_iram.s: timer_hal_iram.c.s
+.PHONY : timer_hal_iram.s
 
 # target to generate assembly for a file
-touch_sens_hal.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.s
-.PHONY : touch_sens_hal.c.s
+timer_hal_iram.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal_iram.c.s
+.PHONY : timer_hal_iram.c.s
 
 touch_sensor_hal.obj: touch_sensor_hal.c.obj
 .PHONY : touch_sensor_hal.obj
@@ -1307,18 +1187,12 @@ help:
 	@echo "... brownout_hal.obj"
 	@echo "... brownout_hal.i"
 	@echo "... brownout_hal.s"
-	@echo "... color_hal.obj"
-	@echo "... color_hal.i"
-	@echo "... color_hal.s"
 	@echo "... efuse_hal.obj"
 	@echo "... efuse_hal.i"
 	@echo "... efuse_hal.s"
 	@echo "... emac_hal.obj"
 	@echo "... emac_hal.i"
 	@echo "... emac_hal.s"
-	@echo "... esp32/cache_hal_esp32.obj"
-	@echo "... esp32/cache_hal_esp32.i"
-	@echo "... esp32/cache_hal_esp32.s"
 	@echo "... esp32/clk_tree_hal.obj"
 	@echo "... esp32/clk_tree_hal.i"
 	@echo "... esp32/clk_tree_hal.s"
@@ -1334,9 +1208,6 @@ help:
 	@echo "... gpio_hal.obj"
 	@echo "... gpio_hal.i"
 	@echo "... gpio_hal.s"
-	@echo "... hal_utils.obj"
-	@echo "... hal_utils.i"
-	@echo "... hal_utils.s"
 	@echo "... i2c_hal.obj"
 	@echo "... i2c_hal.i"
 	@echo "... i2c_hal.s"
@@ -1358,9 +1229,6 @@ help:
 	@echo "... mmu_hal.obj"
 	@echo "... mmu_hal.i"
 	@echo "... mmu_hal.s"
-	@echo "... mpi_hal.obj"
-	@echo "... mpi_hal.i"
-	@echo "... mpi_hal.s"
 	@echo "... mpu_hal.obj"
 	@echo "... mpu_hal.i"
 	@echo "... mpu_hal.s"
@@ -1379,9 +1247,6 @@ help:
 	@echo "... sdm_hal.obj"
 	@echo "... sdm_hal.i"
 	@echo "... sdm_hal.s"
-	@echo "... sdmmc_hal.obj"
-	@echo "... sdmmc_hal.i"
-	@echo "... sdmmc_hal.s"
 	@echo "... sha_hal.obj"
 	@echo "... sha_hal.i"
 	@echo "... sha_hal.s"
@@ -1409,9 +1274,9 @@ help:
 	@echo "... timer_hal.obj"
 	@echo "... timer_hal.i"
 	@echo "... timer_hal.s"
-	@echo "... touch_sens_hal.obj"
-	@echo "... touch_sens_hal.i"
-	@echo "... touch_sens_hal.s"
+	@echo "... timer_hal_iram.obj"
+	@echo "... timer_hal_iram.i"
+	@echo "... timer_hal_iram.s"
 	@echo "... touch_sensor_hal.obj"
 	@echo "... touch_sensor_hal.i"
 	@echo "... touch_sensor_hal.s"

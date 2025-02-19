@@ -8,12 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/austi/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v1.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c_v2.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i2s.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_common.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i2c.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i2s.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_spi.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj.d"
   "/Users/austi/esp/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj" "gcc" "esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj.d"

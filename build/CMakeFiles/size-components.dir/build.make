@@ -66,8 +66,8 @@ include CMakeFiles/size-components.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/size-components.dir/progress.make
 
-CMakeFiles/size-components: app-template.map
-	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/Users/austi/esp/strumlight-esp/build/app-template.map -D OUTPUT_JSON= -P /Users/austi/esp/esp-idf/tools/cmake/run_size_tool.cmake
+CMakeFiles/size-components: strumlight-esp.map
+	/opt/homebrew/bin/cmake -D "IDF_SIZE_TOOL=/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/Users/austi/esp/strumlight-esp/build/strumlight-esp.map -D OUTPUT_JSON= -P /Users/austi/esp/esp-idf/tools/cmake/run_size_tool.cmake
 
 CMakeFiles/size-components.dir/codegen:
 .PHONY : CMakeFiles/size-components.dir/codegen

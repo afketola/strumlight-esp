@@ -11,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mbedx509.dir/x509_crt.c.obj.d"
   "CMakeFiles/mbedx509.dir/x509_csr.c.obj"
   "CMakeFiles/mbedx509.dir/x509_csr.c.obj.d"
-  "CMakeFiles/mbedx509.dir/x509write.c.obj"
-  "CMakeFiles/mbedx509.dir/x509write.c.obj.d"
   "CMakeFiles/mbedx509.dir/x509write_crt.c.obj"
   "CMakeFiles/mbedx509.dir/x509write_crt.c.obj.d"
   "CMakeFiles/mbedx509.dir/x509write_csr.c.obj"

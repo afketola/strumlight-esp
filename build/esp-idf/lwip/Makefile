@@ -1855,126 +1855,6 @@ lwip/src/netif/ppp/multilink.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/multilink.c.s
 .PHONY : lwip/src/netif/ppp/multilink.c.s
 
-lwip/src/netif/ppp/polarssl/arc4.obj: lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.obj
-
-# target to build an object file
-lwip/src/netif/ppp/polarssl/arc4.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.obj
-
-lwip/src/netif/ppp/polarssl/arc4.i: lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.i
-
-# target to preprocess a source file
-lwip/src/netif/ppp/polarssl/arc4.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.i
-
-lwip/src/netif/ppp/polarssl/arc4.s: lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.s
-
-# target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/arc4.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.s
-
-lwip/src/netif/ppp/polarssl/des.obj: lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/des.obj
-
-# target to build an object file
-lwip/src/netif/ppp/polarssl/des.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.obj
-
-lwip/src/netif/ppp/polarssl/des.i: lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/des.i
-
-# target to preprocess a source file
-lwip/src/netif/ppp/polarssl/des.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.i
-
-lwip/src/netif/ppp/polarssl/des.s: lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/des.s
-
-# target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/des.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.s
-
-lwip/src/netif/ppp/polarssl/md4.obj: lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md4.obj
-
-# target to build an object file
-lwip/src/netif/ppp/polarssl/md4.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.obj
-
-lwip/src/netif/ppp/polarssl/md4.i: lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md4.i
-
-# target to preprocess a source file
-lwip/src/netif/ppp/polarssl/md4.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.i
-
-lwip/src/netif/ppp/polarssl/md4.s: lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md4.s
-
-# target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/md4.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.s
-
-lwip/src/netif/ppp/polarssl/md5.obj: lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md5.obj
-
-# target to build an object file
-lwip/src/netif/ppp/polarssl/md5.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.obj
-
-lwip/src/netif/ppp/polarssl/md5.i: lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md5.i
-
-# target to preprocess a source file
-lwip/src/netif/ppp/polarssl/md5.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.i
-
-lwip/src/netif/ppp/polarssl/md5.s: lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md5.s
-
-# target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/md5.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.s
-
-lwip/src/netif/ppp/polarssl/sha1.obj: lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.obj
-
-# target to build an object file
-lwip/src/netif/ppp/polarssl/sha1.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.obj
-
-lwip/src/netif/ppp/polarssl/sha1.i: lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.i
-
-# target to preprocess a source file
-lwip/src/netif/ppp/polarssl/sha1.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.i
-
-lwip/src/netif/ppp/polarssl/sha1.s: lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.s
-
-# target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/sha1.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.s
-
 lwip/src/netif/ppp/ppp.obj: lwip/src/netif/ppp/ppp.c.obj
 .PHONY : lwip/src/netif/ppp/ppp.obj
 
@@ -2214,30 +2094,6 @@ lwip/src/netif/slipif.s: lwip/src/netif/slipif.c.s
 lwip/src/netif/slipif.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/slipif.c.s
 .PHONY : lwip/src/netif/slipif.c.s
-
-port/acd_dhcp_check.obj: port/acd_dhcp_check.c.obj
-.PHONY : port/acd_dhcp_check.obj
-
-# target to build an object file
-port/acd_dhcp_check.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.obj
-.PHONY : port/acd_dhcp_check.c.obj
-
-port/acd_dhcp_check.i: port/acd_dhcp_check.c.i
-.PHONY : port/acd_dhcp_check.i
-
-# target to preprocess a source file
-port/acd_dhcp_check.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.i
-.PHONY : port/acd_dhcp_check.c.i
-
-port/acd_dhcp_check.s: port/acd_dhcp_check.c.s
-.PHONY : port/acd_dhcp_check.s
-
-# target to generate assembly for a file
-port/acd_dhcp_check.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/acd_dhcp_check.c.s
-.PHONY : port/acd_dhcp_check.c.s
 
 port/debug/lwip_debug.obj: port/debug/lwip_debug.c.obj
 .PHONY : port/debug/lwip_debug.obj
@@ -2606,21 +2462,6 @@ help:
 	@echo "... lwip/src/netif/ppp/multilink.obj"
 	@echo "... lwip/src/netif/ppp/multilink.i"
 	@echo "... lwip/src/netif/ppp/multilink.s"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.i"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.s"
-	@echo "... lwip/src/netif/ppp/polarssl/des.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/des.i"
-	@echo "... lwip/src/netif/ppp/polarssl/des.s"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.i"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.s"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.i"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.s"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.i"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.s"
 	@echo "... lwip/src/netif/ppp/ppp.obj"
 	@echo "... lwip/src/netif/ppp/ppp.i"
 	@echo "... lwip/src/netif/ppp/ppp.s"
@@ -2651,9 +2492,6 @@ help:
 	@echo "... lwip/src/netif/slipif.obj"
 	@echo "... lwip/src/netif/slipif.i"
 	@echo "... lwip/src/netif/slipif.s"
-	@echo "... port/acd_dhcp_check.obj"
-	@echo "... port/acd_dhcp_check.i"
-	@echo "... port/acd_dhcp_check.s"
 	@echo "... port/debug/lwip_debug.obj"
 	@echo "... port/debug/lwip_debug.i"
 	@echo "... port/debug/lwip_debug.s"

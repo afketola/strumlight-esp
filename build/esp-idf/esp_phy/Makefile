@@ -175,30 +175,6 @@ __idf_esp_phy/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build
 .PHONY : __idf_esp_phy/fast
 
-esp32/phy_init_data.obj: esp32/phy_init_data.c.obj
-.PHONY : esp32/phy_init_data.obj
-
-# target to build an object file
-esp32/phy_init_data.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32/phy_init_data.c.obj
-.PHONY : esp32/phy_init_data.c.obj
-
-esp32/phy_init_data.i: esp32/phy_init_data.c.i
-.PHONY : esp32/phy_init_data.i
-
-# target to preprocess a source file
-esp32/phy_init_data.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32/phy_init_data.c.i
-.PHONY : esp32/phy_init_data.c.i
-
-esp32/phy_init_data.s: esp32/phy_init_data.c.s
-.PHONY : esp32/phy_init_data.s
-
-# target to generate assembly for a file
-esp32/phy_init_data.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32/phy_init_data.c.s
-.PHONY : esp32/phy_init_data.c.s
-
 src/btbb_init.obj: src/btbb_init.c.obj
 .PHONY : src/btbb_init.obj
 
@@ -246,30 +222,6 @@ src/lib_printf.s: src/lib_printf.c.s
 src/lib_printf.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.s
 .PHONY : src/lib_printf.c.s
-
-src/phy_common.obj: src/phy_common.c.obj
-.PHONY : src/phy_common.obj
-
-# target to build an object file
-src/phy_common.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj
-.PHONY : src/phy_common.c.obj
-
-src/phy_common.i: src/phy_common.c.i
-.PHONY : src/phy_common.i
-
-# target to preprocess a source file
-src/phy_common.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.i
-.PHONY : src/phy_common.c.i
-
-src/phy_common.s: src/phy_common.c.s
-.PHONY : src/phy_common.s
-
-# target to generate assembly for a file
-src/phy_common.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/build.make esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.s
-.PHONY : src/phy_common.c.s
 
 src/phy_init.obj: src/phy_init.c.obj
 .PHONY : src/phy_init.obj
@@ -332,18 +284,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_phy"
-	@echo "... esp32/phy_init_data.obj"
-	@echo "... esp32/phy_init_data.i"
-	@echo "... esp32/phy_init_data.s"
 	@echo "... src/btbb_init.obj"
 	@echo "... src/btbb_init.i"
 	@echo "... src/btbb_init.s"
 	@echo "... src/lib_printf.obj"
 	@echo "... src/lib_printf.i"
 	@echo "... src/lib_printf.s"
-	@echo "... src/phy_common.obj"
-	@echo "... src/phy_common.i"
-	@echo "... src/phy_common.s"
 	@echo "... src/phy_init.obj"
 	@echo "... src/phy_init.i"
 	@echo "... src/phy_init.s"

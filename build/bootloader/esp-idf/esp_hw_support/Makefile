@@ -226,30 +226,6 @@ port/esp32/cpu_region_protect.c.s:
 	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.s
 .PHONY : port/esp32/cpu_region_protect.c.s
 
-port/esp32/esp_cpu_intr.obj: port/esp32/esp_cpu_intr.c.obj
-.PHONY : port/esp32/esp_cpu_intr.obj
-
-# target to build an object file
-port/esp32/esp_cpu_intr.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj
-.PHONY : port/esp32/esp_cpu_intr.c.obj
-
-port/esp32/esp_cpu_intr.i: port/esp32/esp_cpu_intr.c.i
-.PHONY : port/esp32/esp_cpu_intr.i
-
-# target to preprocess a source file
-port/esp32/esp_cpu_intr.c.i:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.i
-.PHONY : port/esp32/esp_cpu_intr.c.i
-
-port/esp32/esp_cpu_intr.s: port/esp32/esp_cpu_intr.c.s
-.PHONY : port/esp32/esp_cpu_intr.s
-
-# target to generate assembly for a file
-port/esp32/esp_cpu_intr.c.s:
-	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.s
-.PHONY : port/esp32/esp_cpu_intr.c.s
-
 port/esp32/rtc_clk.obj: port/esp32/rtc_clk.c.obj
 .PHONY : port/esp32/rtc_clk.obj
 
@@ -391,9 +367,6 @@ help:
 	@echo "... port/esp32/cpu_region_protect.obj"
 	@echo "... port/esp32/cpu_region_protect.i"
 	@echo "... port/esp32/cpu_region_protect.s"
-	@echo "... port/esp32/esp_cpu_intr.obj"
-	@echo "... port/esp32/esp_cpu_intr.i"
-	@echo "... port/esp32/esp_cpu_intr.s"
 	@echo "... port/esp32/rtc_clk.obj"
 	@echo "... port/esp32/rtc_clk.i"
 	@echo "... port/esp32/rtc_clk.s"

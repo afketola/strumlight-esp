@@ -439,30 +439,6 @@ src/bootloader_utility.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.s
 .PHONY : src/bootloader_utility.c.s
 
-src/esp32/secure_boot_secure_features.obj: src/esp32/secure_boot_secure_features.c.obj
-.PHONY : src/esp32/secure_boot_secure_features.obj
-
-# target to build an object file
-src/esp32/secure_boot_secure_features.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.obj
-.PHONY : src/esp32/secure_boot_secure_features.c.obj
-
-src/esp32/secure_boot_secure_features.i: src/esp32/secure_boot_secure_features.c.i
-.PHONY : src/esp32/secure_boot_secure_features.i
-
-# target to preprocess a source file
-src/esp32/secure_boot_secure_features.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.i
-.PHONY : src/esp32/secure_boot_secure_features.c.i
-
-src/esp32/secure_boot_secure_features.s: src/esp32/secure_boot_secure_features.c.s
-.PHONY : src/esp32/secure_boot_secure_features.s
-
-# target to generate assembly for a file
-src/esp32/secure_boot_secure_features.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.s
-.PHONY : src/esp32/secure_boot_secure_features.c.s
-
 src/esp_image_format.obj: src/esp_image_format.c.obj
 .PHONY : src/esp_image_format.obj
 
@@ -629,9 +605,6 @@ help:
 	@echo "... src/bootloader_utility.obj"
 	@echo "... src/bootloader_utility.i"
 	@echo "... src/bootloader_utility.s"
-	@echo "... src/esp32/secure_boot_secure_features.obj"
-	@echo "... src/esp32/secure_boot_secure_features.i"
-	@echo "... src/esp32/secure_boot_secure_features.s"
 	@echo "... src/esp_image_format.obj"
 	@echo "... src/esp_image_format.i"
 	@echo "... src/esp_image_format.s"

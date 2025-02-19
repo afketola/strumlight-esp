@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj.d"
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj"
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj.d"
-  "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj"
-  "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj.d"
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj"
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj.d"
   "CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj"

@@ -116,6 +116,44 @@ depend:
 	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule:
+	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule
+.PHONY : esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule
+
+# Convenience name for target.
+__idf_esp_app_format: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/rule
+.PHONY : __idf_esp_app_format
+
+# fast build rule for target.
+__idf_esp_app_format/fast:
+	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build
+.PHONY : __idf_esp_app_format/fast
+
+esp_app_desc.obj: esp_app_desc.c.obj
+.PHONY : esp_app_desc.obj
+
+# target to build an object file
+esp_app_desc.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+.PHONY : esp_app_desc.c.obj
+
+esp_app_desc.i: esp_app_desc.c.i
+.PHONY : esp_app_desc.i
+
+# target to preprocess a source file
+esp_app_desc.c.i:
+	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.i
+.PHONY : esp_app_desc.c.i
+
+esp_app_desc.s: esp_app_desc.c.s
+.PHONY : esp_app_desc.s
+
+# target to generate assembly for a file
+esp_app_desc.c.s:
+	cd /Users/austi/esp/strumlight-esp/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/build.make esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.s
+.PHONY : esp_app_desc.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... __idf_esp_app_format"
+	@echo "... esp_app_desc.obj"
+	@echo "... esp_app_desc.i"
+	@echo "... esp_app_desc.s"
 .PHONY : help
 
 

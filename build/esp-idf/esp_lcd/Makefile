@@ -175,102 +175,6 @@ __idf_esp_lcd/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build
 .PHONY : __idf_esp_lcd/fast
 
-i2c/esp_lcd_panel_io_i2c_v1.obj: i2c/esp_lcd_panel_io_i2c_v1.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.obj
-
-# target to build an object file
-i2c/esp_lcd_panel_io_i2c_v1.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.obj
-
-i2c/esp_lcd_panel_io_i2c_v1.i: i2c/esp_lcd_panel_io_i2c_v1.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.i
-
-# target to preprocess a source file
-i2c/esp_lcd_panel_io_i2c_v1.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.i
-
-i2c/esp_lcd_panel_io_i2c_v1.s: i2c/esp_lcd_panel_io_i2c_v1.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.s
-
-# target to generate assembly for a file
-i2c/esp_lcd_panel_io_i2c_v1.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c_v1.c.s
-
-i2c/esp_lcd_panel_io_i2c_v2.obj: i2c/esp_lcd_panel_io_i2c_v2.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.obj
-
-# target to build an object file
-i2c/esp_lcd_panel_io_i2c_v2.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.obj
-
-i2c/esp_lcd_panel_io_i2c_v2.i: i2c/esp_lcd_panel_io_i2c_v2.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.i
-
-# target to preprocess a source file
-i2c/esp_lcd_panel_io_i2c_v2.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.i
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.i
-
-i2c/esp_lcd_panel_io_i2c_v2.s: i2c/esp_lcd_panel_io_i2c_v2.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.s
-
-# target to generate assembly for a file
-i2c/esp_lcd_panel_io_i2c_v2.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.s
-.PHONY : i2c/esp_lcd_panel_io_i2c_v2.c.s
-
-i80/esp_lcd_panel_io_i2s.obj: i80/esp_lcd_panel_io_i2s.c.obj
-.PHONY : i80/esp_lcd_panel_io_i2s.obj
-
-# target to build an object file
-i80/esp_lcd_panel_io_i2s.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj
-.PHONY : i80/esp_lcd_panel_io_i2s.c.obj
-
-i80/esp_lcd_panel_io_i2s.i: i80/esp_lcd_panel_io_i2s.c.i
-.PHONY : i80/esp_lcd_panel_io_i2s.i
-
-# target to preprocess a source file
-i80/esp_lcd_panel_io_i2s.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.i
-.PHONY : i80/esp_lcd_panel_io_i2s.c.i
-
-i80/esp_lcd_panel_io_i2s.s: i80/esp_lcd_panel_io_i2s.c.s
-.PHONY : i80/esp_lcd_panel_io_i2s.s
-
-# target to generate assembly for a file
-i80/esp_lcd_panel_io_i2s.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.s
-.PHONY : i80/esp_lcd_panel_io_i2s.c.s
-
-spi/esp_lcd_panel_io_spi.obj: spi/esp_lcd_panel_io_spi.c.obj
-.PHONY : spi/esp_lcd_panel_io_spi.obj
-
-# target to build an object file
-spi/esp_lcd_panel_io_spi.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj
-.PHONY : spi/esp_lcd_panel_io_spi.c.obj
-
-spi/esp_lcd_panel_io_spi.i: spi/esp_lcd_panel_io_spi.c.i
-.PHONY : spi/esp_lcd_panel_io_spi.i
-
-# target to preprocess a source file
-spi/esp_lcd_panel_io_spi.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.i
-.PHONY : spi/esp_lcd_panel_io_spi.c.i
-
-spi/esp_lcd_panel_io_spi.s: spi/esp_lcd_panel_io_spi.c.s
-.PHONY : spi/esp_lcd_panel_io_spi.s
-
-# target to generate assembly for a file
-spi/esp_lcd_panel_io_spi.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.s
-.PHONY : spi/esp_lcd_panel_io_spi.c.s
-
 src/esp_lcd_common.obj: src/esp_lcd_common.c.obj
 .PHONY : src/esp_lcd_common.obj
 
@@ -318,6 +222,78 @@ src/esp_lcd_panel_io.s: src/esp_lcd_panel_io.c.s
 src/esp_lcd_panel_io.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.s
 .PHONY : src/esp_lcd_panel_io.c.s
+
+src/esp_lcd_panel_io_i2c.obj: src/esp_lcd_panel_io_i2c.c.obj
+.PHONY : src/esp_lcd_panel_io_i2c.obj
+
+# target to build an object file
+src/esp_lcd_panel_io_i2c.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+.PHONY : src/esp_lcd_panel_io_i2c.c.obj
+
+src/esp_lcd_panel_io_i2c.i: src/esp_lcd_panel_io_i2c.c.i
+.PHONY : src/esp_lcd_panel_io_i2c.i
+
+# target to preprocess a source file
+src/esp_lcd_panel_io_i2c.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.i
+.PHONY : src/esp_lcd_panel_io_i2c.c.i
+
+src/esp_lcd_panel_io_i2c.s: src/esp_lcd_panel_io_i2c.c.s
+.PHONY : src/esp_lcd_panel_io_i2c.s
+
+# target to generate assembly for a file
+src/esp_lcd_panel_io_i2c.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.s
+.PHONY : src/esp_lcd_panel_io_i2c.c.s
+
+src/esp_lcd_panel_io_i2s.obj: src/esp_lcd_panel_io_i2s.c.obj
+.PHONY : src/esp_lcd_panel_io_i2s.obj
+
+# target to build an object file
+src/esp_lcd_panel_io_i2s.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+.PHONY : src/esp_lcd_panel_io_i2s.c.obj
+
+src/esp_lcd_panel_io_i2s.i: src/esp_lcd_panel_io_i2s.c.i
+.PHONY : src/esp_lcd_panel_io_i2s.i
+
+# target to preprocess a source file
+src/esp_lcd_panel_io_i2s.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.i
+.PHONY : src/esp_lcd_panel_io_i2s.c.i
+
+src/esp_lcd_panel_io_i2s.s: src/esp_lcd_panel_io_i2s.c.s
+.PHONY : src/esp_lcd_panel_io_i2s.s
+
+# target to generate assembly for a file
+src/esp_lcd_panel_io_i2s.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.s
+.PHONY : src/esp_lcd_panel_io_i2s.c.s
+
+src/esp_lcd_panel_io_spi.obj: src/esp_lcd_panel_io_spi.c.obj
+.PHONY : src/esp_lcd_panel_io_spi.obj
+
+# target to build an object file
+src/esp_lcd_panel_io_spi.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+.PHONY : src/esp_lcd_panel_io_spi.c.obj
+
+src/esp_lcd_panel_io_spi.i: src/esp_lcd_panel_io_spi.c.i
+.PHONY : src/esp_lcd_panel_io_spi.i
+
+# target to preprocess a source file
+src/esp_lcd_panel_io_spi.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.i
+.PHONY : src/esp_lcd_panel_io_spi.c.i
+
+src/esp_lcd_panel_io_spi.s: src/esp_lcd_panel_io_spi.c.s
+.PHONY : src/esp_lcd_panel_io_spi.s
+
+# target to generate assembly for a file
+src/esp_lcd_panel_io_spi.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/build.make esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.s
+.PHONY : src/esp_lcd_panel_io_spi.c.s
 
 src/esp_lcd_panel_nt35510.obj: src/esp_lcd_panel_nt35510.c.obj
 .PHONY : src/esp_lcd_panel_nt35510.obj
@@ -428,24 +404,21 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_esp_lcd"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v1.obj"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v1.i"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v1.s"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v2.obj"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v2.i"
-	@echo "... i2c/esp_lcd_panel_io_i2c_v2.s"
-	@echo "... i80/esp_lcd_panel_io_i2s.obj"
-	@echo "... i80/esp_lcd_panel_io_i2s.i"
-	@echo "... i80/esp_lcd_panel_io_i2s.s"
-	@echo "... spi/esp_lcd_panel_io_spi.obj"
-	@echo "... spi/esp_lcd_panel_io_spi.i"
-	@echo "... spi/esp_lcd_panel_io_spi.s"
 	@echo "... src/esp_lcd_common.obj"
 	@echo "... src/esp_lcd_common.i"
 	@echo "... src/esp_lcd_common.s"
 	@echo "... src/esp_lcd_panel_io.obj"
 	@echo "... src/esp_lcd_panel_io.i"
 	@echo "... src/esp_lcd_panel_io.s"
+	@echo "... src/esp_lcd_panel_io_i2c.obj"
+	@echo "... src/esp_lcd_panel_io_i2c.i"
+	@echo "... src/esp_lcd_panel_io_i2c.s"
+	@echo "... src/esp_lcd_panel_io_i2s.obj"
+	@echo "... src/esp_lcd_panel_io_i2s.i"
+	@echo "... src/esp_lcd_panel_io_i2s.s"
+	@echo "... src/esp_lcd_panel_io_spi.obj"
+	@echo "... src/esp_lcd_panel_io_spi.i"
+	@echo "... src/esp_lcd_panel_io_spi.s"
 	@echo "... src/esp_lcd_panel_nt35510.obj"
 	@echo "... src/esp_lcd_panel_nt35510.i"
 	@echo "... src/esp_lcd_panel_nt35510.s"

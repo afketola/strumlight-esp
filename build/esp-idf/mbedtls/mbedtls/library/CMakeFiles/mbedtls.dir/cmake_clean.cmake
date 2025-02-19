@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj"
-  "CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj.d"
   "CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj"
   "CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj.d"
   "CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj"

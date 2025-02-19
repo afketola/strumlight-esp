@@ -199,30 +199,6 @@ esp32/esp_adapter.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.s
 .PHONY : esp32/esp_adapter.c.s
 
-src/lib_printf.obj: src/lib_printf.c.obj
-.PHONY : src/lib_printf.obj
-
-# target to build an object file
-src/lib_printf.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj
-.PHONY : src/lib_printf.c.obj
-
-src/lib_printf.i: src/lib_printf.c.i
-.PHONY : src/lib_printf.i
-
-# target to preprocess a source file
-src/lib_printf.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.i
-.PHONY : src/lib_printf.c.i
-
-src/lib_printf.s: src/lib_printf.c.s
-.PHONY : src/lib_printf.s
-
-# target to generate assembly for a file
-src/lib_printf.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.s
-.PHONY : src/lib_printf.c.s
-
 src/mesh_event.obj: src/mesh_event.c.obj
 .PHONY : src/mesh_event.obj
 
@@ -407,9 +383,6 @@ help:
 	@echo "... esp32/esp_adapter.obj"
 	@echo "... esp32/esp_adapter.i"
 	@echo "... esp32/esp_adapter.s"
-	@echo "... src/lib_printf.obj"
-	@echo "... src/lib_printf.i"
-	@echo "... src/lib_printf.s"
 	@echo "... src/mesh_event.obj"
 	@echo "... src/mesh_event.i"
 	@echo "... src/mesh_event.s"

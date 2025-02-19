@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.obj"
-  "CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.obj.d"
   "CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj"
   "CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj.d"
   "CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj"

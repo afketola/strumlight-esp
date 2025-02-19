@@ -313,53 +313,53 @@ Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 .PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.s
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.obj: Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.obj
 
 # target to build an object file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.obj
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.i: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.i
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.i: Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.i
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.i
 
 # target to preprocess a source file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.i
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.i
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.i
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.s: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.s
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.s: Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.s
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.s
 
 # target to generate assembly for a file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.s
+Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.s
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.c.s
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.obj: Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.obj
 
 # target to build an object file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.i: Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.i
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.i
 
 # target to preprocess a source file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.i
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.i
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.i
 
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s: Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.s: Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.s
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.s
 
 # target to generate assembly for a file
-Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.s
+Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.s
+.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.c.s
 
 Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.obj: Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.c.obj
 .PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.obj
@@ -408,30 +408,6 @@ Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.s: Users/austi/esp/esp-i
 Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.c.s
 .PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.c.s
-
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.obj: Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.obj
-
-# target to build an object file
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
-
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.i: Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.i
-
-# target to preprocess a source file
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.i
-
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.s: Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.s
-
-# target to generate assembly for a file
-Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
-.PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.s
 
 Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.obj: Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.c.obj
 .PHONY : Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.obj
@@ -913,30 +889,6 @@ bignum_mod_raw.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.s
 .PHONY : bignum_mod_raw.c.s
 
-block_cipher.obj: block_cipher.c.obj
-.PHONY : block_cipher.obj
-
-# target to build an object file
-block_cipher.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/block_cipher.c.obj
-.PHONY : block_cipher.c.obj
-
-block_cipher.i: block_cipher.c.i
-.PHONY : block_cipher.i
-
-# target to preprocess a source file
-block_cipher.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/block_cipher.c.i
-.PHONY : block_cipher.c.i
-
-block_cipher.s: block_cipher.c.s
-.PHONY : block_cipher.s
-
-# target to generate assembly for a file
-block_cipher.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/block_cipher.c.s
-.PHONY : block_cipher.c.s
-
 camellia.obj: camellia.c.obj
 .PHONY : camellia.obj
 
@@ -1345,30 +1297,6 @@ ecp_curves.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.s
 .PHONY : ecp_curves.c.s
 
-ecp_curves_new.obj: ecp_curves_new.c.obj
-.PHONY : ecp_curves_new.obj
-
-# target to build an object file
-ecp_curves_new.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj
-.PHONY : ecp_curves_new.c.obj
-
-ecp_curves_new.i: ecp_curves_new.c.i
-.PHONY : ecp_curves_new.i
-
-# target to preprocess a source file
-ecp_curves_new.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.i
-.PHONY : ecp_curves_new.c.i
-
-ecp_curves_new.s: ecp_curves_new.c.s
-.PHONY : ecp_curves_new.s
-
-# target to generate assembly for a file
-ecp_curves_new.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.s
-.PHONY : ecp_curves_new.c.s
-
 entropy.obj: entropy.c.obj
 .PHONY : entropy.obj
 
@@ -1464,6 +1392,30 @@ gcm.s: gcm.c.s
 gcm.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.s
 .PHONY : gcm.c.s
+
+hash_info.obj: hash_info.c.obj
+.PHONY : hash_info.obj
+
+# target to build an object file
+hash_info.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hash_info.c.obj
+.PHONY : hash_info.c.obj
+
+hash_info.i: hash_info.c.i
+.PHONY : hash_info.i
+
+# target to preprocess a source file
+hash_info.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hash_info.c.i
+.PHONY : hash_info.c.i
+
+hash_info.s: hash_info.c.s
+.PHONY : hash_info.s
+
+# target to generate assembly for a file
+hash_info.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hash_info.c.s
+.PHONY : hash_info.c.s
 
 hkdf.obj: hkdf.c.obj
 .PHONY : hkdf.obj
@@ -1801,30 +1753,6 @@ pk.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.s
 .PHONY : pk.c.s
 
-pk_ecc.obj: pk_ecc.c.obj
-.PHONY : pk_ecc.obj
-
-# target to build an object file
-pk_ecc.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_ecc.c.obj
-.PHONY : pk_ecc.c.obj
-
-pk_ecc.i: pk_ecc.c.i
-.PHONY : pk_ecc.i
-
-# target to preprocess a source file
-pk_ecc.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_ecc.c.i
-.PHONY : pk_ecc.c.i
-
-pk_ecc.s: pk_ecc.c.s
-.PHONY : pk_ecc.s
-
-# target to generate assembly for a file
-pk_ecc.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_ecc.c.s
-.PHONY : pk_ecc.c.s
-
 pk_wrap.obj: pk_wrap.c.obj
 .PHONY : pk_wrap.obj
 
@@ -2137,29 +2065,29 @@ psa_crypto_client.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.s
 .PHONY : psa_crypto_client.c.s
 
-psa_crypto_driver_wrappers_no_static.obj: psa_crypto_driver_wrappers_no_static.c.obj
-.PHONY : psa_crypto_driver_wrappers_no_static.obj
+psa_crypto_driver_wrappers.obj: psa_crypto_driver_wrappers.c.obj
+.PHONY : psa_crypto_driver_wrappers.obj
 
 # target to build an object file
-psa_crypto_driver_wrappers_no_static.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
-.PHONY : psa_crypto_driver_wrappers_no_static.c.obj
+psa_crypto_driver_wrappers.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.obj
+.PHONY : psa_crypto_driver_wrappers.c.obj
 
-psa_crypto_driver_wrappers_no_static.i: psa_crypto_driver_wrappers_no_static.c.i
-.PHONY : psa_crypto_driver_wrappers_no_static.i
+psa_crypto_driver_wrappers.i: psa_crypto_driver_wrappers.c.i
+.PHONY : psa_crypto_driver_wrappers.i
 
 # target to preprocess a source file
-psa_crypto_driver_wrappers_no_static.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.i
-.PHONY : psa_crypto_driver_wrappers_no_static.c.i
+psa_crypto_driver_wrappers.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.i
+.PHONY : psa_crypto_driver_wrappers.c.i
 
-psa_crypto_driver_wrappers_no_static.s: psa_crypto_driver_wrappers_no_static.c.s
-.PHONY : psa_crypto_driver_wrappers_no_static.s
+psa_crypto_driver_wrappers.s: psa_crypto_driver_wrappers.c.s
+.PHONY : psa_crypto_driver_wrappers.s
 
 # target to generate assembly for a file
-psa_crypto_driver_wrappers_no_static.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.s
-.PHONY : psa_crypto_driver_wrappers_no_static.c.s
+psa_crypto_driver_wrappers.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers.c.s
+.PHONY : psa_crypto_driver_wrappers.c.s
 
 psa_crypto_ecp.obj: psa_crypto_ecp.c.obj
 .PHONY : psa_crypto_ecp.obj
@@ -2184,30 +2112,6 @@ psa_crypto_ecp.s: psa_crypto_ecp.c.s
 psa_crypto_ecp.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.s
 .PHONY : psa_crypto_ecp.c.s
-
-psa_crypto_ffdh.obj: psa_crypto_ffdh.c.obj
-.PHONY : psa_crypto_ffdh.obj
-
-# target to build an object file
-psa_crypto_ffdh.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj
-.PHONY : psa_crypto_ffdh.c.obj
-
-psa_crypto_ffdh.i: psa_crypto_ffdh.c.i
-.PHONY : psa_crypto_ffdh.i
-
-# target to preprocess a source file
-psa_crypto_ffdh.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.i
-.PHONY : psa_crypto_ffdh.c.i
-
-psa_crypto_ffdh.s: psa_crypto_ffdh.c.s
-.PHONY : psa_crypto_ffdh.s
-
-# target to generate assembly for a file
-psa_crypto_ffdh.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.s
-.PHONY : psa_crypto_ffdh.c.s
 
 psa_crypto_hash.obj: psa_crypto_hash.c.obj
 .PHONY : psa_crypto_hash.obj
@@ -2544,30 +2448,6 @@ sha256.s: sha256.c.s
 sha256.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.s
 .PHONY : sha256.c.s
-
-sha3.obj: sha3.c.obj
-.PHONY : sha3.obj
-
-# target to build an object file
-sha3.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj
-.PHONY : sha3.c.obj
-
-sha3.i: sha3.c.i
-.PHONY : sha3.i
-
-# target to preprocess a source file
-sha3.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.i
-.PHONY : sha3.c.i
-
-sha3.s: sha3.c.s
-.PHONY : sha3.s
-
-# target to generate assembly for a file
-sha3.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.s
-.PHONY : sha3.c.s
 
 sha512.obj: sha512.c.obj
 .PHONY : sha512.obj
@@ -3145,30 +3025,6 @@ x509_csr.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.s
 .PHONY : x509_csr.c.s
 
-x509write.obj: x509write.c.obj
-.PHONY : x509write.obj
-
-# target to build an object file
-x509write.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj
-.PHONY : x509write.c.obj
-
-x509write.i: x509write.c.i
-.PHONY : x509write.i
-
-# target to preprocess a source file
-x509write.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.i
-.PHONY : x509write.c.i
-
-x509write.s: x509write.c.s
-.PHONY : x509write.s
-
-# target to generate assembly for a file
-x509write.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.s
-.PHONY : x509write.c.s
-
 x509write_crt.obj: x509write_crt.c.obj
 .PHONY : x509write_crt.obj
 
@@ -3245,21 +3101,18 @@ help:
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.obj"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.i"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.s"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.obj"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.i"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.s"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.obj"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.i"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.s"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.obj"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.i"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp32/bignum.s"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.obj"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.i"
+	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_bignum.s"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.obj"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.i"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_hardware.s"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.obj"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.i"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_mem.s"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.obj"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.i"
-	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.s"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.obj"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.i"
 	@echo "... Users/austi/esp/esp-idf/components/mbedtls/port/esp_timing.s"
@@ -3320,9 +3173,6 @@ help:
 	@echo "... bignum_mod_raw.obj"
 	@echo "... bignum_mod_raw.i"
 	@echo "... bignum_mod_raw.s"
-	@echo "... block_cipher.obj"
-	@echo "... block_cipher.i"
-	@echo "... block_cipher.s"
 	@echo "... camellia.obj"
 	@echo "... camellia.i"
 	@echo "... camellia.s"
@@ -3374,9 +3224,6 @@ help:
 	@echo "... ecp_curves.obj"
 	@echo "... ecp_curves.i"
 	@echo "... ecp_curves.s"
-	@echo "... ecp_curves_new.obj"
-	@echo "... ecp_curves_new.i"
-	@echo "... ecp_curves_new.s"
 	@echo "... entropy.obj"
 	@echo "... entropy.i"
 	@echo "... entropy.s"
@@ -3389,6 +3236,9 @@ help:
 	@echo "... gcm.obj"
 	@echo "... gcm.i"
 	@echo "... gcm.s"
+	@echo "... hash_info.obj"
+	@echo "... hash_info.i"
+	@echo "... hash_info.s"
 	@echo "... hkdf.obj"
 	@echo "... hkdf.i"
 	@echo "... hkdf.s"
@@ -3431,9 +3281,6 @@ help:
 	@echo "... pk.obj"
 	@echo "... pk.i"
 	@echo "... pk.s"
-	@echo "... pk_ecc.obj"
-	@echo "... pk_ecc.i"
-	@echo "... pk_ecc.s"
 	@echo "... pk_wrap.obj"
 	@echo "... pk_wrap.i"
 	@echo "... pk_wrap.s"
@@ -3473,15 +3320,12 @@ help:
 	@echo "... psa_crypto_client.obj"
 	@echo "... psa_crypto_client.i"
 	@echo "... psa_crypto_client.s"
-	@echo "... psa_crypto_driver_wrappers_no_static.obj"
-	@echo "... psa_crypto_driver_wrappers_no_static.i"
-	@echo "... psa_crypto_driver_wrappers_no_static.s"
+	@echo "... psa_crypto_driver_wrappers.obj"
+	@echo "... psa_crypto_driver_wrappers.i"
+	@echo "... psa_crypto_driver_wrappers.s"
 	@echo "... psa_crypto_ecp.obj"
 	@echo "... psa_crypto_ecp.i"
 	@echo "... psa_crypto_ecp.s"
-	@echo "... psa_crypto_ffdh.obj"
-	@echo "... psa_crypto_ffdh.i"
-	@echo "... psa_crypto_ffdh.s"
 	@echo "... psa_crypto_hash.obj"
 	@echo "... psa_crypto_hash.i"
 	@echo "... psa_crypto_hash.s"
@@ -3524,9 +3368,6 @@ help:
 	@echo "... sha256.obj"
 	@echo "... sha256.i"
 	@echo "... sha256.s"
-	@echo "... sha3.obj"
-	@echo "... sha3.i"
-	@echo "... sha3.s"
 	@echo "... sha512.obj"
 	@echo "... sha512.i"
 	@echo "... sha512.s"
@@ -3599,9 +3440,6 @@ help:
 	@echo "... x509_csr.obj"
 	@echo "... x509_csr.i"
 	@echo "... x509_csr.s"
-	@echo "... x509write.obj"
-	@echo "... x509write.i"
-	@echo "... x509write.s"
 	@echo "... x509write_crt.obj"
 	@echo "... x509write_crt.i"
 	@echo "... x509write_crt.s"

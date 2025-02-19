@@ -175,533 +175,389 @@ __idf_newlib/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build
 .PHONY : __idf_newlib/fast
 
-src/abort.obj: src/abort.c.obj
-.PHONY : src/abort.obj
+abort.obj: abort.c.obj
+.PHONY : abort.obj
 
 # target to build an object file
-src/abort.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/abort.c.obj
-.PHONY : src/abort.c.obj
+abort.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.obj
+.PHONY : abort.c.obj
 
-src/abort.i: src/abort.c.i
-.PHONY : src/abort.i
+abort.i: abort.c.i
+.PHONY : abort.i
 
 # target to preprocess a source file
-src/abort.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/abort.c.i
-.PHONY : src/abort.c.i
+abort.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.i
+.PHONY : abort.c.i
 
-src/abort.s: src/abort.c.s
-.PHONY : src/abort.s
+abort.s: abort.c.s
+.PHONY : abort.s
 
 # target to generate assembly for a file
-src/abort.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/abort.c.s
-.PHONY : src/abort.c.s
+abort.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/abort.c.s
+.PHONY : abort.c.s
 
-src/assert.obj: src/assert.c.obj
-.PHONY : src/assert.obj
+assert.obj: assert.c.obj
+.PHONY : assert.obj
 
 # target to build an object file
-src/assert.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/assert.c.obj
-.PHONY : src/assert.c.obj
+assert.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.obj
+.PHONY : assert.c.obj
 
-src/assert.i: src/assert.c.i
-.PHONY : src/assert.i
+assert.i: assert.c.i
+.PHONY : assert.i
 
 # target to preprocess a source file
-src/assert.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/assert.c.i
-.PHONY : src/assert.c.i
+assert.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.i
+.PHONY : assert.c.i
 
-src/assert.s: src/assert.c.s
-.PHONY : src/assert.s
+assert.s: assert.c.s
+.PHONY : assert.s
 
 # target to generate assembly for a file
-src/assert.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/assert.c.s
-.PHONY : src/assert.c.s
+assert.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/assert.c.s
+.PHONY : assert.c.s
 
-src/flockfile.obj: src/flockfile.c.obj
-.PHONY : src/flockfile.obj
+heap.obj: heap.c.obj
+.PHONY : heap.obj
 
 # target to build an object file
-src/flockfile.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/flockfile.c.obj
-.PHONY : src/flockfile.c.obj
+heap.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.obj
+.PHONY : heap.c.obj
 
-src/flockfile.i: src/flockfile.c.i
-.PHONY : src/flockfile.i
+heap.i: heap.c.i
+.PHONY : heap.i
 
 # target to preprocess a source file
-src/flockfile.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/flockfile.c.i
-.PHONY : src/flockfile.c.i
+heap.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.i
+.PHONY : heap.c.i
 
-src/flockfile.s: src/flockfile.c.s
-.PHONY : src/flockfile.s
+heap.s: heap.c.s
+.PHONY : heap.s
 
 # target to generate assembly for a file
-src/flockfile.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/flockfile.c.s
-.PHONY : src/flockfile.c.s
+heap.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/heap.c.s
+.PHONY : heap.c.s
 
-src/getentropy.obj: src/getentropy.c.obj
-.PHONY : src/getentropy.obj
+locks.obj: locks.c.obj
+.PHONY : locks.obj
 
 # target to build an object file
-src/getentropy.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/getentropy.c.obj
-.PHONY : src/getentropy.c.obj
+locks.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.obj
+.PHONY : locks.c.obj
 
-src/getentropy.i: src/getentropy.c.i
-.PHONY : src/getentropy.i
+locks.i: locks.c.i
+.PHONY : locks.i
 
 # target to preprocess a source file
-src/getentropy.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/getentropy.c.i
-.PHONY : src/getentropy.c.i
+locks.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.i
+.PHONY : locks.c.i
 
-src/getentropy.s: src/getentropy.c.s
-.PHONY : src/getentropy.s
+locks.s: locks.c.s
+.PHONY : locks.s
 
 # target to generate assembly for a file
-src/getentropy.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/getentropy.c.s
-.PHONY : src/getentropy.c.s
+locks.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/locks.c.s
+.PHONY : locks.c.s
 
-src/heap.obj: src/heap.c.obj
-.PHONY : src/heap.obj
+newlib_init.obj: newlib_init.c.obj
+.PHONY : newlib_init.obj
 
 # target to build an object file
-src/heap.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/heap.c.obj
-.PHONY : src/heap.c.obj
+newlib_init.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.obj
+.PHONY : newlib_init.c.obj
 
-src/heap.i: src/heap.c.i
-.PHONY : src/heap.i
+newlib_init.i: newlib_init.c.i
+.PHONY : newlib_init.i
 
 # target to preprocess a source file
-src/heap.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/heap.c.i
-.PHONY : src/heap.c.i
+newlib_init.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.i
+.PHONY : newlib_init.c.i
 
-src/heap.s: src/heap.c.s
-.PHONY : src/heap.s
+newlib_init.s: newlib_init.c.s
+.PHONY : newlib_init.s
 
 # target to generate assembly for a file
-src/heap.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/heap.c.s
-.PHONY : src/heap.c.s
+newlib_init.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/newlib_init.c.s
+.PHONY : newlib_init.c.s
 
-src/init.obj: src/init.c.obj
-.PHONY : src/init.obj
+poll.obj: poll.c.obj
+.PHONY : poll.obj
 
 # target to build an object file
-src/init.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/init.c.obj
-.PHONY : src/init.c.obj
+poll.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.obj
+.PHONY : poll.c.obj
 
-src/init.i: src/init.c.i
-.PHONY : src/init.i
+poll.i: poll.c.i
+.PHONY : poll.i
 
 # target to preprocess a source file
-src/init.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/init.c.i
-.PHONY : src/init.c.i
+poll.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.i
+.PHONY : poll.c.i
 
-src/init.s: src/init.c.s
-.PHONY : src/init.s
+poll.s: poll.c.s
+.PHONY : poll.s
 
 # target to generate assembly for a file
-src/init.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/init.c.s
-.PHONY : src/init.c.s
+poll.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/poll.c.s
+.PHONY : poll.c.s
 
-src/locks.obj: src/locks.c.obj
-.PHONY : src/locks.obj
+port/esp_time_impl.obj: port/esp_time_impl.c.obj
+.PHONY : port/esp_time_impl.obj
 
 # target to build an object file
-src/locks.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/locks.c.obj
-.PHONY : src/locks.c.obj
+port/esp_time_impl.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.obj
+.PHONY : port/esp_time_impl.c.obj
 
-src/locks.i: src/locks.c.i
-.PHONY : src/locks.i
+port/esp_time_impl.i: port/esp_time_impl.c.i
+.PHONY : port/esp_time_impl.i
 
 # target to preprocess a source file
-src/locks.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/locks.c.i
-.PHONY : src/locks.c.i
+port/esp_time_impl.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.i
+.PHONY : port/esp_time_impl.c.i
 
-src/locks.s: src/locks.c.s
-.PHONY : src/locks.s
+port/esp_time_impl.s: port/esp_time_impl.c.s
+.PHONY : port/esp_time_impl.s
 
 # target to generate assembly for a file
-src/locks.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/locks.c.s
-.PHONY : src/locks.c.s
+port/esp_time_impl.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/port/esp_time_impl.c.s
+.PHONY : port/esp_time_impl.c.s
 
-src/newlib_init.obj: src/newlib_init.c.obj
-.PHONY : src/newlib_init.obj
+pthread.obj: pthread.c.obj
+.PHONY : pthread.obj
 
 # target to build an object file
-src/newlib_init.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.obj
-.PHONY : src/newlib_init.c.obj
+pthread.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj
+.PHONY : pthread.c.obj
 
-src/newlib_init.i: src/newlib_init.c.i
-.PHONY : src/newlib_init.i
+pthread.i: pthread.c.i
+.PHONY : pthread.i
 
 # target to preprocess a source file
-src/newlib_init.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.i
-.PHONY : src/newlib_init.c.i
+pthread.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.i
+.PHONY : pthread.c.i
 
-src/newlib_init.s: src/newlib_init.c.s
-.PHONY : src/newlib_init.s
+pthread.s: pthread.c.s
+.PHONY : pthread.s
 
 # target to generate assembly for a file
-src/newlib_init.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.s
-.PHONY : src/newlib_init.c.s
+pthread.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.s
+.PHONY : pthread.c.s
 
-src/poll.obj: src/poll.c.obj
-.PHONY : src/poll.obj
+random.obj: random.c.obj
+.PHONY : random.obj
 
 # target to build an object file
-src/poll.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.obj
-.PHONY : src/poll.c.obj
+random.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj
+.PHONY : random.c.obj
 
-src/poll.i: src/poll.c.i
-.PHONY : src/poll.i
+random.i: random.c.i
+.PHONY : random.i
 
 # target to preprocess a source file
-src/poll.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.i
-.PHONY : src/poll.c.i
+random.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.i
+.PHONY : random.c.i
 
-src/poll.s: src/poll.c.s
-.PHONY : src/poll.s
+random.s: random.c.s
+.PHONY : random.s
 
 # target to generate assembly for a file
-src/poll.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.s
-.PHONY : src/poll.c.s
+random.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.s
+.PHONY : random.c.s
 
-src/port/esp_time_impl.obj: src/port/esp_time_impl.c.obj
-.PHONY : src/port/esp_time_impl.obj
+realpath.obj: realpath.c.obj
+.PHONY : realpath.obj
 
 # target to build an object file
-src/port/esp_time_impl.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.obj
-.PHONY : src/port/esp_time_impl.c.obj
+realpath.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.obj
+.PHONY : realpath.c.obj
 
-src/port/esp_time_impl.i: src/port/esp_time_impl.c.i
-.PHONY : src/port/esp_time_impl.i
+realpath.i: realpath.c.i
+.PHONY : realpath.i
 
 # target to preprocess a source file
-src/port/esp_time_impl.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.i
-.PHONY : src/port/esp_time_impl.c.i
+realpath.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.i
+.PHONY : realpath.c.i
 
-src/port/esp_time_impl.s: src/port/esp_time_impl.c.s
-.PHONY : src/port/esp_time_impl.s
+realpath.s: realpath.c.s
+.PHONY : realpath.s
 
 # target to generate assembly for a file
-src/port/esp_time_impl.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.s
-.PHONY : src/port/esp_time_impl.c.s
+realpath.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/realpath.c.s
+.PHONY : realpath.c.s
 
-src/port/xtensa/stdatomic_s32c1i.obj: src/port/xtensa/stdatomic_s32c1i.c.obj
-.PHONY : src/port/xtensa/stdatomic_s32c1i.obj
+reent_init.obj: reent_init.c.obj
+.PHONY : reent_init.obj
 
 # target to build an object file
-src/port/xtensa/stdatomic_s32c1i.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.obj
-.PHONY : src/port/xtensa/stdatomic_s32c1i.c.obj
+reent_init.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.obj
+.PHONY : reent_init.c.obj
 
-src/port/xtensa/stdatomic_s32c1i.i: src/port/xtensa/stdatomic_s32c1i.c.i
-.PHONY : src/port/xtensa/stdatomic_s32c1i.i
+reent_init.i: reent_init.c.i
+.PHONY : reent_init.i
 
 # target to preprocess a source file
-src/port/xtensa/stdatomic_s32c1i.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.i
-.PHONY : src/port/xtensa/stdatomic_s32c1i.c.i
+reent_init.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.i
+.PHONY : reent_init.c.i
 
-src/port/xtensa/stdatomic_s32c1i.s: src/port/xtensa/stdatomic_s32c1i.c.s
-.PHONY : src/port/xtensa/stdatomic_s32c1i.s
+reent_init.s: reent_init.c.s
+.PHONY : reent_init.s
 
 # target to generate assembly for a file
-src/port/xtensa/stdatomic_s32c1i.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/xtensa/stdatomic_s32c1i.c.s
-.PHONY : src/port/xtensa/stdatomic_s32c1i.c.s
+reent_init.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/reent_init.c.s
+.PHONY : reent_init.c.s
 
-src/pthread.obj: src/pthread.c.obj
-.PHONY : src/pthread.obj
+stdatomic.obj: stdatomic.c.obj
+.PHONY : stdatomic.obj
 
 # target to build an object file
-src/pthread.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.obj
-.PHONY : src/pthread.c.obj
+stdatomic.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.obj
+.PHONY : stdatomic.c.obj
 
-src/pthread.i: src/pthread.c.i
-.PHONY : src/pthread.i
+stdatomic.i: stdatomic.c.i
+.PHONY : stdatomic.i
 
 # target to preprocess a source file
-src/pthread.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.i
-.PHONY : src/pthread.c.i
+stdatomic.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.i
+.PHONY : stdatomic.c.i
 
-src/pthread.s: src/pthread.c.s
-.PHONY : src/pthread.s
+stdatomic.s: stdatomic.c.s
+.PHONY : stdatomic.s
 
 # target to generate assembly for a file
-src/pthread.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.s
-.PHONY : src/pthread.c.s
+stdatomic.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/stdatomic.c.s
+.PHONY : stdatomic.c.s
 
-src/random.obj: src/random.c.obj
-.PHONY : src/random.obj
+syscalls.obj: syscalls.c.obj
+.PHONY : syscalls.obj
 
 # target to build an object file
-src/random.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.obj
-.PHONY : src/random.c.obj
+syscalls.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.obj
+.PHONY : syscalls.c.obj
 
-src/random.i: src/random.c.i
-.PHONY : src/random.i
+syscalls.i: syscalls.c.i
+.PHONY : syscalls.i
 
 # target to preprocess a source file
-src/random.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.i
-.PHONY : src/random.c.i
+syscalls.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.i
+.PHONY : syscalls.c.i
 
-src/random.s: src/random.c.s
-.PHONY : src/random.s
+syscalls.s: syscalls.c.s
+.PHONY : syscalls.s
 
 # target to generate assembly for a file
-src/random.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.s
-.PHONY : src/random.c.s
+syscalls.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/syscalls.c.s
+.PHONY : syscalls.c.s
 
-src/realpath.obj: src/realpath.c.obj
-.PHONY : src/realpath.obj
+sysconf.obj: sysconf.c.obj
+.PHONY : sysconf.obj
 
 # target to build an object file
-src/realpath.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.obj
-.PHONY : src/realpath.c.obj
+sysconf.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.obj
+.PHONY : sysconf.c.obj
 
-src/realpath.i: src/realpath.c.i
-.PHONY : src/realpath.i
+sysconf.i: sysconf.c.i
+.PHONY : sysconf.i
 
 # target to preprocess a source file
-src/realpath.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.i
-.PHONY : src/realpath.c.i
+sysconf.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.i
+.PHONY : sysconf.c.i
 
-src/realpath.s: src/realpath.c.s
-.PHONY : src/realpath.s
+sysconf.s: sysconf.c.s
+.PHONY : sysconf.s
 
 # target to generate assembly for a file
-src/realpath.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.s
-.PHONY : src/realpath.c.s
+sysconf.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/sysconf.c.s
+.PHONY : sysconf.c.s
 
-src/reent_init.obj: src/reent_init.c.obj
-.PHONY : src/reent_init.obj
+termios.obj: termios.c.obj
+.PHONY : termios.obj
 
 # target to build an object file
-src/reent_init.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_init.c.obj
-.PHONY : src/reent_init.c.obj
+termios.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.obj
+.PHONY : termios.c.obj
 
-src/reent_init.i: src/reent_init.c.i
-.PHONY : src/reent_init.i
+termios.i: termios.c.i
+.PHONY : termios.i
 
 # target to preprocess a source file
-src/reent_init.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_init.c.i
-.PHONY : src/reent_init.c.i
+termios.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.i
+.PHONY : termios.c.i
 
-src/reent_init.s: src/reent_init.c.s
-.PHONY : src/reent_init.s
+termios.s: termios.c.s
+.PHONY : termios.s
 
 # target to generate assembly for a file
-src/reent_init.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_init.c.s
-.PHONY : src/reent_init.c.s
+termios.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/termios.c.s
+.PHONY : termios.c.s
 
-src/reent_syscalls.obj: src/reent_syscalls.c.obj
-.PHONY : src/reent_syscalls.obj
+time.obj: time.c.obj
+.PHONY : time.obj
 
 # target to build an object file
-src/reent_syscalls.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_syscalls.c.obj
-.PHONY : src/reent_syscalls.c.obj
+time.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.obj
+.PHONY : time.c.obj
 
-src/reent_syscalls.i: src/reent_syscalls.c.i
-.PHONY : src/reent_syscalls.i
-
-# target to preprocess a source file
-src/reent_syscalls.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_syscalls.c.i
-.PHONY : src/reent_syscalls.c.i
-
-src/reent_syscalls.s: src/reent_syscalls.c.s
-.PHONY : src/reent_syscalls.s
-
-# target to generate assembly for a file
-src/reent_syscalls.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_syscalls.c.s
-.PHONY : src/reent_syscalls.c.s
-
-src/scandir.obj: src/scandir.c.obj
-.PHONY : src/scandir.obj
-
-# target to build an object file
-src/scandir.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/scandir.c.obj
-.PHONY : src/scandir.c.obj
-
-src/scandir.i: src/scandir.c.i
-.PHONY : src/scandir.i
+time.i: time.c.i
+.PHONY : time.i
 
 # target to preprocess a source file
-src/scandir.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/scandir.c.i
-.PHONY : src/scandir.c.i
+time.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.i
+.PHONY : time.c.i
 
-src/scandir.s: src/scandir.c.s
-.PHONY : src/scandir.s
-
-# target to generate assembly for a file
-src/scandir.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/scandir.c.s
-.PHONY : src/scandir.c.s
-
-src/stdatomic.obj: src/stdatomic.c.obj
-.PHONY : src/stdatomic.obj
-
-# target to build an object file
-src/stdatomic.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/stdatomic.c.obj
-.PHONY : src/stdatomic.c.obj
-
-src/stdatomic.i: src/stdatomic.c.i
-.PHONY : src/stdatomic.i
-
-# target to preprocess a source file
-src/stdatomic.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/stdatomic.c.i
-.PHONY : src/stdatomic.c.i
-
-src/stdatomic.s: src/stdatomic.c.s
-.PHONY : src/stdatomic.s
+time.s: time.c.s
+.PHONY : time.s
 
 # target to generate assembly for a file
-src/stdatomic.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/stdatomic.c.s
-.PHONY : src/stdatomic.c.s
-
-src/syscalls.obj: src/syscalls.c.obj
-.PHONY : src/syscalls.obj
-
-# target to build an object file
-src/syscalls.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/syscalls.c.obj
-.PHONY : src/syscalls.c.obj
-
-src/syscalls.i: src/syscalls.c.i
-.PHONY : src/syscalls.i
-
-# target to preprocess a source file
-src/syscalls.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/syscalls.c.i
-.PHONY : src/syscalls.c.i
-
-src/syscalls.s: src/syscalls.c.s
-.PHONY : src/syscalls.s
-
-# target to generate assembly for a file
-src/syscalls.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/syscalls.c.s
-.PHONY : src/syscalls.c.s
-
-src/sysconf.obj: src/sysconf.c.obj
-.PHONY : src/sysconf.obj
-
-# target to build an object file
-src/sysconf.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/sysconf.c.obj
-.PHONY : src/sysconf.c.obj
-
-src/sysconf.i: src/sysconf.c.i
-.PHONY : src/sysconf.i
-
-# target to preprocess a source file
-src/sysconf.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/sysconf.c.i
-.PHONY : src/sysconf.c.i
-
-src/sysconf.s: src/sysconf.c.s
-.PHONY : src/sysconf.s
-
-# target to generate assembly for a file
-src/sysconf.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/sysconf.c.s
-.PHONY : src/sysconf.c.s
-
-src/termios.obj: src/termios.c.obj
-.PHONY : src/termios.obj
-
-# target to build an object file
-src/termios.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/termios.c.obj
-.PHONY : src/termios.c.obj
-
-src/termios.i: src/termios.c.i
-.PHONY : src/termios.i
-
-# target to preprocess a source file
-src/termios.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/termios.c.i
-.PHONY : src/termios.c.i
-
-src/termios.s: src/termios.c.s
-.PHONY : src/termios.s
-
-# target to generate assembly for a file
-src/termios.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/termios.c.s
-.PHONY : src/termios.c.s
-
-src/time.obj: src/time.c.obj
-.PHONY : src/time.obj
-
-# target to build an object file
-src/time.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/time.c.obj
-.PHONY : src/time.c.obj
-
-src/time.i: src/time.c.i
-.PHONY : src/time.i
-
-# target to preprocess a source file
-src/time.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/time.c.i
-.PHONY : src/time.c.i
-
-src/time.s: src/time.c.s
-.PHONY : src/time.s
-
-# target to generate assembly for a file
-src/time.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/time.c.s
-.PHONY : src/time.c.s
+time.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/time.c.s
+.PHONY : time.c.s
 
 # Help Target
 help:
@@ -716,72 +572,54 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_newlib"
-	@echo "... src/abort.obj"
-	@echo "... src/abort.i"
-	@echo "... src/abort.s"
-	@echo "... src/assert.obj"
-	@echo "... src/assert.i"
-	@echo "... src/assert.s"
-	@echo "... src/flockfile.obj"
-	@echo "... src/flockfile.i"
-	@echo "... src/flockfile.s"
-	@echo "... src/getentropy.obj"
-	@echo "... src/getentropy.i"
-	@echo "... src/getentropy.s"
-	@echo "... src/heap.obj"
-	@echo "... src/heap.i"
-	@echo "... src/heap.s"
-	@echo "... src/init.obj"
-	@echo "... src/init.i"
-	@echo "... src/init.s"
-	@echo "... src/locks.obj"
-	@echo "... src/locks.i"
-	@echo "... src/locks.s"
-	@echo "... src/newlib_init.obj"
-	@echo "... src/newlib_init.i"
-	@echo "... src/newlib_init.s"
-	@echo "... src/poll.obj"
-	@echo "... src/poll.i"
-	@echo "... src/poll.s"
-	@echo "... src/port/esp_time_impl.obj"
-	@echo "... src/port/esp_time_impl.i"
-	@echo "... src/port/esp_time_impl.s"
-	@echo "... src/port/xtensa/stdatomic_s32c1i.obj"
-	@echo "... src/port/xtensa/stdatomic_s32c1i.i"
-	@echo "... src/port/xtensa/stdatomic_s32c1i.s"
-	@echo "... src/pthread.obj"
-	@echo "... src/pthread.i"
-	@echo "... src/pthread.s"
-	@echo "... src/random.obj"
-	@echo "... src/random.i"
-	@echo "... src/random.s"
-	@echo "... src/realpath.obj"
-	@echo "... src/realpath.i"
-	@echo "... src/realpath.s"
-	@echo "... src/reent_init.obj"
-	@echo "... src/reent_init.i"
-	@echo "... src/reent_init.s"
-	@echo "... src/reent_syscalls.obj"
-	@echo "... src/reent_syscalls.i"
-	@echo "... src/reent_syscalls.s"
-	@echo "... src/scandir.obj"
-	@echo "... src/scandir.i"
-	@echo "... src/scandir.s"
-	@echo "... src/stdatomic.obj"
-	@echo "... src/stdatomic.i"
-	@echo "... src/stdatomic.s"
-	@echo "... src/syscalls.obj"
-	@echo "... src/syscalls.i"
-	@echo "... src/syscalls.s"
-	@echo "... src/sysconf.obj"
-	@echo "... src/sysconf.i"
-	@echo "... src/sysconf.s"
-	@echo "... src/termios.obj"
-	@echo "... src/termios.i"
-	@echo "... src/termios.s"
-	@echo "... src/time.obj"
-	@echo "... src/time.i"
-	@echo "... src/time.s"
+	@echo "... abort.obj"
+	@echo "... abort.i"
+	@echo "... abort.s"
+	@echo "... assert.obj"
+	@echo "... assert.i"
+	@echo "... assert.s"
+	@echo "... heap.obj"
+	@echo "... heap.i"
+	@echo "... heap.s"
+	@echo "... locks.obj"
+	@echo "... locks.i"
+	@echo "... locks.s"
+	@echo "... newlib_init.obj"
+	@echo "... newlib_init.i"
+	@echo "... newlib_init.s"
+	@echo "... poll.obj"
+	@echo "... poll.i"
+	@echo "... poll.s"
+	@echo "... port/esp_time_impl.obj"
+	@echo "... port/esp_time_impl.i"
+	@echo "... port/esp_time_impl.s"
+	@echo "... pthread.obj"
+	@echo "... pthread.i"
+	@echo "... pthread.s"
+	@echo "... random.obj"
+	@echo "... random.i"
+	@echo "... random.s"
+	@echo "... realpath.obj"
+	@echo "... realpath.i"
+	@echo "... realpath.s"
+	@echo "... reent_init.obj"
+	@echo "... reent_init.i"
+	@echo "... reent_init.s"
+	@echo "... stdatomic.obj"
+	@echo "... stdatomic.i"
+	@echo "... stdatomic.s"
+	@echo "... syscalls.obj"
+	@echo "... syscalls.i"
+	@echo "... syscalls.s"
+	@echo "... sysconf.obj"
+	@echo "... sysconf.i"
+	@echo "... sysconf.s"
+	@echo "... termios.obj"
+	@echo "... termios.i"
+	@echo "... termios.s"
+	@echo "... time.obj"
+	@echo "... time.i"
+	@echo "... time.s"
 .PHONY : help
 
 

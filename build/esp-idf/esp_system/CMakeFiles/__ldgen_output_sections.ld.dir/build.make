@@ -68,59 +68,37 @@ include esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/progress.ma
 
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld: esp-idf/esp_system/ld/sections.ld
 
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_system/ld/sections.ld.in
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/xtensa/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_gpio/linker.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_ringbuf/linker.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/driver/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_pm/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_mm/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/spi_flash/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_system/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_system/app.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_common/common.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_common/soc.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_rom/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/hal/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/log/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/heap/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/soc/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_hw_support/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_hw_support/dma/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_hw_support/ldo/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/freertos/linker_common.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/freertos/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/src/newlib.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/src/system_libs.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/src/esp32-spiram-rom-functions-c.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_gptimer/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_ringbuf/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_uart/linker.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/freertos/linker_common.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/esp32-spiram-rom-functions-c.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/newlib.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/newlib/system_libs.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_common/common.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_common/soc.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/app_trace/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_event/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_phy/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/vfs/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/lwip/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_netif/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/wpa_supplicant/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_coex/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_wifi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/bt/linker_common.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/bt/linker_rw_bt_controller.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_pcnt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_spi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_mcpwm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_dac/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_rmt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_sdm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_i2c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_ledc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_parlio/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/driver/twai/linker.lf
+esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/bt/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_adc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_driver_isp/linker.lf
-esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_eth/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_gdbstub/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_psram/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/esp_lcd/linker.lf
@@ -128,39 +106,34 @@ esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/espcoredu
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/ieee802154/linker.lf
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/esp-idf/components/openthread/linker.lf
 esp-idf/esp_system/ld/sections.ld: esp-idf/xtensa/libxtensa.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_gpio/libesp_driver_gpio.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/efuse/libefuse.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_pm/libesp_pm.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/mbedtls/libmbedtls.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_app_format/libesp_app_format.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_bootloader_format/libesp_bootloader_format.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/app_update/libapp_update.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_partition/libesp_partition.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/efuse/libefuse.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/bootloader_support/libbootloader_support.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_partition/libesp_partition.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/app_update/libapp_update.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_mm/libesp_mm.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/spi_flash/libspi_flash.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_system/libesp_system.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_common/libesp_common.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_rom/libesp_rom.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/hal/libhal.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/log/liblog.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/heap/libheap.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/soc/libsoc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_security/libesp_security.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hw_support/libesp_hw_support.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/freertos/libfreertos.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/newlib/libnewlib.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_common/libesp_common.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_timer/libesp_timer.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_uart/libesp_driver_uart.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/app_trace/libapp_trace.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_event/libesp_event.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/nvs_flash/libnvs_flash.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_phy/libesp_phy.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_vfs_console/libesp_vfs_console.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/vfs/libvfs.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/lwip/liblwip.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_netif/libesp_netif.a
@@ -171,25 +144,9 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/bt/libbt.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/unity/libunity.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cmock/libcmock.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/console/libconsole.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_spi/libesp_driver_spi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/sdmmc/libsdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_dac/libesp_driver_dac.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/http_parser/libhttp_parser.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp-tls/libesp-tls.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_adc/libesp_adc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_cam/libesp_driver_cam.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_eth/libesp_eth.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_gdbstub/libesp_gdbstub.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hid/libesp_hid.a
@@ -197,7 +154,6 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/tcp_transport/libtcp_transport.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_http_client/libesp_http_client.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_http_server/libesp_http_server.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_https_ota/libesp_https_ota.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_https_server/libesp_https_server.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_psram/libesp_psram.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_lcd/libesp_lcd.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/protobuf-c/libprotobuf-c.a
@@ -205,30 +161,23 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/protocomm/libprotocomm.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_local_ctrl/libesp_local_ctrl.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/espcoredump/libespcoredump.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/wear_levelling/libwear_levelling.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/sdmmc/libsdmmc.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/fatfs/libfatfs.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/json/libjson.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/mqtt/libmqtt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/perfmon/libperfmon.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/rt/librt.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/spiffs/libspiffs.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/wifi_provisioning/libwifi_provisioning.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/main/libmain.a
 esp-idf/esp_system/ld/sections.ld: /Users/austi/esp/strumlight-esp/sdkconfig
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/sections.ld"
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system && /Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/ldgen/ldgen.py --config /Users/austi/esp/strumlight-esp/sdkconfig --fragments-list "/Users/austi/esp/esp-idf/components/xtensa/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_gpio/linker.lf;/Users/austi/esp/esp-idf/components/esp_pm/linker.lf;/Users/austi/esp/esp-idf/components/esp_mm/linker.lf;/Users/austi/esp/esp-idf/components/spi_flash/linker.lf;/Users/austi/esp/esp-idf/components/esp_system/linker.lf;/Users/austi/esp/esp-idf/components/esp_system/app.lf;/Users/austi/esp/esp-idf/components/esp_common/common.lf;/Users/austi/esp/esp-idf/components/esp_common/soc.lf;/Users/austi/esp/esp-idf/components/esp_rom/linker.lf;/Users/austi/esp/esp-idf/components/hal/linker.lf;/Users/austi/esp/esp-idf/components/log/linker.lf;/Users/austi/esp/esp-idf/components/heap/linker.lf;/Users/austi/esp/esp-idf/components/soc/linker.lf;/Users/austi/esp/esp-idf/components/esp_hw_support/linker.lf;/Users/austi/esp/esp-idf/components/esp_hw_support/dma/linker.lf;/Users/austi/esp/esp-idf/components/esp_hw_support/ldo/linker.lf;/Users/austi/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/linker.lf;/Users/austi/esp/esp-idf/components/freertos/linker_common.lf;/Users/austi/esp/esp-idf/components/freertos/linker.lf;/Users/austi/esp/esp-idf/components/newlib/src/newlib.lf;/Users/austi/esp/esp-idf/components/newlib/src/system_libs.lf;/Users/austi/esp/esp-idf/components/newlib/src/esp32-spiram-rom-functions-c.lf;/Users/austi/esp/esp-idf/components/esp_driver_gptimer/linker.lf;/Users/austi/esp/esp-idf/components/esp_ringbuf/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_uart/linker.lf;/Users/austi/esp/esp-idf/components/app_trace/linker.lf;/Users/austi/esp/esp-idf/components/esp_event/linker.lf;/Users/austi/esp/esp-idf/components/esp_phy/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf;/Users/austi/esp/esp-idf/components/vfs/linker.lf;/Users/austi/esp/esp-idf/components/lwip/linker.lf;/Users/austi/esp/esp-idf/components/esp_netif/linker.lf;/Users/austi/esp/esp-idf/components/wpa_supplicant/linker.lf;/Users/austi/esp/esp-idf/components/esp_coex/linker.lf;/Users/austi/esp/esp-idf/components/esp_wifi/linker.lf;/Users/austi/esp/esp-idf/components/bt/linker_common.lf;/Users/austi/esp/esp-idf/components/bt/linker_rw_bt_controller.lf;/Users/austi/esp/esp-idf/components/esp_driver_pcnt/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_spi/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_mcpwm/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_dac/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_rmt/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_sdm/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_i2c/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_ledc/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_parlio/linker.lf;/Users/austi/esp/esp-idf/components/driver/twai/linker.lf;/Users/austi/esp/esp-idf/components/esp_adc/linker.lf;/Users/austi/esp/esp-idf/components/esp_driver_isp/linker.lf;/Users/austi/esp/esp-idf/components/esp_eth/linker.lf;/Users/austi/esp/esp-idf/components/esp_gdbstub/linker.lf;/Users/austi/esp/esp-idf/components/esp_psram/linker.lf;/Users/austi/esp/esp-idf/components/esp_lcd/linker.lf;/Users/austi/esp/esp-idf/components/espcoredump/linker.lf;/Users/austi/esp/esp-idf/components/ieee802154/linker.lf;/Users/austi/esp/esp-idf/components/openthread/linker.lf" --input /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/sections.ld.in --output /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/sections.ld --kconfig /Users/austi/esp/esp-idf/Kconfig --env-file /Users/austi/esp/strumlight-esp/build/config.env --libraries-file /Users/austi/esp/strumlight-esp/build/ldgen_libraries --objdump /Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump
-
-esp-idf/esp_system/ld/sections.ld.in: /Users/austi/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
-esp-idf/esp_system/ld/sections.ld.in: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/sections.ld.in linker script..."
-	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system && /opt/homebrew/bin/cmake -DCC=/Users/austi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DSOURCE=/Users/austi/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in -DTARGET=/Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/sections.ld.in -DCONFIG_DIR=/Users/austi/esp/strumlight-esp/build/config -DLD_DIR=/Users/austi/esp/esp-idf/components/esp_system/ld -P /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/linker_script_generator.cmake
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system && /Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/ldgen/ldgen.py --config /Users/austi/esp/strumlight-esp/sdkconfig --fragments-list "/Users/austi/esp/esp-idf/components/xtensa/linker.lf;/Users/austi/esp/esp-idf/components/esp_ringbuf/linker.lf;/Users/austi/esp/esp-idf/components/driver/linker.lf;/Users/austi/esp/esp-idf/components/esp_pm/linker.lf;/Users/austi/esp/esp-idf/components/esp_mm/linker.lf;/Users/austi/esp/esp-idf/components/spi_flash/linker.lf;/Users/austi/esp/esp-idf/components/esp_system/linker.lf;/Users/austi/esp/esp-idf/components/esp_system/app.lf;/Users/austi/esp/esp-idf/components/esp_rom/linker.lf;/Users/austi/esp/esp-idf/components/hal/linker.lf;/Users/austi/esp/esp-idf/components/log/linker.lf;/Users/austi/esp/esp-idf/components/heap/linker.lf;/Users/austi/esp/esp-idf/components/soc/linker.lf;/Users/austi/esp/esp-idf/components/esp_hw_support/linker.lf;/Users/austi/esp/esp-idf/components/freertos/linker.lf;/Users/austi/esp/esp-idf/components/freertos/linker_common.lf;/Users/austi/esp/esp-idf/components/newlib/esp32-spiram-rom-functions-c.lf;/Users/austi/esp/esp-idf/components/newlib/newlib.lf;/Users/austi/esp/esp-idf/components/newlib/system_libs.lf;/Users/austi/esp/esp-idf/components/esp_common/common.lf;/Users/austi/esp/esp-idf/components/esp_common/soc.lf;/Users/austi/esp/esp-idf/components/app_trace/linker.lf;/Users/austi/esp/esp-idf/components/esp_event/linker.lf;/Users/austi/esp/esp-idf/components/esp_phy/linker.lf;/Users/austi/esp/esp-idf/components/lwip/linker.lf;/Users/austi/esp/esp-idf/components/esp_netif/linker.lf;/Users/austi/esp/esp-idf/components/esp_coex/linker.lf;/Users/austi/esp/esp-idf/components/esp_wifi/linker.lf;/Users/austi/esp/esp-idf/components/bt/linker.lf;/Users/austi/esp/esp-idf/components/esp_adc/linker.lf;/Users/austi/esp/esp-idf/components/esp_gdbstub/linker.lf;/Users/austi/esp/esp-idf/components/esp_psram/linker.lf;/Users/austi/esp/esp-idf/components/esp_lcd/linker.lf;/Users/austi/esp/esp-idf/components/espcoredump/linker.lf;/Users/austi/esp/esp-idf/components/ieee802154/linker.lf;/Users/austi/esp/esp-idf/components/openthread/linker.lf" --input /Users/austi/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in --output /Users/austi/esp/strumlight-esp/build/esp-idf/esp_system/ld/sections.ld --kconfig /Users/austi/esp/esp-idf/Kconfig --env-file /Users/austi/esp/strumlight-esp/build/config.env --libraries-file /Users/austi/esp/strumlight-esp/build/ldgen_libraries --objdump /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump
 
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen:
 .PHONY : esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen
 
 __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld
 __ldgen_output_sections.ld: esp-idf/esp_system/ld/sections.ld
-__ldgen_output_sections.ld: esp-idf/esp_system/ld/sections.ld.in
 __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make
 .PHONY : __ldgen_output_sections.ld
 

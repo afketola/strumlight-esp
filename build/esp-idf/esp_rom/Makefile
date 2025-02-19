@@ -223,30 +223,6 @@ patches/esp_rom_efuse.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.s
 .PHONY : patches/esp_rom_efuse.c.s
 
-patches/esp_rom_gpio.obj: patches/esp_rom_gpio.c.obj
-.PHONY : patches/esp_rom_gpio.obj
-
-# target to build an object file
-patches/esp_rom_gpio.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
-.PHONY : patches/esp_rom_gpio.c.obj
-
-patches/esp_rom_gpio.i: patches/esp_rom_gpio.c.i
-.PHONY : patches/esp_rom_gpio.i
-
-# target to preprocess a source file
-patches/esp_rom_gpio.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.i
-.PHONY : patches/esp_rom_gpio.c.i
-
-patches/esp_rom_gpio.s: patches/esp_rom_gpio.c.s
-.PHONY : patches/esp_rom_gpio.s
-
-# target to generate assembly for a file
-patches/esp_rom_gpio.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.s
-.PHONY : patches/esp_rom_gpio.c.s
-
 patches/esp_rom_longjmp.obj: patches/esp_rom_longjmp.S.obj
 .PHONY : patches/esp_rom_longjmp.obj
 
@@ -254,30 +230,6 @@ patches/esp_rom_longjmp.obj: patches/esp_rom_longjmp.S.obj
 patches/esp_rom_longjmp.S.obj:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
 .PHONY : patches/esp_rom_longjmp.S.obj
-
-patches/esp_rom_print.obj: patches/esp_rom_print.c.obj
-.PHONY : patches/esp_rom_print.obj
-
-# target to build an object file
-patches/esp_rom_print.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
-.PHONY : patches/esp_rom_print.c.obj
-
-patches/esp_rom_print.i: patches/esp_rom_print.c.i
-.PHONY : patches/esp_rom_print.i
-
-# target to preprocess a source file
-patches/esp_rom_print.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.i
-.PHONY : patches/esp_rom_print.c.i
-
-patches/esp_rom_print.s: patches/esp_rom_print.c.s
-.PHONY : patches/esp_rom_print.s
-
-# target to generate assembly for a file
-patches/esp_rom_print.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.s
-.PHONY : patches/esp_rom_print.c.s
 
 patches/esp_rom_spiflash.obj: patches/esp_rom_spiflash.c.obj
 .PHONY : patches/esp_rom_spiflash.obj
@@ -370,13 +322,7 @@ help:
 	@echo "... patches/esp_rom_efuse.obj"
 	@echo "... patches/esp_rom_efuse.i"
 	@echo "... patches/esp_rom_efuse.s"
-	@echo "... patches/esp_rom_gpio.obj"
-	@echo "... patches/esp_rom_gpio.i"
-	@echo "... patches/esp_rom_gpio.s"
 	@echo "... patches/esp_rom_longjmp.obj"
-	@echo "... patches/esp_rom_print.obj"
-	@echo "... patches/esp_rom_print.i"
-	@echo "... patches/esp_rom_print.s"
 	@echo "... patches/esp_rom_spiflash.obj"
 	@echo "... patches/esp_rom_spiflash.i"
 	@echo "... patches/esp_rom_spiflash.s"

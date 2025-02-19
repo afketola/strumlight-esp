@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj" "gcc" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/esp_platform_time.c.obj.d"
   "/Users/austi/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj" "gcc" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj.d"
   "/Users/austi/esp/esp-idf/components/mbedtls/port/net_sockets.c" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj" "gcc" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/austi/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj.d"
   "/Users/austi/esp/esp-idf/components/mbedtls/mbedtls/library/debug.c" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj" "gcc" "esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj.d"

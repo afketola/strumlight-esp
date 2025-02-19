@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj.d"
   "CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj"
   "CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj.d"
-  "CMakeFiles/__idf_unity.dir/unity_compat.c.obj"
-  "CMakeFiles/__idf_unity.dir/unity_compat.c.obj.d"
   "CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj"
   "CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj.d"
   "CMakeFiles/__idf_unity.dir/unity_runner.c.obj"

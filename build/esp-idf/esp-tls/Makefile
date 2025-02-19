@@ -271,30 +271,6 @@ esp_tls_mbedtls.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.s
 .PHONY : esp_tls_mbedtls.c.s
 
-esp_tls_platform_port.obj: esp_tls_platform_port.c.obj
-.PHONY : esp_tls_platform_port.obj
-
-# target to build an object file
-esp_tls_platform_port.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.obj
-.PHONY : esp_tls_platform_port.c.obj
-
-esp_tls_platform_port.i: esp_tls_platform_port.c.i
-.PHONY : esp_tls_platform_port.i
-
-# target to preprocess a source file
-esp_tls_platform_port.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.i
-.PHONY : esp_tls_platform_port.c.i
-
-esp_tls_platform_port.s: esp_tls_platform_port.c.s
-.PHONY : esp_tls_platform_port.s
-
-# target to generate assembly for a file
-esp_tls_platform_port.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.s
-.PHONY : esp_tls_platform_port.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,9 +296,6 @@ help:
 	@echo "... esp_tls_mbedtls.obj"
 	@echo "... esp_tls_mbedtls.i"
 	@echo "... esp_tls_mbedtls.s"
-	@echo "... esp_tls_platform_port.obj"
-	@echo "... esp_tls_platform_port.i"
-	@echo "... esp_tls_platform_port.s"
 .PHONY : help
 
 

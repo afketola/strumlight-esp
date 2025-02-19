@@ -175,6 +175,30 @@ __idf_freertos/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build
 .PHONY : __idf_freertos/fast
 
+FreeRTOS-Kernel/croutine.obj: FreeRTOS-Kernel/croutine.c.obj
+.PHONY : FreeRTOS-Kernel/croutine.obj
+
+# target to build an object file
+FreeRTOS-Kernel/croutine.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : FreeRTOS-Kernel/croutine.c.obj
+
+FreeRTOS-Kernel/croutine.i: FreeRTOS-Kernel/croutine.c.i
+.PHONY : FreeRTOS-Kernel/croutine.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/croutine.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.i
+.PHONY : FreeRTOS-Kernel/croutine.c.i
+
+FreeRTOS-Kernel/croutine.s: FreeRTOS-Kernel/croutine.c.s
+.PHONY : FreeRTOS-Kernel/croutine.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/croutine.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.s
+.PHONY : FreeRTOS-Kernel/croutine.c.s
+
 FreeRTOS-Kernel/event_groups.obj: FreeRTOS-Kernel/event_groups.c.obj
 .PHONY : FreeRTOS-Kernel/event_groups.obj
 
@@ -223,6 +247,30 @@ FreeRTOS-Kernel/list.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.s
 .PHONY : FreeRTOS-Kernel/list.c.s
 
+FreeRTOS-Kernel/portable/port_systick.obj: FreeRTOS-Kernel/portable/port_systick.c.obj
+.PHONY : FreeRTOS-Kernel/portable/port_systick.obj
+
+# target to build an object file
+FreeRTOS-Kernel/portable/port_systick.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.obj
+.PHONY : FreeRTOS-Kernel/portable/port_systick.c.obj
+
+FreeRTOS-Kernel/portable/port_systick.i: FreeRTOS-Kernel/portable/port_systick.c.i
+.PHONY : FreeRTOS-Kernel/portable/port_systick.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/portable/port_systick.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.i
+.PHONY : FreeRTOS-Kernel/portable/port_systick.c.i
+
+FreeRTOS-Kernel/portable/port_systick.s: FreeRTOS-Kernel/portable/port_systick.c.s
+.PHONY : FreeRTOS-Kernel/portable/port_systick.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/portable/port_systick.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.s
+.PHONY : FreeRTOS-Kernel/portable/port_systick.c.s
+
 FreeRTOS-Kernel/portable/xtensa/port.obj: FreeRTOS-Kernel/portable/xtensa/port.c.obj
 .PHONY : FreeRTOS-Kernel/portable/xtensa/port.obj
 
@@ -254,6 +302,14 @@ FreeRTOS-Kernel/portable/xtensa/portasm.obj: FreeRTOS-Kernel/portable/xtensa/por
 FreeRTOS-Kernel/portable/xtensa/portasm.S.obj:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/portasm.S.obj
 .PHONY : FreeRTOS-Kernel/portable/xtensa/portasm.S.obj
+
+FreeRTOS-Kernel/portable/xtensa/xtensa_context.obj: FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj
+.PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_context.obj
+
+# target to build an object file
+FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj
+.PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_context.S.obj
 
 FreeRTOS-Kernel/portable/xtensa/xtensa_init.obj: FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj
 .PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_init.obj
@@ -302,6 +358,14 @@ FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.s: FreeRTOS-Kernel/portab
 FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.s
 .PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.s
+
+FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.obj: FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj
+.PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.obj
+
+# target to build an object file
+FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj
+.PHONY : FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S.obj
 
 FreeRTOS-Kernel/queue.obj: FreeRTOS-Kernel/queue.c.obj
 .PHONY : FreeRTOS-Kernel/queue.obj
@@ -399,6 +463,30 @@ FreeRTOS-Kernel/timers.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.s
 .PHONY : FreeRTOS-Kernel/timers.c.s
 
+FreeRTOS-openocd.obj: FreeRTOS-openocd.c.obj
+.PHONY : FreeRTOS-openocd.obj
+
+# target to build an object file
+FreeRTOS-openocd.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj
+.PHONY : FreeRTOS-openocd.c.obj
+
+FreeRTOS-openocd.i: FreeRTOS-openocd.c.i
+.PHONY : FreeRTOS-openocd.i
+
+# target to preprocess a source file
+FreeRTOS-openocd.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.i
+.PHONY : FreeRTOS-openocd.c.i
+
+FreeRTOS-openocd.s: FreeRTOS-openocd.c.s
+.PHONY : FreeRTOS-openocd.s
+
+# target to generate assembly for a file
+FreeRTOS-openocd.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.s
+.PHONY : FreeRTOS-openocd.c.s
+
 app_startup.obj: app_startup.c.obj
 .PHONY : app_startup.obj
 
@@ -423,29 +511,29 @@ app_startup.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.s
 .PHONY : app_startup.c.s
 
-esp_additions/freertos_compatibility.obj: esp_additions/freertos_compatibility.c.obj
-.PHONY : esp_additions/freertos_compatibility.obj
+esp_additions/freertos_v8_compat.obj: esp_additions/freertos_v8_compat.c.obj
+.PHONY : esp_additions/freertos_v8_compat.obj
 
 # target to build an object file
-esp_additions/freertos_compatibility.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.obj
-.PHONY : esp_additions/freertos_compatibility.c.obj
+esp_additions/freertos_v8_compat.c.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.obj
+.PHONY : esp_additions/freertos_v8_compat.c.obj
 
-esp_additions/freertos_compatibility.i: esp_additions/freertos_compatibility.c.i
-.PHONY : esp_additions/freertos_compatibility.i
+esp_additions/freertos_v8_compat.i: esp_additions/freertos_v8_compat.c.i
+.PHONY : esp_additions/freertos_v8_compat.i
 
 # target to preprocess a source file
-esp_additions/freertos_compatibility.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.i
-.PHONY : esp_additions/freertos_compatibility.c.i
+esp_additions/freertos_v8_compat.c.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.i
+.PHONY : esp_additions/freertos_v8_compat.c.i
 
-esp_additions/freertos_compatibility.s: esp_additions/freertos_compatibility.c.s
-.PHONY : esp_additions/freertos_compatibility.s
+esp_additions/freertos_v8_compat.s: esp_additions/freertos_v8_compat.c.s
+.PHONY : esp_additions/freertos_v8_compat.s
 
 # target to generate assembly for a file
-esp_additions/freertos_compatibility.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.s
-.PHONY : esp_additions/freertos_compatibility.c.s
+esp_additions/freertos_v8_compat.c.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_v8_compat.c.s
+.PHONY : esp_additions/freertos_v8_compat.c.s
 
 esp_additions/idf_additions.obj: esp_additions/idf_additions.c.obj
 .PHONY : esp_additions/idf_additions.obj
@@ -470,30 +558,6 @@ esp_additions/idf_additions.s: esp_additions/idf_additions.c.s
 esp_additions/idf_additions.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.s
 .PHONY : esp_additions/idf_additions.c.s
-
-esp_additions/idf_additions_event_groups.obj: esp_additions/idf_additions_event_groups.c.obj
-.PHONY : esp_additions/idf_additions_event_groups.obj
-
-# target to build an object file
-esp_additions/idf_additions_event_groups.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
-.PHONY : esp_additions/idf_additions_event_groups.c.obj
-
-esp_additions/idf_additions_event_groups.i: esp_additions/idf_additions_event_groups.c.i
-.PHONY : esp_additions/idf_additions_event_groups.i
-
-# target to preprocess a source file
-esp_additions/idf_additions_event_groups.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.i
-.PHONY : esp_additions/idf_additions_event_groups.c.i
-
-esp_additions/idf_additions_event_groups.s: esp_additions/idf_additions_event_groups.c.s
-.PHONY : esp_additions/idf_additions_event_groups.s
-
-# target to generate assembly for a file
-esp_additions/idf_additions_event_groups.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.s
-.PHONY : esp_additions/idf_additions_event_groups.c.s
 
 heap_idf.obj: heap_idf.c.obj
 .PHONY : heap_idf.obj
@@ -543,30 +607,6 @@ port_common.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.s
 .PHONY : port_common.c.s
 
-port_systick.obj: port_systick.c.obj
-.PHONY : port_systick.obj
-
-# target to build an object file
-port_systick.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
-.PHONY : port_systick.c.obj
-
-port_systick.i: port_systick.c.i
-.PHONY : port_systick.i
-
-# target to preprocess a source file
-port_systick.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.i
-.PHONY : port_systick.c.i
-
-port_systick.s: port_systick.c.s
-.PHONY : port_systick.s
-
-# target to generate assembly for a file
-port_systick.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.s
-.PHONY : port_systick.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -580,22 +620,30 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_freertos"
+	@echo "... FreeRTOS-Kernel/croutine.obj"
+	@echo "... FreeRTOS-Kernel/croutine.i"
+	@echo "... FreeRTOS-Kernel/croutine.s"
 	@echo "... FreeRTOS-Kernel/event_groups.obj"
 	@echo "... FreeRTOS-Kernel/event_groups.i"
 	@echo "... FreeRTOS-Kernel/event_groups.s"
 	@echo "... FreeRTOS-Kernel/list.obj"
 	@echo "... FreeRTOS-Kernel/list.i"
 	@echo "... FreeRTOS-Kernel/list.s"
+	@echo "... FreeRTOS-Kernel/portable/port_systick.obj"
+	@echo "... FreeRTOS-Kernel/portable/port_systick.i"
+	@echo "... FreeRTOS-Kernel/portable/port_systick.s"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/port.obj"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/port.i"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/port.s"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/portasm.obj"
+	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_context.obj"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_init.obj"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_init.i"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_init.s"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.obj"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.i"
 	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.s"
+	@echo "... FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.obj"
 	@echo "... FreeRTOS-Kernel/queue.obj"
 	@echo "... FreeRTOS-Kernel/queue.i"
 	@echo "... FreeRTOS-Kernel/queue.s"
@@ -608,27 +656,24 @@ help:
 	@echo "... FreeRTOS-Kernel/timers.obj"
 	@echo "... FreeRTOS-Kernel/timers.i"
 	@echo "... FreeRTOS-Kernel/timers.s"
+	@echo "... FreeRTOS-openocd.obj"
+	@echo "... FreeRTOS-openocd.i"
+	@echo "... FreeRTOS-openocd.s"
 	@echo "... app_startup.obj"
 	@echo "... app_startup.i"
 	@echo "... app_startup.s"
-	@echo "... esp_additions/freertos_compatibility.obj"
-	@echo "... esp_additions/freertos_compatibility.i"
-	@echo "... esp_additions/freertos_compatibility.s"
+	@echo "... esp_additions/freertos_v8_compat.obj"
+	@echo "... esp_additions/freertos_v8_compat.i"
+	@echo "... esp_additions/freertos_v8_compat.s"
 	@echo "... esp_additions/idf_additions.obj"
 	@echo "... esp_additions/idf_additions.i"
 	@echo "... esp_additions/idf_additions.s"
-	@echo "... esp_additions/idf_additions_event_groups.obj"
-	@echo "... esp_additions/idf_additions_event_groups.i"
-	@echo "... esp_additions/idf_additions_event_groups.s"
 	@echo "... heap_idf.obj"
 	@echo "... heap_idf.i"
 	@echo "... heap_idf.s"
 	@echo "... port_common.obj"
 	@echo "... port_common.i"
 	@echo "... port_common.s"
-	@echo "... port_systick.obj"
-	@echo "... port_systick.i"
-	@echo "... port_systick.s"
 .PHONY : help
 
 

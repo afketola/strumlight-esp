@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "bootloader/bootloader.elf"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.map"
-  "app-template.bin"
+  "strumlight-esp.bin"
   "flash_project_args"
-  "app-template.map"
+  "strumlight-esp.map"
   "project_elf_src_esp32.c"
 )

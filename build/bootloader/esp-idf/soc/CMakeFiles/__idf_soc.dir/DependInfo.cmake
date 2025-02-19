@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/soc/esp32/adc_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/dac_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/dport_access.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/soc/esp32/emac_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/gpio_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/i2c_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/i2s_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj.d"
@@ -20,9 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/soc/esp32/lcd_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/ledc_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/mcpwm_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/soc/esp32/mpi_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/pcnt_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/soc/esp32/power_supply_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/rmt_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/rtc_io_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/sdio_slave_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj.d"
@@ -33,7 +30,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/austi/esp/esp-idf/components/soc/esp32/touch_sensor_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/twai_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/esp32/uart_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj.d"
-  "/Users/austi/esp/esp-idf/components/soc/esp32/wdt_periph.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj.d"
   "/Users/austi/esp/esp-idf/components/soc/lldesc.c" "esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj" "gcc" "esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj.d"
   )
 

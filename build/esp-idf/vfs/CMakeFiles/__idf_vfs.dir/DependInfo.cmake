@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/austi/esp/esp-idf/components/vfs/nullfs.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj.d"
   "/Users/austi/esp/esp-idf/components/vfs/vfs.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/vfs/vfs_console.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_console.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_console.c.obj.d"
   "/Users/austi/esp/esp-idf/components/vfs/vfs_eventfd.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj.d"
   "/Users/austi/esp/esp-idf/components/vfs/vfs_semihost.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj.d"
+  "/Users/austi/esp/esp-idf/components/vfs/vfs_uart.c" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_uart.c.obj" "gcc" "esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_uart.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

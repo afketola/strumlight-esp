@@ -161,44 +161,6 @@ depend:
 	cd /Users/austi/esp/strumlight-esp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/rule:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/rule
-.PHONY : esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/rule
-
-# Convenience name for target.
-__idf_esp_https_server: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/rule
-.PHONY : __idf_esp_https_server
-
-# fast build rule for target.
-__idf_esp_https_server/fast:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build.make esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build
-.PHONY : __idf_esp_https_server/fast
-
-src/https_server.obj: src/https_server.c.obj
-.PHONY : src/https_server.obj
-
-# target to build an object file
-src/https_server.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build.make esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
-.PHONY : src/https_server.c.obj
-
-src/https_server.i: src/https_server.c.i
-.PHONY : src/https_server.i
-
-# target to preprocess a source file
-src/https_server.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build.make esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.i
-.PHONY : src/https_server.c.i
-
-src/https_server.s: src/https_server.c.s
-.PHONY : src/https_server.s
-
-# target to generate assembly for a file
-src/https_server.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/build.make esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.s
-.PHONY : src/https_server.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,10 +173,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... __idf_esp_https_server"
-	@echo "... src/https_server.obj"
-	@echo "... src/https_server.i"
-	@echo "... src/https_server.s"
 .PHONY : help
 
 

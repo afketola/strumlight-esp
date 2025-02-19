@@ -271,30 +271,6 @@ esp32/dport_access.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.s
 .PHONY : esp32/dport_access.c.s
 
-esp32/emac_periph.obj: esp32/emac_periph.c.obj
-.PHONY : esp32/emac_periph.obj
-
-# target to build an object file
-esp32/emac_periph.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj
-.PHONY : esp32/emac_periph.c.obj
-
-esp32/emac_periph.i: esp32/emac_periph.c.i
-.PHONY : esp32/emac_periph.i
-
-# target to preprocess a source file
-esp32/emac_periph.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.i
-.PHONY : esp32/emac_periph.c.i
-
-esp32/emac_periph.s: esp32/emac_periph.c.s
-.PHONY : esp32/emac_periph.s
-
-# target to generate assembly for a file
-esp32/emac_periph.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.s
-.PHONY : esp32/emac_periph.c.s
-
 esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
 .PHONY : esp32/gpio_periph.obj
 
@@ -463,30 +439,6 @@ esp32/mcpwm_periph.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.s
 .PHONY : esp32/mcpwm_periph.c.s
 
-esp32/mpi_periph.obj: esp32/mpi_periph.c.obj
-.PHONY : esp32/mpi_periph.obj
-
-# target to build an object file
-esp32/mpi_periph.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
-.PHONY : esp32/mpi_periph.c.obj
-
-esp32/mpi_periph.i: esp32/mpi_periph.c.i
-.PHONY : esp32/mpi_periph.i
-
-# target to preprocess a source file
-esp32/mpi_periph.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.i
-.PHONY : esp32/mpi_periph.c.i
-
-esp32/mpi_periph.s: esp32/mpi_periph.c.s
-.PHONY : esp32/mpi_periph.s
-
-# target to generate assembly for a file
-esp32/mpi_periph.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.s
-.PHONY : esp32/mpi_periph.c.s
-
 esp32/pcnt_periph.obj: esp32/pcnt_periph.c.obj
 .PHONY : esp32/pcnt_periph.obj
 
@@ -510,30 +462,6 @@ esp32/pcnt_periph.s: esp32/pcnt_periph.c.s
 esp32/pcnt_periph.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.s
 .PHONY : esp32/pcnt_periph.c.s
-
-esp32/power_supply_periph.obj: esp32/power_supply_periph.c.obj
-.PHONY : esp32/power_supply_periph.obj
-
-# target to build an object file
-esp32/power_supply_periph.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj
-.PHONY : esp32/power_supply_periph.c.obj
-
-esp32/power_supply_periph.i: esp32/power_supply_periph.c.i
-.PHONY : esp32/power_supply_periph.i
-
-# target to preprocess a source file
-esp32/power_supply_periph.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.i
-.PHONY : esp32/power_supply_periph.c.i
-
-esp32/power_supply_periph.s: esp32/power_supply_periph.c.s
-.PHONY : esp32/power_supply_periph.s
-
-# target to generate assembly for a file
-esp32/power_supply_periph.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.s
-.PHONY : esp32/power_supply_periph.c.s
 
 esp32/rmt_periph.obj: esp32/rmt_periph.c.obj
 .PHONY : esp32/rmt_periph.obj
@@ -775,30 +703,6 @@ esp32/uart_periph.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.s
 .PHONY : esp32/uart_periph.c.s
 
-esp32/wdt_periph.obj: esp32/wdt_periph.c.obj
-.PHONY : esp32/wdt_periph.obj
-
-# target to build an object file
-esp32/wdt_periph.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj
-.PHONY : esp32/wdt_periph.c.obj
-
-esp32/wdt_periph.i: esp32/wdt_periph.c.i
-.PHONY : esp32/wdt_periph.i
-
-# target to preprocess a source file
-esp32/wdt_periph.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.i
-.PHONY : esp32/wdt_periph.c.i
-
-esp32/wdt_periph.s: esp32/wdt_periph.c.s
-.PHONY : esp32/wdt_periph.s
-
-# target to generate assembly for a file
-esp32/wdt_periph.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.s
-.PHONY : esp32/wdt_periph.c.s
-
 lldesc.obj: lldesc.c.obj
 .PHONY : lldesc.obj
 
@@ -848,9 +752,6 @@ help:
 	@echo "... esp32/dport_access.obj"
 	@echo "... esp32/dport_access.i"
 	@echo "... esp32/dport_access.s"
-	@echo "... esp32/emac_periph.obj"
-	@echo "... esp32/emac_periph.i"
-	@echo "... esp32/emac_periph.s"
 	@echo "... esp32/gpio_periph.obj"
 	@echo "... esp32/gpio_periph.i"
 	@echo "... esp32/gpio_periph.s"
@@ -872,15 +773,9 @@ help:
 	@echo "... esp32/mcpwm_periph.obj"
 	@echo "... esp32/mcpwm_periph.i"
 	@echo "... esp32/mcpwm_periph.s"
-	@echo "... esp32/mpi_periph.obj"
-	@echo "... esp32/mpi_periph.i"
-	@echo "... esp32/mpi_periph.s"
 	@echo "... esp32/pcnt_periph.obj"
 	@echo "... esp32/pcnt_periph.i"
 	@echo "... esp32/pcnt_periph.s"
-	@echo "... esp32/power_supply_periph.obj"
-	@echo "... esp32/power_supply_periph.i"
-	@echo "... esp32/power_supply_periph.s"
 	@echo "... esp32/rmt_periph.obj"
 	@echo "... esp32/rmt_periph.i"
 	@echo "... esp32/rmt_periph.s"
@@ -911,9 +806,6 @@ help:
 	@echo "... esp32/uart_periph.obj"
 	@echo "... esp32/uart_periph.i"
 	@echo "... esp32/uart_periph.s"
-	@echo "... esp32/wdt_periph.obj"
-	@echo "... esp32/wdt_periph.i"
-	@echo "... esp32/wdt_periph.s"
 	@echo "... lldesc.obj"
 	@echo "... lldesc.i"
 	@echo "... lldesc.s"

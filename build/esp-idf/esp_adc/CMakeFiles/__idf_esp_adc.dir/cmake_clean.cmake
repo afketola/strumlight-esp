@@ -15,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj.d"
   "CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj"
   "CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj.d"
-  "CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj"
-  "CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj.d"
   "libesp_adc.a"
   "libesp_adc.pdb"
 )

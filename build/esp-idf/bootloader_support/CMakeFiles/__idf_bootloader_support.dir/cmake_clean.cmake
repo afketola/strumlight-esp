@@ -21,8 +21,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj.d"
   "CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj"
   "CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj.d"
-  "CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.obj"
-  "CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.obj.d"
   "CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj"
   "CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj.d"
   "CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj"

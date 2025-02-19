@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_esp_psram.dir/esp32/esp_psram_impl_quad.c.obj.d"
   "CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj"
   "CMakeFiles/__idf_esp_psram.dir/esp_psram.c.obj.d"
+  "CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj"
+  "CMakeFiles/__idf_esp_psram.dir/mmu_psram_flash.c.obj.d"
   "libesp_psram.a"
   "libesp_psram.pdb"
 )

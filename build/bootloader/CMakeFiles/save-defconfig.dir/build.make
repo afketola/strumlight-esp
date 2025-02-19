@@ -67,8 +67,8 @@ include CMakeFiles/save-defconfig.dir/compiler_depend.make
 include CMakeFiles/save-defconfig.dir/progress.make
 
 CMakeFiles/save-defconfig:
-	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/austi/esp/strumlight-esp/build/bootloader/config.env
-	/Users/austi/.espressif/python_env/idf5.5_py3.13_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/austi/esp/esp-idf/Kconfig --sdkconfig-rename /Users/austi/esp/esp-idf/sdkconfig.rename --config /Users/austi/esp/strumlight-esp/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /Users/austi/esp/strumlight-esp/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /Users/austi/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults
+	/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/austi/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /Users/austi/esp/strumlight-esp/build/bootloader/config.env
+	/Users/austi/.espressif/python_env/idf5.4_py3.13_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /Users/austi/esp/esp-idf/Kconfig --sdkconfig-rename /Users/austi/esp/esp-idf/sdkconfig.rename --config /Users/austi/esp/strumlight-esp/sdkconfig --env-file /Users/austi/esp/strumlight-esp/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /Users/austi/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults
 
 CMakeFiles/save-defconfig.dir/codegen:
 .PHONY : CMakeFiles/save-defconfig.dir/codegen

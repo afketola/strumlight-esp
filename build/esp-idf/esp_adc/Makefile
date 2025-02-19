@@ -367,30 +367,6 @@ esp32/adc_cali_line_fitting.c.s:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.s
 .PHONY : esp32/adc_cali_line_fitting.c.s
 
-esp32/adc_dma.obj: esp32/adc_dma.c.obj
-.PHONY : esp32/adc_dma.obj
-
-# target to build an object file
-esp32/adc_dma.c.obj:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj
-.PHONY : esp32/adc_dma.c.obj
-
-esp32/adc_dma.i: esp32/adc_dma.c.i
-.PHONY : esp32/adc_dma.i
-
-# target to preprocess a source file
-esp32/adc_dma.c.i:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.i
-.PHONY : esp32/adc_dma.c.i
-
-esp32/adc_dma.s: esp32/adc_dma.c.s
-.PHONY : esp32/adc_dma.s
-
-# target to generate assembly for a file
-esp32/adc_dma.c.s:
-	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/build.make esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.s
-.PHONY : esp32/adc_dma.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,9 +404,6 @@ help:
 	@echo "... esp32/adc_cali_line_fitting.obj"
 	@echo "... esp32/adc_cali_line_fitting.i"
 	@echo "... esp32/adc_cali_line_fitting.s"
-	@echo "... esp32/adc_dma.obj"
-	@echo "... esp32/adc_dma.i"
-	@echo "... esp32/adc_dma.s"
 .PHONY : help
 
 
