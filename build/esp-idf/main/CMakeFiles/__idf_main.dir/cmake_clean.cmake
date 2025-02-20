@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/__idf_main.dir/ble_server.cpp.obj"
+  "CMakeFiles/__idf_main.dir/ble_server.cpp.obj.d"
   "CMakeFiles/__idf_main.dir/main.cpp.obj"
   "CMakeFiles/__idf_main.dir/main.cpp.obj.d"
   "libmain.a"

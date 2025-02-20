@@ -1,9 +1,0 @@
-/Users/austi/esp/strumlight-esp/main/main.cpp: In function 'void setup()':
-/Users/austi/esp/strumlight-esp/main/main.cpp:66:19: error: 'class NimBLEAdvertising' has no member named 'setScanResponse'; did you mean 'setScanResponseData'?
-   66 |     pAdvertising->setScanResponse(true);  // Ensure scan response contains device name
-      |                   ^~~~~~~~~~~~~~~
-      |                   setScanResponseData
-make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
-make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
-make[1]: *** [CMakeFiles/flash.dir/rule] Error 2
-make: *** [flash] Error 2

@@ -1,2 +1,4 @@
+Compiler supported targets: xtensa-esp32-elf
+
 warning: default on the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:23, /Users/austi/esp/strumlight-esp/components/esp-nimble-cpp/Kconfig:217) will have no effect, as defaults do not affect choice symbols
 warning: the choice symbol BT_NIMBLE_ENABLED (defined at /Users/austi/esp/esp-idf/components/bt/Kconfig:23, /Users/austi/esp/strumlight-esp/components/esp-nimble-cpp/Kconfig:217) is defined with a prompt outside the choice

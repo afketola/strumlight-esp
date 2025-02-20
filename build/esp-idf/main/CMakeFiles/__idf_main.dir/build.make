@@ -86,17 +86,33 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/main.cpp.s"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/austi/esp/strumlight-esp/main/main.cpp -o CMakeFiles/__idf_main.dir/main.cpp.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj: /Users/austi/esp/strumlight-esp/main/ble_server.cpp
+esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj -MF CMakeFiles/__idf_main.dir/ble_server.cpp.obj.d -o CMakeFiles/__idf_main.dir/ble_server.cpp.obj -c /Users/austi/esp/strumlight-esp/main/ble_server.cpp
+
+esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/__idf_main.dir/ble_server.cpp.i"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/austi/esp/strumlight-esp/main/ble_server.cpp > CMakeFiles/__idf_main.dir/ble_server.cpp.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/ble_server.cpp.s"
+	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && /Users/austi/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/austi/esp/strumlight-esp/main/ble_server.cpp -o CMakeFiles/__idf_main.dir/ble_server.cpp.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
-"CMakeFiles/__idf_main.dir/main.cpp.obj"
+"CMakeFiles/__idf_main.dir/main.cpp.obj" \
+"CMakeFiles/__idf_main.dir/ble_server.cpp.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
 
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/austi/esp/strumlight-esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libmain.a"
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
 	cd /Users/austi/esp/strumlight-esp/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 

@@ -175,6 +175,30 @@ __idf_main/fast:
 	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
+ble_server.obj: ble_server.cpp.obj
+.PHONY : ble_server.obj
+
+# target to build an object file
+ble_server.cpp.obj:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj
+.PHONY : ble_server.cpp.obj
+
+ble_server.i: ble_server.cpp.i
+.PHONY : ble_server.i
+
+# target to preprocess a source file
+ble_server.cpp.i:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.i
+.PHONY : ble_server.cpp.i
+
+ble_server.s: ble_server.cpp.s
+.PHONY : ble_server.s
+
+# target to generate assembly for a file
+ble_server.cpp.s:
+	cd /Users/austi/esp/strumlight-esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.s
+.PHONY : ble_server.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
+	@echo "... ble_server.obj"
+	@echo "... ble_server.i"
+	@echo "... ble_server.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

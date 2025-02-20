@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/austi/esp/strumlight-esp/main/ble_server.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ble_server.cpp.obj.d"
   "/Users/austi/esp/strumlight-esp/main/main.cpp" "esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj.d"
   )
 
